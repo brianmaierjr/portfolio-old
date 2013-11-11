@@ -28,11 +28,12 @@ body {
   background: whitesmoke;
   color: dimgrey;
   line-height: 1.45;
-  font-family: "DINNextW01-CondensedBol", impact, arial, sans-serif; }
+  font-family: "Mundo Sans W01", arial, sans-serif; }
   body #main {
     max-width: 1140px;
     margin: 0 auto;
-    text-align: center; }
+    text-align: center;
+    width: 96%; }
 
 /* Header */
 nav ul li {
@@ -40,6 +41,10 @@ nav ul li {
   display: inline; }
   nav ul li a {
     text-decoration: none; }
+
+/* Posts */
+#post .post-title {
+  font-family: "Clarendon BT W01 Roman", slab-serif; }
 
 /* For screen sizes 480px and up */
 @media all and (min-width: 480px) {
