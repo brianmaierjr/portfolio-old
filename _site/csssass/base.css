@@ -1,5 +1,5 @@
 /*
-Syntax error: Undefined variable: "$sans-serif".
+Syntax error: Undefined variable: "$condensed".
         on line 9 of /Users/brianmaierjr/Sites/brianmaierjr.github.io/scss/base.scss
 
 4: 
@@ -7,7 +7,7 @@ Syntax error: Undefined variable: "$sans-serif".
 6: 	background: whitesmoke;
 7: 	color: dimgrey;
 8: 	line-height: 1.45;
-9: 	font-family: $sans-serif;
+9: 	font-family: $condensed;
 10: 
 11: 	#main {
 12: 		max-width: 1140px;
@@ -61,4 +61,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$sans-serif\".\A         on line 9 of /Users/brianmaierjr/Sites/brianmaierjr.github.io/scss/base.scss\A \A 4: \A 5: body {\A 6: 	background: whitesmoke;\A 7: 	color: dimgrey;\A 8: 	line-height: 1.45;\A 9: 	font-family: $sans-serif;\A 10: \A 11: 	#main {\A 12: 		max-width: 1140px;\A 13: 		margin: 0 auto;\A 14: 		text-align: center;"; }
+  content: "Syntax error: Undefined variable: \"$condensed\".\A         on line 9 of /Users/brianmaierjr/Sites/brianmaierjr.github.io/scss/base.scss\A \A 4: \A 5: body {\A 6: 	background: whitesmoke;\A 7: 	color: dimgrey;\A 8: 	line-height: 1.45;\A 9: 	font-family: $condensed;\A 10: \A 11: 	#main {\A 12: 		max-width: 1140px;\A 13: 		margin: 0 auto;\A 14: 		text-align: center;"; }
