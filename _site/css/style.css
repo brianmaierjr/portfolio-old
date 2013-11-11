@@ -1,0 +1,47 @@
+/* Colors */
+/*
+font-family:'Clarendon BT W01 Roman';
+font-family:'Clarendon BT W01 Heavy';
+font-family:'Clarendon BT W01 Bold';
+font-family:'DINNextW01-CondensedBol';
+font-family:'DINNextW01-CondensedMed';
+font-family:'MundoSansW01-ExtraLight 734841';
+font-family:'MundoSansW01-ExtraLight 734844';
+font-family:'Mundo Sans W01 Light';
+font-family:'MundoSansW01-LightItali';
+font-family:'Mundo Sans W01';
+font-family:'Mundo Sans W01 Italic';
+font-family:'Mundo Sans W01 Medium';
+font-family:'MundoSansW01-MediumItal';
+font-family:'Mundo Sans W01 Bold';
+font-family:'MundoSansW01-BoldItalic';
+font-family:'Mundo Sans W01 Black';
+font-family:'MundoSansW01-BlackItali';
+font-family:'Mundo Sans W01 Ultra';
+font-family:'MundoSansW01-UltraItali';
+*/
+/* Global Styles */
+html {
+  font-size: 100%; }
+
+body {
+  background: whitesmoke;
+  color: dimgrey;
+  line-height: 1.45;
+  font-family: "Mundo Sans W01 Medium", arial, sans-serif; }
+  body #main {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center; }
+
+/* Header */
+nav ul li {
+  list-style: none;
+  display: inline; }
+  nav ul li a {
+    text-decoration: none; }
+
+/* For screen sizes 480px and up */
+@media all and (min-width: 480px) {
+  html {
+    font-size: 112.5%; } }

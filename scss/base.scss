@@ -1,0 +1,31 @@
+/* Global Styles */
+
+html { font-size: 100%; }
+
+body {
+	background: whitesmoke;
+	color: dimgrey;
+	line-height: 1.45;
+	font-family: $sans-serif;
+
+	#main {
+		max-width: 1140px;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+/* Header */
+
+nav {
+	ul {
+		li {
+			list-style: none;
+			display: inline;
+
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+}
