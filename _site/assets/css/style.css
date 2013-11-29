@@ -518,8 +518,11 @@ header.site-header nav {
   .archive-wrap .post-list {
     list-style-type: none;
     list-style: none;
+    display: inline;
+    float: left;
+    width: 97%;
+    margin: 0 1.5%;
     display: block;
-    width: 100%;
     float: none; }
     .archive-wrap .post-list lh h2 {
       margin-bottom: 49.5px; }

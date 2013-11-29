@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://blog.brianmaierjr.com</loc>
+    </url>
+
+    
+    <url>
+        <loc>http://blog.brianmaierjr.com/articles/test-post</loc>
+    </url>
+    
+    <url>
+        <loc>http://blog.brianmaierjr.com/articles/the-little-prince</loc>
+    </url>
+    
+    <url>
+        <loc>http://blog.brianmaierjr.com/articles/post-with-figure</loc>
+    </url>
+    
+    <url>
+        <loc>http://blog.brianmaierjr.com/articles/post-with-feature</loc>
+    </url>
+    
+    <url>
+        <loc>http://blog.brianmaierjr.com/articles/longform-post</loc>
+    </url>
+    
+</urlset>

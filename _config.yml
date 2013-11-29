@@ -1,6 +1,6 @@
 title:            Brian Maier Jr.
 tagline:          A beautiful theme.
-description:      Describe your website.
+description:      Louisville Web Design by Brian Maier Jr.
 #Comment out url when working locally to resolve base urls correctly
 url: http://blog.brianmaierjr.com
 
@@ -8,7 +8,7 @@ url: http://blog.brianmaierjr.com
 owner:
   name:           Brian Maier Jr.
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
+  bio:            "Designer & Developer"
   email:          brimaidesigns@gmail.com
   twitter:        brianmaierjr      
   github:         brianmaierjr       

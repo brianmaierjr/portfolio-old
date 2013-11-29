@@ -355,8 +355,7 @@ header.site-header nav {
     .post-list {
         list-style-type: none;
         list-style: none;
-        @include column(7);
-        @include push(2);
+        @include column(10);
         display: block;
         float: none;
         
