@@ -1,20 +1,20 @@
-title:            Balzac
+title:            Brian Maier Jr.
 tagline:          A beautiful theme.
 description:      Describe your website.
 #Comment out url when working locally to resolve base urls correctly
-url: http://jekyll.gtat.me
+url: http://blog.brianmaierjr.com
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Brian Maier Jr.
   avatar:         avatar.png
   bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco        
-  github:         coletownsend       
-  instagram:      ctrunsthis     
-  dribbble:       coletownsend
-  disqus:         balzac
+  email:          brimaidesigns@gmail.com
+  twitter:        brianmaierjr      
+  github:         brianmaierjr       
+  instagram:      brian_maier_jr    
+  dribbble:       brianmaierjr 
+  disqus:         brianmaierjr
   # Plug in your disqus shortname!
   
 
@@ -23,13 +23,7 @@ owner:
 links:
   - title: About
     url: /about
-  - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
-    external: true
-
+    
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
