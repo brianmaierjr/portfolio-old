@@ -1,4 +1,4 @@
-{% include head.html %}
+{% include header.html %}
 
 
 <ol class="post-list">
