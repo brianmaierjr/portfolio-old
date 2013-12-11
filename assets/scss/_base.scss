@@ -11,6 +11,11 @@ body {
 		text-decoration: none;
 		color: goldenrod;
 	}
+
+	#container {
+		clear: both;
+		padding: 0 20px;
+	}
 }
 
 
@@ -23,4 +28,10 @@ header {
 		text-transform: uppercase;
 	}
 	nav { @include column(6); }
+}
+
+/* FOOTER STYLES */
+
+footer {
+	@include column(12);
 }

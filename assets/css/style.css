@@ -541,20 +541,30 @@ body {
   body a {
     text-decoration: none;
     color: goldenrod; }
+  body #container {
+    clear: both;
+    padding: 0 20px; }
 
 /* HEADER STYLES */
 header #logo {
   display: inline;
   float: left;
-  width: 460px;
-  margin: 0 10px;
+  width: 47.91667%;
+  margin: 0 1.04167%;
   font-family: "DINNextW01-CondensedUlt";
   text-transform: uppercase; }
 header nav {
   display: inline;
   float: left;
-  width: 460px;
-  margin: 0 10px; }
+  width: 47.91667%;
+  margin: 0 1.04167%; }
+
+/* FOOTER STYLES */
+footer {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%; }
 
 /*
 LARGER MOBILE DEVICES
