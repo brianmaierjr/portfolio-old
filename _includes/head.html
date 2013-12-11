@@ -1,42 +1,39 @@
 <!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description }}">
-<meta name="keywords" content="{{ page.tags | join: ', ' }}">
-<meta property="og:locale" content="en_US">
-<meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
-<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/i.css">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
 
-<!-- jQuery -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<meta http-equiv="cleartype" content="on">
+  <!-- Fonts from fonts.com -->
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/947e7bba-84ee-439f-8b3b-67918847d425.js"></script>
 
-<!-- Load Modernizr -->
-<script src="{{ site.url }}/assets/js/modernizr-2.6.2.custom.min.js"></script>
+  <!-- For all browsers -->
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+  <!-- Fresh Squeezed jQuery -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
-<!-- Icons -->
+  <!-- Icons -->
 
-  <body class="">
-    <header class="header">
-        <h1><a href="/">{{ site.title }}</a></h1>
+</head>
+
+<body>
+
+	<header>
+
+    <h1 id="logo"><a href="/">Brian Maier Jr.</a></h1>
         <nav role="navigation">
           <ul>
-            <li>
-              <a href="/" title="{{ site.title }}">Home</a>
-            </li>
-            
             {% for link in site.links %}
-                <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
-
           </ul>
         </nav>
-    </header>
+	</header>

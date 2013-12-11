@@ -1,10 +1,6 @@
 ---
-layout: home
-title: "Brian Maier Jr | Designer & Developer"
-tags: [Louisville Web Design, Louisville Web Development]
-image:
-  feature: typewriter.jpg
+layout: default
+title: Brian Maier Jr. | Designer & Developer
 ---
 
-
-# Header
+# Home

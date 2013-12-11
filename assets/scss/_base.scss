@@ -1,0 +1,26 @@
+/* GENERAL STYLES */
+
+body {
+	font-family: $serif;
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $heading;
+	}
+
+	a { 
+		text-decoration: none;
+		color: goldenrod;
+	}
+}
+
+
+/* HEADER STYLES */
+
+header {
+	#logo {
+		@include column(6);
+		font-family: $condensed;
+		text-transform: uppercase;
+	}
+	nav { @include column(6); }
+}

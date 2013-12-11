@@ -1,5 +1,4 @@
 title:            Brian Maier Jr.
-tagline:          A beautiful theme.
 description:      Louisville Web Design by Brian Maier Jr.
 #Comment out url when working locally to resolve base urls correctly
 #url: http://blog.brianmaierjr.com
@@ -7,22 +6,15 @@ description:      Louisville Web Design by Brian Maier Jr.
 # Owner/author information
 owner:
   name:           Brian Maier Jr.
-  avatar:         avatar.png
-  bio:            "Designer & Developer"
   email:          brimaidesigns@gmail.com
   twitter:        brianmaierjr      
   dribbble:       brianmaierjr 
-  disqus:         brianmaierjr
-  # Plug in your disqus shortname!
-  
+
 
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: About
     url: /about
-    links:
   - title: Blog
     url: /blog
-    
-
