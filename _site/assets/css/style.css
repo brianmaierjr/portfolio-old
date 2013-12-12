@@ -549,14 +549,30 @@ body {
 header #logo {
   display: inline;
   float: left;
-  width: 47.91667%;
+  width: 97.91667%;
   margin: 0 1.04167%;
   font-family: "DINNextW01-CondensedUlt";
   text-transform: uppercase; }
 header nav {
   display: inline;
   float: left;
-  width: 47.91667%;
+  width: 97.91667%;
+  margin: 0 1.04167%; }
+  header nav ul {
+    float: right; }
+    header nav ul li {
+      list-style: none;
+      display: inline;
+      margin-right: 1em; }
+      header nav ul li a {
+        font-family: "Mundo Sans W01";
+        text-transform: uppercase; }
+
+/* POSTSTYLES */
+.post {
+  display: inline;
+  float: left;
+  width: 97.91667%;
   margin: 0 1.04167%; }
 
 /* FOOTER STYLES */
@@ -572,12 +588,37 @@ This is for devices like the Galaxy Note or something that's
 larger than an iPhone but smaller than a tablet. Let's call them
 tweeners.
 */
+@media only screen and (min-width: 481px) {
+  header #logo {
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%; }
+  header nav {
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%; } }
 /*
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 */
+@media only screen and (min-width: 768px) {
+  .post {
+    display: inline;
+    float: left;
+    width: 64.58333%;
+    margin: 0 1.04167%;
+    margin-left: 17.70833%; }
+
+  .content {
+    display: inline;
+    float: left;
+    width: 64.58333%;
+    margin: 0 1.04167%;
+    margin-left: 17.70833%; } }
 /*
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and

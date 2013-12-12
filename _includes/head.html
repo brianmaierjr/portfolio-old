@@ -12,11 +12,15 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Fonts from fonts.com -->
   <script type="text/javascript" src="http://fast.fonts.net/jsapi/947e7bba-84ee-439f-8b3b-67918847d425.js"></script>
 
   <!-- For all browsers -->
   <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/socialcount.css">
+
   <!-- Fresh Squeezed jQuery -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
@@ -31,6 +35,7 @@
     <h1 id="logo"><a href="/">Brian Maier Jr.</a></h1>
         <nav role="navigation">
           <ul>
+            <li><a href="/">Home</a></li>
             {% for link in site.links %}
                 <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}

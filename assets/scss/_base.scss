@@ -23,11 +23,35 @@ body {
 
 header {
 	#logo {
-		@include column(6);
+		@include column(12);
 		font-family: $condensed;
 		text-transform: uppercase;
 	}
-	nav { @include column(6); }
+	nav {
+		@include column(12);
+
+		ul {
+			float: right;
+
+			li {
+				list-style: none;
+				display: inline;
+				margin-right: 1em;
+
+				a {
+					font-family: $sans-serif;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
+
+
+/* POSTSTYLES */
+
+.post {
+	@include column(12);
 }
 
 /* FOOTER STYLES */
