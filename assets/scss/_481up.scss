@@ -7,3 +7,9 @@ header {
 		@include column(6);
 	}
 }
+
+
+.post {
+	@include column(10);
+	@include push(1);
+}

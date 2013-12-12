@@ -1,9 +1,17 @@
 </div><!-- end #container -->
 
-<footer>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a></footer>
+<footer><small>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a></small></footer>
 
-<script src="{{ site.url }}/assets/js/scripts.js"></script>
-<script src="{{ site.url }}/assets/js/socialcount.js"></script>
+ <script src="{{ site.url }}/assets/js/socialcount.js"></script>
+ <script src="{{ site.url }}/assets/js/flowtype.js"></script>
+ <script>
+ jQuery(document).ready(function($){
+	$('body').flowtype({
+	   minimum : 500,
+	   maximum : 1000
+	});
+});
+</script>
 
 </body>
 </html>

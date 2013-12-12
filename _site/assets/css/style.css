@@ -546,27 +546,30 @@ body {
     padding: 0 20px; }
 
 /* HEADER STYLES */
-header #logo {
-  display: inline;
-  float: left;
-  width: 97.91667%;
-  margin: 0 1.04167%;
-  font-family: "DINNextW01-CondensedUlt";
-  text-transform: uppercase; }
-header nav {
-  display: inline;
-  float: left;
-  width: 97.91667%;
-  margin: 0 1.04167%; }
-  header nav ul {
-    float: right; }
-    header nav ul li {
-      list-style: none;
-      display: inline;
-      margin-right: 1em; }
-      header nav ul li a {
-        font-family: "Mundo Sans W01";
-        text-transform: uppercase; }
+header {
+  background-color: black;
+  overflow: hidden; }
+  header #logo {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+    font-family: "DINNextW01-CondensedUlt";
+    text-transform: uppercase; }
+  header nav {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%; }
+    header nav ul {
+      float: right; }
+      header nav ul li {
+        list-style: none;
+        display: inline;
+        margin-right: 1em; }
+        header nav ul li a {
+          font-family: "Mundo Sans W01";
+          text-transform: uppercase; }
 
 /* POSTSTYLES */
 .post {
@@ -598,7 +601,14 @@ tweeners.
     display: inline;
     float: left;
     width: 47.91667%;
-    margin: 0 1.04167%; } }
+    margin: 0 1.04167%; }
+
+  .post {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.04167%;
+    margin-left: 9.375%; } }
 /*
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and

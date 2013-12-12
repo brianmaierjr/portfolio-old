@@ -24,6 +24,7 @@
   <!-- Fresh Squeezed jQuery -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
+
   <!-- Icons -->
 
 </head>
@@ -85,10 +86,18 @@
 
 </div><!-- end #container -->
 
-<footer>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a></footer>
+<footer><small>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a></small></footer>
 
-<script src="/assets/js/scripts.js"></script>
-<script src="/assets/js/socialcount.js"></script>
+ <script src="/assets/js/socialcount.js"></script>
+ <script src="/assets/js/flowtype.js"></script>
+ <script>
+ jQuery(document).ready(function($){
+	$('body').flowtype({
+	   minimum : 500,
+	   maximum : 1000
+	});
+});
+</script>
 
 </body>
 </html>

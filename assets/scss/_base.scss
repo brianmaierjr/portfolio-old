@@ -22,6 +22,9 @@ body {
 /* HEADER STYLES */
 
 header {
+	background-color: black;
+	overflow: hidden;
+
 	#logo {
 		@include column(12);
 		font-family: $condensed;
