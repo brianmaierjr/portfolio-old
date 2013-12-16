@@ -267,49 +267,40 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
 
 .tera {
-  font-size: 117px;
-  font-size: 6.5rem;
-  margin-bottom: 0.22308rem; }
+  font-size: 6.5em;
+  margin-bottom: 0.22308em; }
 
 .giga {
-  font-size: 90px;
-  font-size: 5rem;
-  margin-bottom: 0.29rem; }
+  font-size: 5em;
+  margin-bottom: 0.29em; }
 
 .mega {
-  font-size: 72px;
-  font-size: 4rem;
-  margin-bottom: 0.3625rem; }
+  font-size: 4em;
+  margin-bottom: 0.3625em; }
 
 .alpha, h1 {
-  font-size: 60px;
-  font-size: 3.33333rem;
-  margin-bottom: 0.435rem; }
+  font-size: 3.33333em;
+  margin-bottom: 0.435em; }
 
 .beta, h2 {
-  font-size: 48px;
-  font-size: 2.66667rem;
-  margin-bottom: 0.54375rem; }
+  font-size: 2.66667em;
+  margin-bottom: 0.54375em; }
 
 .gamma, h3 {
-  font-size: 36px;
-  font-size: 2rem;
-  margin-bottom: 0.725rem; }
+  font-size: 2em;
+  margin-bottom: 0.725em; }
 
 .delta, h4 {
-  font-size: 24px;
-  font-size: 1.33333rem;
-  margin-bottom: 1.0875rem; }
+  font-size: 1.33333em;
+  margin-bottom: 1.0875em; }
 
 .epsilon, h5 {
-  font-size: 21px;
-  font-size: 1.16667rem;
-  margin-bottom: 1.24286rem; }
+  font-size: 1.16667em;
+  margin-bottom: 1.24286em; }
 
 .zeta, h6 {
-  font-size: 18px;
-  font-size: 1rem;
-  margin-bottom: 1.45rem; }
+  font-size: 1em;
+  margin-bottom: 1.45em; }
 
 p {
   margin: auto auto 1.5em; }
@@ -508,22 +499,10 @@ p + .drop-cap {
 /* Variables */
 /*
 
-font-family:'DINNextW01-CondensedUlt';
-font-family:'Mundo Sans W01 Light';
-font-family:'Nimrod W01';
-font-family:'Nimrod W01 Italic';
-font-family:'Nimrod W01 Bold Italic';
+font-family:'DIN Next W01';
 font-family:'Mundo Sans W01';
-font-family:'Clarendon BT W01 Roman';
-font-family:'Clarendon BT W01 Bold';
-
-azure
-lightslategrey
-tomato
-khaki
-sienna
-cadetblue
-
+font-family:'Nimrod W01';
+font-family:'BT Clarendon W01';
 
 */
 /* Mixins */
@@ -554,28 +533,29 @@ body {
   color: white;
   background: crimson; }
 
-html {
-  height: 100%;
-  width: 100%; }
-  html body {
-    font-family: "Nimrod W01";
-    background: lightslategray;
+blockquote {
+  font-family: "Nimrod W01";
+  font-style: italic; }
+
+body {
+  font-family: "Nimrod W01";
+  background: lightslategray;
+  color: white; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: "BT Clarendon W01";
     color: white;
-    width: 100%; }
-    html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
-      font-family: "Clarendon BT W01 Roman";
-      color: white;
-      font-weight: normal; }
-    html body a {
-      text-decoration: none;
-      color: lightslategrey; }
-    html body ul {
-      padding: 0; }
-    html body #container {
-      clear: both;
-      padding: 60px 20px 20px; }
-      html body #container img {
-        max-width: 100%; }
+    font-weight: normal; }
+  body a {
+    text-decoration: none;
+    color: darkslategrey; }
+  body ul {
+    padding: 0; }
+  body #container {
+    clear: both;
+    padding: 100px 20px;
+    overflow: hidden; }
+    body #container img {
+      max-width: 100%; }
 
 /* HEADER ---------------------------------------------------
 ------------------------------------------------------------*/
@@ -606,7 +586,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.85);
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -616,11 +596,19 @@ header {
       display: table-cell;
       vertical-align: middle;
       text-align: center; }
-      header #mainNav #navContainer h2 {
-        color: slategrey; }
-      header #mainNav #navContainer ul li a {
-        color: lightslategrey;
-        font-family: "Mundo Sans W01"; }
+      header #mainNav #navContainer ul li {
+        padding-bottom: .5em;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        list-style: none; }
+        header #mainNav #navContainer ul li a {
+          color: lightslategrey;
+          font-size: 2.5em; }
+        header #mainNav #navContainer ul li:hover a {
+          color: darkslategray; }
     header #mainNav #closeBtn {
       position: absolute;
       top: 1em;
@@ -632,30 +620,33 @@ header {
 /* FOOTER ------------------------------------------------
 ------------------------------------------------------------*/
 footer {
-  display: inline;
-  float: left;
-  width: 97.91667%;
-  margin: 0 1.04167%;
-  color: lightslategrey; }
+  clear: both;
+  background: #495561;
+  color: white;
+  padding: 1.5em; }
 
 /* HOMEPAGE ------------------------------------------------
 ------------------------------------------------------------*/
-.home {
-  height: 100%; }
-  .home header {
-    position: fixed;
-    width: 100%; }
-  .home .intro {
+html {
+  height: 100%;
+  width: 100%; }
+  html .home {
     height: 100%;
-    width: 100%;
-    display: table; }
-    .home .intro .introText {
-      display: table-cell;
-      vertical-align: middle;
-      height: 100%; }
-      .home .intro .introText h1 {
-        width: 80%;
-        margin: 0 auto; }
+    width: 100%; }
+    html .home header {
+      position: fixed;
+      width: 100%; }
+    html .home .intro {
+      height: 100%;
+      width: 100%;
+      display: table; }
+      html .home .intro .introText {
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%; }
+        html .home .intro .introText h1 {
+          width: 80%;
+          margin: 0 auto; }
 
 /* ARTICLES ----------------------------------------------------
 ------------------------------------------------------------*/
@@ -663,8 +654,8 @@ footer {
   list-style-type: none; }
   .blog ul li a {
     color: white;
-    font-family: "DINNextW01-CondensedUlt";
-    text-transform: uppercase;
+    font-family: "Mundo Sans W01";
+    font-weight: 200;
     font-size: 2em; }
 
 /* POSTSTYLES ------------------------------------------------
@@ -673,7 +664,11 @@ footer {
   display: inline;
   float: left;
   width: 97.91667%;
-  margin: 0 1.04167%; }
+  margin: 0 1.04167%;
+  padding-top: 100px; }
+  .post img {
+    max-width: 100%;
+    margin-right: 17.70833%; }
 
 .featured-image {
   min-height: 400px;
