@@ -248,7 +248,7 @@ pre code {
  *
  */
 html {
-  font: normal 112.5%/1.65 serif; }
+  font: normal 112.5%/1.45 serif; }
 
 body {
   -webkit-hyphens: auto;
@@ -269,53 +269,50 @@ h1, h2, h3, h4, h5, h6 {
 .tera {
   font-size: 117px;
   font-size: 6.5rem;
-  margin-bottom: 0.25385rem; }
+  margin-bottom: 0.22308rem; }
 
 .giga {
   font-size: 90px;
   font-size: 5rem;
-  margin-bottom: 0.33rem; }
+  margin-bottom: 0.29rem; }
 
 .mega {
   font-size: 72px;
   font-size: 4rem;
-  margin-bottom: 0.4125rem; }
+  margin-bottom: 0.3625rem; }
 
 .alpha, h1 {
   font-size: 60px;
   font-size: 3.33333rem;
-  margin-bottom: 0.495rem; }
+  margin-bottom: 0.435rem; }
 
 .beta, h2 {
   font-size: 48px;
   font-size: 2.66667rem;
-  margin-bottom: 0.61875rem; }
+  margin-bottom: 0.54375rem; }
 
 .gamma, h3 {
   font-size: 36px;
   font-size: 2rem;
-  margin-bottom: 0.825rem; }
+  margin-bottom: 0.725rem; }
 
 .delta, h4 {
   font-size: 24px;
   font-size: 1.33333rem;
-  margin-bottom: 1.2375rem; }
+  margin-bottom: 1.0875rem; }
 
 .epsilon, h5 {
   font-size: 21px;
   font-size: 1.16667rem;
-  margin-bottom: 1.41429rem; }
+  margin-bottom: 1.24286rem; }
 
 .zeta, h6 {
   font-size: 18px;
   font-size: 1rem;
-  margin-bottom: 1.65rem; }
+  margin-bottom: 1.45rem; }
 
 p {
   margin: auto auto 1.5em; }
-  p + p {
-    text-indent: 1.5em;
-    margin-top: -1.5em; }
 
 abbr,
 acronym,
