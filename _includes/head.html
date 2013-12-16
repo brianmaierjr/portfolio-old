@@ -29,19 +29,27 @@
 
 </head>
 
-<body>
+<body class="{{ page.class }}">
 
 	<header>
-
     <h1 id="logo"><a href="/">Brian Maier Jr.</a></h1>
-        <nav role="navigation">
-          <ul>
-            <li><a href="/">Home</a></li>
-            {% for link in site.links %}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
+    <a href="#mainNav" id="menuBtn"><span class="icon-menu">Menu</span></a>
+
+    <nav role="navigation" id="mainNav">
+
+      <a href="#" id="closeBtn"><span class="icon-close">Close</span></a>
+      
+      <div id="navContainer">
+        <h2>Onward!</h2>
+        <ul id="siteNav">
+          <li><a href="/">Home</a></li>
+          {% for link in site.links %}
+              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    </nav>
+
 	</header>
 
-  <div id="container">

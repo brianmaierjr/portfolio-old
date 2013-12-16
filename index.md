@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: home
 title: Brian Maier Jr. | Designer & Developer
+class: home
 ---
 
-# Home
+# Hi, I'm Brian Maier Jr. and I design interactive experiences.

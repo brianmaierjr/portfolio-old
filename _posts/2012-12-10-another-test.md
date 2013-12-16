@@ -1,13 +1,9 @@
 ---
 layout: post
-title: Test Post
+title: This is the title of the post
+image: me.jpg
+color: pink
 ---
-
-# Test Post
-
-## Markdown FTW
-
-
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet libero non lorem interdum elementum. Duis velit massa, facilisis non mauris ut, blandit consequat justo. Donec et est vel erat varius faucibus non sit amet elit. Pellentesque vel volutpat turpis, quis tincidunt ligula. Fusce sem libero, pretium quis venenatis porta, sollicitudin eget libero. Sed sagittis euismod suscipit. Ut porttitor, turpis id sagittis porttitor, lacus nisi tempor dui, vitae dapibus lorem est sit amet augue.
 

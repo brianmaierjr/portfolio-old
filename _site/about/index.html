@@ -29,47 +29,57 @@
 
 </head>
 
-<body>
+<body class="about">
 
 	<header>
-
     <h1 id="logo"><a href="/">Brian Maier Jr.</a></h1>
-        <nav role="navigation">
-          <ul>
-            <li><a href="/">Home</a></li>
-            
-                <li><a href="/about">About</a></li>
-            
-                <li><a href="/blog">Blog</a></li>
-            
-          </ul>
-        </nav>
+    <a href="#mainNav" id="menuBtn"><span class="icon-menu">Menu</span></a>
+
+    <nav role="navigation" id="mainNav">
+
+      <a href="#" id="closeBtn"><span class="icon-close">Close</span></a>
+      
+      <div id="navContainer">
+        <h2>Onward!</h2>
+        <ul id="siteNav">
+          <li><a href="/">Home</a></li>
+          
+              <li><a href="/about">About</a></li>
+          
+              <li><a href="/articles">Articles</a></li>
+          
+              <li><a href="/portfolio">Portfolio</a></li>
+          
+        </ul>
+      </div>
+
+    </nav>
+
 	</header>
 
-  <div id="container">
 
-<div class="content">
-	
-<h2 id="about_meeeee">About Meeeee</h2>
 
-<h3 id="jerks">Jerks</h3>
+<div id="container">
+	<div class="content">
+		
+<p><img src="/assets/img/me.jpg" alt="Beautiful eh?" /></p>
 
+<h1 id="brian_maier_jr">Brian Maier Jr.</h1>
+
+<h4 id="idiot_extraordinaire">Idiot Extraordinaire</h4>
+
+<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui.</p>
+
+	</div>
 </div>
 
-</div><!-- end #container -->
 
-<footer><small>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a></small></footer>
+<footer>
+	<small>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a>
+		| <a href="#colophon">Colophon</a></small></footer>
 
  <script src="/assets/js/socialcount.js"></script>
- <script src="/assets/js/flowtype.js"></script>
- <script>
- jQuery(document).ready(function($){
-	$('body').flowtype({
-	   minimum : 500,
-	   maximum : 1000
-	});
-});
-</script>
+
 
 </body>
 </html>

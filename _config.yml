@@ -12,9 +12,19 @@ owner:
 
 
 # Links to include in top navigation
-# For external links add external: true
 links:
   - title: About
     url: /about
-  - title: Blog
-    url: /blog
+  - title: Articles
+    url: /articles
+  - title: Portfolio
+    url: /portfolio
+
+# Links to include in top navigation for social Media
+social:
+  - title: Dribbble
+    url: /about
+  - title: Twitter
+    url: /articles
+  - title: LinkedIn
+    url: /portfolio

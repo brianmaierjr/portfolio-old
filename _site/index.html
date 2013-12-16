@@ -8,7 +8,7 @@
 
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="Brian Maier Jr. | Designer & Developer &#8211; Brian Maier Jr.">
-  <meta property="og:description" content="# Home">
+  <meta property="og:description" content="# Hi, I'm Brian Maier Jr. and I design interactive experiences.">
   <meta property="og:url" content="/index.html">
   <meta property="og:site_name" content="Brian Maier Jr.">
 
@@ -29,45 +29,53 @@
 
 </head>
 
-<body>
+<body class="home">
 
 	<header>
-
     <h1 id="logo"><a href="/">Brian Maier Jr.</a></h1>
-        <nav role="navigation">
-          <ul>
-            <li><a href="/">Home</a></li>
-            
-                <li><a href="/about">About</a></li>
-            
-                <li><a href="/blog">Blog</a></li>
-            
-          </ul>
-        </nav>
+    <a href="#mainNav" id="menuBtn"><span class="icon-menu">Menu</span></a>
+
+    <nav role="navigation" id="mainNav">
+
+      <a href="#" id="closeBtn"><span class="icon-close">Close</span></a>
+      
+      <div id="navContainer">
+        <h2>Onward!</h2>
+        <ul id="siteNav">
+          <li><a href="/">Home</a></li>
+          
+              <li><a href="/about">About</a></li>
+          
+              <li><a href="/articles">Articles</a></li>
+          
+              <li><a href="/portfolio">Portfolio</a></li>
+          
+        </ul>
+      </div>
+
+    </nav>
+
 	</header>
 
-  <div id="container">
 
-<div class="content">
-	
-<h1 id="home">Home</h1>
 
-</div>
+<section class="intro">
+	<div class="introText">
+		
+<h1 id="hi_im_brian_maier_jr_and_i_design_interactive_experiences">Hi, I’m Brian Maier Jr. and I design interactive experiences.</h1>
 
-</div><!-- end #container -->
+	</div>
+</section>
 
-<footer><small>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a></small></footer>
+
+
+
+<footer>
+	<small>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a>
+		| <a href="#colophon">Colophon</a></small></footer>
 
  <script src="/assets/js/socialcount.js"></script>
- <script src="/assets/js/flowtype.js"></script>
- <script>
- jQuery(document).ready(function($){
-	$('body').flowtype({
-	   minimum : 500,
-	   maximum : 1000
-	});
-});
-</script>
+
 
 </body>
 </html>

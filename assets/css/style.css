@@ -520,6 +520,14 @@ font-family:'Mundo Sans W01';
 font-family:'Clarendon BT W01 Roman';
 font-family:'Clarendon BT W01 Bold';
 
+azure
+lightslategrey
+tomato
+khaki
+sienna
+cadetblue
+
+
 */
 /* Mixins */
 /* Semantic.gs Grid */
@@ -533,57 +541,151 @@ body {
     clear: both; }
 
 /* Base Stylesheet for Small Screens MOBILE FIRST DUMMY! */
-/* GENERAL STYLES */
-body {
-  font-family: "Nimrod W01"; }
-  body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: "Clarendon BT W01 Roman"; }
-  body a {
-    text-decoration: none;
-    color: goldenrod; }
-  body #container {
-    clear: both;
-    padding: 0 20px; }
+/* GLOBAL ---------------------------------------------------
+------------------------------------------------------------*/
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
-/* HEADER STYLES */
+::selection {
+  color: white;
+  background: crimson; }
+
+::-moz-selection {
+  color: white;
+  background: crimson; }
+
+html {
+  height: 100%;
+  width: 100%; }
+  html body {
+    font-family: "Nimrod W01";
+    background: lightslategray;
+    color: white;
+    width: 100%; }
+    html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+      font-family: "Clarendon BT W01 Roman";
+      color: white;
+      font-weight: normal; }
+    html body a {
+      text-decoration: none;
+      color: lightslategrey; }
+    html body ul {
+      padding: 0; }
+    html body #container {
+      clear: both;
+      padding: 60px 20px 20px; }
+      html body #container img {
+        max-width: 100%; }
+
+/* HEADER ---------------------------------------------------
+------------------------------------------------------------*/
 header {
-  background-color: black;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 0 20px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  header #menuBtn {
+    color: white;
+    float: right;
+    margin-top: .8em; }
   header #logo {
-    display: inline;
     float: left;
-    width: 97.91667%;
-    margin: 0 1.04167%;
-    font-family: "DINNextW01-CondensedUlt";
-    text-transform: uppercase; }
-  header nav {
-    display: inline;
-    float: left;
-    width: 97.91667%;
-    margin: 0 1.04167%; }
-    header nav ul {
-      float: right; }
-      header nav ul li {
-        list-style: none;
-        display: inline;
-        margin-right: 1em; }
-        header nav ul li a {
-          font-family: "Mundo Sans W01";
-          text-transform: uppercase; }
+    font-family: "Nimrod W01";
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-top: .7em; }
+    header #logo a {
+      color: white; }
+  header #mainNav {
+    display: table;
+    bottom: 100%;
+    opacity: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    header #mainNav #navContainer {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+      header #mainNav #navContainer h2 {
+        color: slategrey; }
+      header #mainNav #navContainer ul li a {
+        color: lightslategrey;
+        font-family: "Mundo Sans W01"; }
+    header #mainNav #closeBtn {
+      position: absolute;
+      top: 1em;
+      right: 1em; }
+  header #mainNav:target {
+    bottom: 0;
+    opacity: 1; }
 
-/* POSTSTYLES */
+/* FOOTER ------------------------------------------------
+------------------------------------------------------------*/
+footer {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  color: lightslategrey; }
+
+/* HOMEPAGE ------------------------------------------------
+------------------------------------------------------------*/
+.home {
+  height: 100%; }
+  .home header {
+    position: fixed;
+    width: 100%; }
+  .home .intro {
+    height: 100%;
+    width: 100%;
+    display: table; }
+    .home .intro .introText {
+      display: table-cell;
+      vertical-align: middle;
+      height: 100%; }
+      .home .intro .introText h1 {
+        width: 80%;
+        margin: 0 auto; }
+
+/* ARTICLES ----------------------------------------------------
+------------------------------------------------------------*/
+.blog ul li {
+  list-style-type: none; }
+  .blog ul li a {
+    color: white;
+    font-family: "DINNextW01-CondensedUlt";
+    text-transform: uppercase;
+    font-size: 2em; }
+
+/* POSTSTYLES ------------------------------------------------
+------------------------------------------------------------*/
 .post {
   display: inline;
   float: left;
   width: 97.91667%;
   margin: 0 1.04167%; }
 
-/* FOOTER STYLES */
-footer {
-  display: inline;
-  float: left;
-  width: 97.91667%;
-  margin: 0 1.04167%; }
+.featured-image {
+  min-height: 400px;
+  display: block;
+  background-size: cover; }
+
+.featured-color {
+  min-height: 400px;
+  display: block; }
 
 /*
 LARGER MOBILE DEVICES
@@ -592,17 +694,6 @@ larger than an iPhone but smaller than a tablet. Let's call them
 tweeners.
 */
 @media only screen and (min-width: 481px) {
-  header #logo {
-    display: inline;
-    float: left;
-    width: 47.91667%;
-    margin: 0 1.04167%; }
-  header nav {
-    display: inline;
-    float: left;
-    width: 47.91667%;
-    margin: 0 1.04167%; }
-
   .post {
     display: inline;
     float: left;
