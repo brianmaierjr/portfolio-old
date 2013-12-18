@@ -2,9 +2,7 @@
 ------------------------------------------------------------*/
 
 /* apply a natural box layout model to all elements */
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
- }
+*, *:before, *:after { @include box-sizing(border-box); }
 
  ::selection {
  	color: white;
@@ -45,6 +43,7 @@ body {
 		clear: both;
 		padding: 100px 20px;
 		overflow: hidden;
+		@include outer-container;
 
 		img {
 			max-width: 100%;
@@ -89,7 +88,7 @@ header {
 		width: 100%;
 		height: 100%;
 		background: rgba(255,255,255,.85);
-		 @include transition(all, 0.2s, ease-in-out);
+		 @include transition(all 0.2s ease-in-out);
 
 		#navContainer {
 			display: table-cell;
@@ -99,7 +98,7 @@ header {
 			ul {
 				li {
 					padding-bottom: .5em;
-					@include transition(all, 0.2s, ease-in-out);
+					@include transition(all 0.2s ease-in-out);
 					list-style: none;
 
 					a {
@@ -193,12 +192,11 @@ html {
 ------------------------------------------------------------*/
 
 .post {
-	@include column(12);
+	@include span-columns(12);
 	padding-top: 100px;
 
 	img {
 		max-width :100%;
-		@include pull(2);
 	}
 }
 

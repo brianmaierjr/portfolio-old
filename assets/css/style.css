@@ -506,23 +506,20 @@ font-family:'BT Clarendon W01';
 
 */
 /* Mixins */
-/* Semantic.gs Grid */
-body {
-  width: 100%;
-  *zoom: 1; }
-  body:before, body:after {
-    content: "";
-    display: table; }
-  body:after {
-    clear: both; }
+/* Bourbon */
+/* Neat */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /* Base Stylesheet for Small Screens MOBILE FIRST DUMMY! */
 /* GLOBAL ---------------------------------------------------
 ------------------------------------------------------------*/
 /* apply a natural box layout model to all elements */
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 ::selection {
@@ -553,7 +550,16 @@ body {
   body #container {
     clear: both;
     padding: 100px 20px;
-    overflow: hidden; }
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    body #container:before, body #container:after {
+      content: " ";
+      display: table; }
+    body #container:after {
+      clear: both; }
     body #container img {
       max-width: 100%; }
 
@@ -589,8 +595,6 @@ header {
     background: rgba(255, 255, 255, 0.85);
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
     header #mainNav #navContainer {
       display: table-cell;
@@ -600,8 +604,6 @@ header {
         padding-bottom: .5em;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
-        -ms-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         list-style: none; }
         header #mainNav #navContainer ul li a {
@@ -661,14 +663,15 @@ html {
 /* POSTSTYLES ------------------------------------------------
 ------------------------------------------------------------*/
 .post {
-  display: inline;
   float: left;
-  width: 97.91667%;
-  margin: 0 1.04167%;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   padding-top: 100px; }
+  .post:last-child {
+    margin-right: 0; }
   .post img {
-    max-width: 100%;
-    margin-right: 17.70833%; }
+    max-width: 100%; }
 
 .featured-image {
   min-height: 400px;
@@ -685,13 +688,6 @@ This is for devices like the Galaxy Note or something that's
 larger than an iPhone but smaller than a tablet. Let's call them
 tweeners.
 */
-@media only screen and (min-width: 481px) {
-  .post {
-    display: inline;
-    float: left;
-    width: 81.25%;
-    margin: 0 1.04167%;
-    margin-left: 9.375%; } }
 /*
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and
@@ -700,18 +696,22 @@ you can add resource intensive styles.
 */
 @media only screen and (min-width: 768px) {
   .post {
-    display: inline;
     float: left;
-    width: 64.58333%;
-    margin: 0 1.04167%;
-    margin-left: 17.70833%; }
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%; }
+    .post:last-child {
+      margin-right: 0; }
 
   .content {
-    display: inline;
     float: left;
-    width: 64.58333%;
-    margin: 0 1.04167%;
-    margin-left: 17.70833%; } }
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%; }
+    .content:last-child {
+      margin-right: 0; } }
 /*
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and

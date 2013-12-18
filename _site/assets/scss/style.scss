@@ -14,8 +14,11 @@ MAIN STYLE SHEET
 /* Mixins */
 @import 'mixins';
 
-/* Semantic.gs Grid */
-@import 'grid';
+/* Bourbon */
+@import 'bourbon/bourbon';
+
+/* Neat */
+@import 'neat/neat';
 
 /* Base Stylesheet for Small Screens MOBILE FIRST DUMMY! */
 @import 'base';

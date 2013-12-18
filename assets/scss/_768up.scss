@@ -1,9 +1,9 @@
 .post {
-	@include column(8);
-	@include push(2);
+	@include span-columns(8);
+	@include shift(2);
 }
 
 .content {
-	@include column(8);
-	@include push(2);
+	@include span-columns(8);
+	@include shift(2);
 }
