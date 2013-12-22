@@ -3,6 +3,11 @@ description:      Louisville Web Design by Brian Maier Jr.
 #Comment out url when working locally to resolve base urls correctly
 #url: http://blog.brianmaierjr.com
 
+
+# Stop auto generated id's on headings
+kramdown:
+  auto_id: false
+
 # Owner/author information
 owner:
   name:           Brian Maier Jr.

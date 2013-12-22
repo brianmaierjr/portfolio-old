@@ -1,9 +1,24 @@
 {% include head.html %}
 
-<section class="intro">
-	<div class="introText">
+<section class="intro table">
+	<div class="introText animated slideInLeft tableCell">
 		{{ content }}
 	</div>
+</section>
+
+<section class="recentPosts table">
+	<div class="tableCell">
+		<h2>Recent Posts</h2>
+		<ul>
+		  {% for post in site.posts %}
+		    <li>
+		      <a href="{{ post.url }}">{{ post.title }}</a>
+		      <p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
+		      <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+		    </li>
+		  {% endfor %}
+		</ul>
+		</div>
 </section>
 
 

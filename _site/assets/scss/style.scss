@@ -8,11 +8,14 @@ MAIN STYLE SHEET
 /* Typeplate */
 @import 'typeplate';
 
+/* Icons vis IcoMoon */
+@import 'icomoon';
+
+/* CSS Animations from https://daneden.me/animate/ */
+@import 'animate';
+
 /* Variables */
 @import 'variables';
-
-/* Mixins */
-@import 'mixins';
 
 /* Bourbon */
 @import 'bourbon/bourbon';

@@ -6,30 +6,30 @@
 
  ::selection {
  	color: white;
- 	background: crimson;
+ 	background: lightslategrey;
  }
 
  ::-moz-selection {
  	color: white;
- 	background: crimson;
+ 	background: lightslategrey;
  }
 
  blockquote {
  	font-family: $serif;
  	font-style: italic;
+ 	margin-bottom: 1em;
  }
-
-
 
 body {
 	font-family: $serif;
-	background: lightslategray;
-	color: white;
+	background: white;
+	color: lightslategrey;
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: $heading;
-		color: white;
-		font-weight: normal;
+		color: lightslategrey;
+		font-weight: 700;
+		margin-top: .2em;
 	}
 
 	a { 
@@ -49,6 +49,18 @@ body {
 			max-width: 100%;
 		}
 	}
+	
+	.table {
+		height: 100%;
+		width: 100%;
+		display: table;
+	}
+
+	.tableCell {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+	}
 }
 
 
@@ -64,30 +76,38 @@ header {
 	width: 100%;
 
 	#menuBtn {
-		color: white;
+		color: lightslategrey;
 		float: right;
-		margin-top: .8em;
+		margin-top: .1em;
+		font-size: 2em;
 	}
 
 	#logo {
 		float: left;
-		font-family: $serif;
-		font-weight: normal;
+		font-family: $condensed;
+		text-transform: uppercase;
+		font-weight: 400;
 		font-size: 1.5em;
 		margin-top: .7em;
 
-		a {	color: white; }
+		a {	color: lightslategrey; }
 	}
+}
 
-	#mainNav {
+
+/* NAVIGATION ------------------------------------------------
+------------------------------------------------------------*/
+
+#mainNav {
 		display: table;
 		bottom: 100%;
 		opacity: 0;
 		position: fixed;
+		z-index: 9999;
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(255,255,255,.85);
+		background: rgba(255,255,255,.9);
 		 @include transition(all 0.2s ease-in-out);
 
 		#navContainer {
@@ -95,7 +115,7 @@ header {
 			vertical-align: middle;
 			text-align: center;
 
-			ul {
+			#siteNav {
 				li {
 					padding-bottom: .5em;
 					@include transition(all 0.2s ease-in-out);
@@ -104,6 +124,8 @@ header {
 					a {
 						color: lightslategrey;
 						font-size: 2.5em;
+						font-family: $serif;
+						font-style: italic;
 					}
 
 					&:hover a { color: darkslategray; }
@@ -111,17 +133,53 @@ header {
 			}
 		}
 
-		#closeBtn {
+		.closeBtn {
 			position: absolute;
-			top: 1em;
-			right: 1em;
+			top: .1em;
+			right: .55em;
+			font-size: 2em;
 		}
 	}
 
-	#mainNav:target {
-		bottom: 0;
-		opacity: 1;
+#mainNav:target {
+	bottom: 0;
+	opacity: 1;
+}
+
+
+
+/* COLOPHON ------------------------------------------------
+------------------------------------------------------------*/
+
+#colophon {
+		display: table;
+		top: 100%;
+		opacity: 0;
+		position: fixed;
+		z-index: 9999;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,.95);
+		 @include transition(all 0.2s ease-in-out);
+
+		#colophonContainer {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+
+		.closeBtn {
+			position: absolute;
+			top: .1em;
+			right: .55em;
+			font-size: 2em;
+		}
 	}
+
+#colophon:target {
+	top: 0;
+	opacity: 1;
 }
 
 
@@ -133,6 +191,11 @@ footer {
 	background: darken(lightslategray, 20%);
 	color: white;
 	padding: 1.5em;
+
+	a {
+		color: white;
+		text-decoration: underline;
+	}
 }
 
 
@@ -147,22 +210,30 @@ html {
 		width: 100%;
 		
 		header {
-			position: fixed;
+			position: absolute;
+			z-index: 300;
 			width: 100%;
 		}
-		.intro {
-			height: 100%;
-			width: 100%;
-			display: table;
+		section {
+
+			ul {
+				width: 80%;
+				margin: 0 auto;
+			}
 
 			.introText {
-				display: table-cell;
-				vertical-align: middle;
-				height: 100%;
+				animation-delay: 1s;
 
 				h1 {
 					width: 80%;
 					margin: 0 auto;
+					line-height: 1.15;
+					font-size: 2em;
+
+					span {
+						color: white;
+						background: lightslategrey;
+					}
 				}
 			}
 		}
@@ -174,14 +245,31 @@ html {
 ------------------------------------------------------------*/
 
 .blog {
+	
+	h2 {
+		border-bottom: 3px solid darken(white, 10%);
+		font-family: $heading;
+		font-weight: bold;
+	}
+
 	ul {
 		li {
 			list-style-type: none;
+			padding: 1em 0;
+
+			.date {
+				font-family: $condensed;
+				font-weight: 400;
+				text-transform: uppercase;
+				color: darken(white, 40%);
+				margin-bottom: .4em;
+			}
+
 			a {
-				color: white;
-				font-family: $sans-serif;
-				font-weight: 200;
-				font-size: 2em;
+				font-family: $serif;
+				font-weight: bold;
+				font-style: italic;
+				font-size: 1.6em;
 			}
 		}
 	}
@@ -193,21 +281,64 @@ html {
 
 .post {
 	@include span-columns(12);
-	padding-top: 100px;
 
-	img {
-		max-width :100%;
+	img { max-width :100%; }
+	p { line-height: 1.7; }
+
+	.socialcount {
+		text-align: center;
+		margin: 3em 0 4em;
+
+		> li {
+			background-color: lightslategrey;
+		}
 	}
 }
 
 .featured-image {
 	min-height: 400px;
+	width: 100%;
+	z-index: 1;
 	display: block;
 	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 .featured-color {
 	min-height: 400px;
 	display: block;
+}
+
+
+/* POST WITH AN IMAGE */
+
+.post-image {
+
+	header {
+		z-index: 200;
+	}
+
+	#container {
+		padding-top: 2em;
+		background: white;
+		margin-top: 400px;
+		padding-bottom: 50px;
+		position: relative;
+		z-index: 100;
+		overflow: visible;
+	}
+
+	#logo {
+		a {
+			color :white;
+			text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+		}
+	}
+	#menuBtn {
+		color: white;
+		text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+	}
 }
 

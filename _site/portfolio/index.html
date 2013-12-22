@@ -31,29 +31,39 @@
 
 <body class="portfolio">
 
-	<header>
-    <h1 id="logo"><a href="/">Brian Maier Jr.</a></h1>
-    <a href="#mainNav" id="menuBtn"><span class="icon-menu">Menu</span></a>
+  <nav role="navigation" id="mainNav">
 
-    <nav role="navigation" id="mainNav">
+    <a href="#" class="closeBtn"><span class="icon-cross"></span></a>
+    
+    <div id="navContainer">
+      <ul id="siteNav">
+        <li><a href="/">Home</a></li>
+        
+            <li><a href="/about">About</a></li>
+        
+            <li><a href="/articles">Articles</a></li>
+        
+            <li><a href="/portfolio">Portfolio</a></li>
+        
+      </ul>
+    </div>
 
-      <a href="#" id="closeBtn"><span class="icon-close">Close</span></a>
-      
-      <div id="navContainer">
-        <ul id="siteNav">
-          <li><a href="/">Home</a></li>
-          
-              <li><a href="/about">About</a></li>
-          
-              <li><a href="/articles">Articles</a></li>
-          
-              <li><a href="/portfolio">Portfolio</a></li>
-          
-        </ul>
+  </nav>
+
+  <div id="colophon">
+
+    <a href="#" class="closeBtn"><span class="icon-cross"></span></a>
+
+    <div id="colophonContainer">
+        <h2>Colophon</h2>
+        <p>This site was created with Jekyll and hosted by GitHub pages. All fonts are served via fonts.com and accompanied by an Icon Font from IcoMoon. All styles were compiled using SASS + Bourbon. Semantic grid created with Bourbon Neat. </p>
       </div>
 
-    </nav>
+  </div>
 
+	<header class="animated slideInDown">
+    <h1 id="logo"><a href="/">Brian Maier Jr.</a></h1>
+    <a href="#mainNav" id="menuBtn"><span class="icon-list"></span></a>
 	</header>
 
 
@@ -70,7 +80,6 @@
 		| <a href="#colophon">Colophon</a></small></footer>
 
  <script src="/assets/js/socialcount.js"></script>
-
 
 </body>
 </html>
