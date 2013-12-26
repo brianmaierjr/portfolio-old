@@ -1,6 +1,13 @@
-.post {
+.post-content {
 	@include span-columns(8);
 	@include shift(2);
+}
+
+.post {
+	#container {
+		width: 80%;
+		max-width: 80%;
+	}
 }
 
 .content {
@@ -8,4 +15,13 @@
 	@include shift(2);
 }
 
-html .home .intro .introText h1 { font-size: 3.3333em; }
+html {
+	.home {
+		.intro {
+			.introText {
+				h1 { font-size: 6em; }
+				h3 { font-size: 1.75em; }
+			}
+		}
+	}
+}

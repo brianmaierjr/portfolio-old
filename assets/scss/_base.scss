@@ -6,35 +6,40 @@
 
  ::selection {
  	color: white;
- 	background: lightslategrey;
+ 	background: cadetblue;
  }
 
  ::-moz-selection {
  	color: white;
- 	background: lightslategrey;
+ 	background: cadetblue;
  }
 
  blockquote {
  	font-family: $serif;
  	font-style: italic;
  	margin-bottom: 1em;
+ 	line-height: 2;
+ 	font-size: 1.3em;
  }
 
 body {
 	font-family: $serif;
 	background: white;
-	color: lightslategrey;
+	color: $charcoal;
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: $heading;
-		color: lightslategrey;
+		font-family: $serif;
 		font-weight: 700;
 		margin-top: .2em;
 	}
 
+	p {
+		color: $charcoal;
+	}
+
 	a { 
 		text-decoration: none;
-		color: darkslategrey;
+		color: darken(cadetblue, 10%);
 	}
 
 	ul { padding: 0; }
@@ -76,21 +81,22 @@ header {
 	width: 100%;
 
 	#menuBtn {
-		color: lightslategrey;
 		float: right;
 		margin-top: .1em;
 		font-size: 2em;
+		color: $charcoal;
 	}
 
 	#logo {
 		float: left;
-		font-family: $condensed;
+		font-family: $ultra-condensed;
 		text-transform: uppercase;
-		font-weight: 400;
+		font-weight: 200;
 		font-size: 1.5em;
 		margin-top: .7em;
 
-		a {	color: lightslategrey; }
+		a { color: $charcoal; }
+
 	}
 }
 
@@ -107,7 +113,7 @@ header {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(255,255,255,.9);
+		background: rgba(0,0,0,.95);
 		 @include transition(all 0.2s ease-in-out);
 
 		#navContainer {
@@ -122,13 +128,13 @@ header {
 					list-style: none;
 
 					a {
-						color: lightslategrey;
+						color: cadetblue;
 						font-size: 2.5em;
 						font-family: $serif;
 						font-style: italic;
 					}
 
-					&:hover a { color: darkslategray; }
+					&:hover a { color: lighten(cadetblue, 10%); }
 				}
 			}
 		}
@@ -153,6 +159,7 @@ header {
 
 #colophon {
 		display: table;
+		color: white;
 		top: 100%;
 		opacity: 0;
 		position: fixed;
@@ -161,12 +168,23 @@ header {
 		width: 100%;
 		height: 100%;
 		background: rgba(0,0,0,.95);
-		 @include transition(all 0.2s ease-in-out);
+		@include transition(all 0.2s ease-in-out);
 
 		#colophonContainer {
 			display: table-cell;
 			vertical-align: middle;
 			text-align: center;
+
+			h2, p {
+				color: white;
+				width: 80%;
+				margin: 0 auto;
+			}
+
+			h2 {
+				margin-bottom: .75em;
+				font-style: italic;
+			}
 		}
 
 		.closeBtn {
@@ -188,12 +206,12 @@ header {
 
 footer {
 	clear: both;
-	background: darken(lightslategray, 20%);
-	color: white;
+	background: white;
+	color: cadetblue;
 	padding: 1.5em;
 
 	a {
-		color: white;
+		color: cadetblue;
 		text-decoration: underline;
 	}
 }
@@ -208,6 +226,8 @@ html {
 	.home {
 		height: 100%;
 		width: 100%;
+		background: url('../img/home.jpg') center;
+		background-size: cover;
 		
 		header {
 			position: absolute;
@@ -223,17 +243,30 @@ html {
 
 			.introText {
 				animation-delay: 1s;
+				text-align: center;
 
 				h1 {
-					width: 80%;
 					margin: 0 auto;
 					line-height: 1.15;
 					font-size: 2em;
+					background: cadetblue;
+					color: white;
+					padding: .25em 0;
+				}
 
-					span {
-						color: white;
-						background: lightslategrey;
-					}
+				h2 {
+					font-family: $sans-serif;
+					color: lighten($charcoal, 10%);
+					font-weight: 200;
+				}
+
+				h3 {
+					font-family: $serif;
+					font-style: italic;
+					font-size: 1.2em;
+					width: 80%;
+					line-height: 1.5;
+					margin: .7em auto 0;
 				}
 			}
 		}
@@ -248,7 +281,7 @@ html {
 	
 	h2 {
 		border-bottom: 3px solid darken(white, 10%);
-		font-family: $heading;
+		font-family: $serif;
 		font-weight: bold;
 	}
 
@@ -262,14 +295,15 @@ html {
 				font-weight: 400;
 				text-transform: uppercase;
 				color: darken(white, 40%);
-				margin-bottom: .4em;
+				margin-bottom: 0;
 			}
 
 			a {
 				font-family: $serif;
-				font-weight: bold;
 				font-style: italic;
+				margin-bottom: 1em;
 				font-size: 1.6em;
+				font-weight: 400;
 			}
 		}
 	}
@@ -279,18 +313,34 @@ html {
 /* POSTSTYLES ------------------------------------------------
 ------------------------------------------------------------*/
 
-.post {
+.post-title {
+	font-style: italic;
+	margin: .25em auto 1em;
+	width: 80%;
+	text-align: center;
+}
+
+.post-content {
 	@include span-columns(12);
 
 	img { max-width :100%; }
-	p { line-height: 1.7; }
+	p {
+		line-height: 1.9;
+
+		&:first-of-type {
+			font-family: $sans-serif;
+			font-weight: 200;
+			font-size: 1.5em;
+			line-height: 1.65;
+		}
+	}
 
 	.socialcount {
 		text-align: center;
 		margin: 3em 0 4em;
 
 		> li {
-			background-color: lightslategrey;
+			background-color: cadetblue;
 		}
 	}
 }
@@ -323,7 +373,7 @@ html {
 	#container {
 		padding-top: 2em;
 		background: white;
-		margin-top: 400px;
+		margin-top: 320px;
 		padding-bottom: 50px;
 		position: relative;
 		z-index: 100;

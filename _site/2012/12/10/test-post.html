@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="">
+<body class="post">
 
   <nav role="navigation" id="mainNav">
 
@@ -71,10 +71,10 @@
 
 
 <div id="container">
-    <div class="post">
-        <h1>Test Post</h1>
+     <h1 id="fittext" class="post-title">Test Post</h1>
+    <div class="post-content">
     	
-<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod.</p>
+<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 
 <p><img alt='' class='pull' src='../../../../assets/img/me.jpg' /></p>
 
@@ -118,6 +118,10 @@
 		| <a href="#colophon">Colophon</a></small></footer>
 
  <script src="/assets/js/socialcount.js"></script>
+ <script src="/assets/js/jquery.fittext.js"></script>
+<script>
+  jQuery("#fittext").fitText(1.2, { minFontSize: '50px', maxFontSize: '100px' });
+</script>
 
 </body>
 </html>

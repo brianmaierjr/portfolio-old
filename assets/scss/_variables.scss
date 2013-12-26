@@ -1,15 +1,12 @@
-/*
+/* Font Families */
 
-font-family:'DIN Next W01';
-font-family:'Mundo Sans W01';
-font-family:'Nimrod W01';
-font-family:'PMN Caecilia eText W01';
+$condensed: 		'DIN Next W01';
+$ultra-condensed: 	'Univers W01';
+$sans-serif: 		'Mundo Sans W01';
+$serif: 			'Nimrod W01';
+$heading: 			'BT Clarendon W01';
 
-*/
 
+/* Color Palette */
 
-$condensed: 	'DIN Next W01';
-$sans-serif: 	'Mundo Sans W01';
-$serif: 		'Nimrod W01';
-$heading: 		'PMN Caecilia eText W01';
-
+$charcoal: 			lighten(black, 20%);
