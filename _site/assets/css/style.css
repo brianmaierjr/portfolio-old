@@ -845,7 +845,6 @@ html {
       width: 80%;
       margin: 0 auto; }
     html .home section .introText {
-      animation-delay: 1s;
       text-align: center; }
       html .home section .introText h1 {
         margin: 0 auto;
