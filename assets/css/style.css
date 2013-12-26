@@ -657,7 +657,7 @@ body {
     padding: 0; }
   body #container {
     clear: both;
-    padding: 100px 20px;
+    padding: 100px 20px 40px;
     overflow: hidden;
     *zoom: 1;
     max-width: 68em;
@@ -817,20 +817,30 @@ html {
         margin: 0 auto;
         line-height: 1.15;
         font-size: 2em;
-        background: cadetblue;
-        color: white;
-        padding: .25em 0; }
+        color: cadetblue; }
       html .home section .introText h2 {
         font-family: "Mundo Sans W01";
         color: #4d4d4d;
-        font-weight: 200; }
+        font-weight: 200;
+        position: relative;
+        padding-bottom: .25em; }
+        html .home section .introText h2:after {
+          display: block;
+          width: 50px;
+          content: "";
+          height: 2px;
+          background: white;
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -25px; }
       html .home section .introText h3 {
         font-family: "Nimrod W01";
         font-style: italic;
         font-size: 1.2em;
         width: 80%;
         line-height: 1.5;
-        margin: .7em auto 0; }
+        margin: .1em auto 0; }
 
 /* ARTICLES ----------------------------------------------------
 ------------------------------------------------------------*/
