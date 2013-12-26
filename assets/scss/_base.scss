@@ -239,6 +239,8 @@ footer {
 	background: white;
 	color: cadetblue;
 	padding: 1.5em;
+	position: relative;
+	z-index: 5
 
 	a {
 		color: cadetblue;

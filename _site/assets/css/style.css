@@ -822,10 +822,11 @@ footer {
   clear: both;
   background: white;
   color: cadetblue;
-  padding: 1.5em; }
-  footer a {
-    color: cadetblue;
-    text-decoration: underline; }
+  padding: 1.5em;
+  position: relative;
+  z-index: 5 a;
+    z-index-color: cadetblue;
+    z-index-text-decoration: underline; }
 
 /* HOMEPAGE ------------------------------------------------
 ------------------------------------------------------------*/
