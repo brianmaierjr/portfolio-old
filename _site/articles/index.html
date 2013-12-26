@@ -9,17 +9,20 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="Recent Posts &#8211; Brian Maier Jr.">
   <meta property="og:description" content="">
-  <meta property="og:url" content="/articles/index.html">
+  <meta property="og:url" content="http://blog.brianmaierjr.com/articles/index.html">
   <meta property="og:site_name" content="Brian Maier Jr.">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Come and get me RSS readers! -->
+  <link rel="alternate" type="application/rss+xml" title="Brian Maier Jr. | Designer & Developer" href="http://blog.brianmaierjr.com/feed.xml" />
 
   <!-- Fonts from fonts.com -->
   <script type="text/javascript" src="http://fast.fonts.net/jsapi/947e7bba-84ee-439f-8b3b-67918847d425.js"></script>
 
   <!-- For all browsers -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/socialcount.css">
+  <link rel="stylesheet" href="http://blog.brianmaierjr.com/assets/css/style.css">
+  <link rel="stylesheet" href="http://blog.brianmaierjr.com/assets/css/socialcount.css">
 
   <!-- Fresh Squeezed jQuery -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -32,37 +35,40 @@
 <body class="blog">
 
   <nav role="navigation" id="mainNav">
-
     <a href="#" class="closeBtn"><span class="icon-cross"></span></a>
-    
     <div id="navContainer">
+      <h2>Table of Contents</h2>
       <ul id="siteNav">
-        <li><a href="/">Home</a></li>
+        <li><a href="/">01. Home</a></li>
         
-            <li><a href="/about">About</a></li>
+            <li><a href="/about">02. About</a></li>
         
-            <li><a href="/articles">Articles</a></li>
+            <li><a href="/articles">03. Articles</a></li>
         
-            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/portfolio">04. Portfolio</a></li>
         
+        <li>05. Social
+          <ul class="social">
+              <li><a href=""><span class="icon-twitter"></span></a></li>
+              <li><a href=""><span class="icon-github"></span></a></li>
+              <li><a href=""><span class="icon-dribbble"></span></a></li>
+              <li><a href=""><span class="icon-linkedin"></span></a></li>
+          </ul>
+        </li>
       </ul>
     </div>
-
   </nav>
 
   <div id="colophon">
-
     <a href="#" class="closeBtn"><span class="icon-cross"></span></a>
-
     <div id="colophonContainer">
         <h2>Colophon</h2>
         <p>This site was created with Jekyll and hosted by GitHub pages. All fonts are served via fonts.com and accompanied by an Icon Font from IcoMoon. All styles were compiled using SASS + Bourbon. Semantic grid created with Bourbon Neat. </p>
       </div>
-
   </div>
 
 	<header class="animated slideInDown">
-    <h1 id="logo"><a href="/">Brian Maier Jr.</a></h1>
+    <h1 id="logo"><a href="/"> <span class="icon-logo"></span> Brian Maier Jr.</a></h1>
     <a href="#mainNav" id="menuBtn"><span class="icon-list"></span></a>
 	</header>
 
@@ -74,14 +80,16 @@
 		<ul>
 		  
 		    <li>
+
 				<p class="date">Dec 10, 2012</p>
-				<a href="/2012/12/10/test-post.html">Test Post</a>
+				<a href="/2012/12/10/test-post.html"><span class="icon-pencil"></span>  Test Post</a>
 				<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.Aenean eu leo quam. Pellentesque ornare sem lacinia...</p>
 		    </li>
 		  
 		    <li>
+
 				<p class="date">Dec 10, 2012</p>
-				<a href="/2012/12/10/another-test.html">New Year, New Setup</a>
+				<a href="/2012/12/10/another-test.html"><span class="icon-pencil"></span>  New Year, New Setup</a>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet libero non lorem interdum elementum. Duis velit massa, facilisis non mauris ut, blandit consequat justo. Donec et est vel...</p>
 		    </li>
 		  
@@ -94,10 +102,10 @@
 	<small>&copy; 2013 Brian Maier Jr. | <a href="">Steal this theme!</a>
 		| <a href="#colophon">Colophon</a></small></footer>
 
- <script src="/assets/js/socialcount.js"></script>
- <script src="/assets/js/jquery.fittext.js"></script>
+ <script src="http://blog.brianmaierjr.com/assets/js/socialcount.js"></script>
+ <script src="http://blog.brianmaierjr.com/assets/js/jquery.fittext.js"></script>
 <script>
-  jQuery("#fittext").fitText(1.2, { minFontSize: '50px', maxFontSize: '100px' });
+  jQuery("#fittext").fitText();
 </script>
 
 </body>

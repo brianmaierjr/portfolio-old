@@ -4,6 +4,6 @@ title: Brian Maier Jr. | Designer & Developer
 class: home
 ---
 
-## Hello, I'm
-<h1 id="fittext">Brian Maier Jr.</h1>
-### &amp; I craft <span>engaging interactive experiences.</span>
+<h2 class="animated slideInLeft">Hello, I'm</h2>
+<h1 class="animated fadeIn" id="fittext">Brian Maier Jr.</h1>
+<h3 class="animated fadeIn">&amp; I craft <span>engaging interactive experiences.</span></h3>

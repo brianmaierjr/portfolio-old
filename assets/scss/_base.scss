@@ -114,27 +114,57 @@ header {
 		width: 100%;
 		height: 100%;
 		background: rgba(0,0,0,.95);
-		 @include transition(all 0.2s ease-in-out);
+		@include transition(all 0.2s ease-in-out);
 
 		#navContainer {
 			display: table-cell;
 			vertical-align: middle;
 			text-align: center;
 
+
+			h2 {
+				color: white;
+				border-bottom: 3px solid $charcoal;
+				padding-bottom: .25em;
+				max-width: 80%;
+				text-align: left;
+				margin: 0 auto .5em;
+				font-size: 1.4em;
+			}
+
 			#siteNav {
+				max-width: 80%;
+				margin: 0 auto;
+				text-align: left;
+
 				li {
-					padding-bottom: .5em;
 					@include transition(all 0.2s ease-in-out);
 					list-style: none;
+					border-bottom: 2px dotted $charcoal;
+					font-style: italic;
+					color: cadetblue;
+					padding: .5em 0;
+
+					
 
 					a {
 						color: cadetblue;
-						font-size: 2.5em;
+						font-size: 1em;
 						font-family: $serif;
 						font-style: italic;
 					}
 
 					&:hover a { color: lighten(cadetblue, 10%); }
+
+					ul {
+						float: right;
+
+						li {
+							border: none;
+							display: inline;
+							font-size: 1.5em;
+						}
+					}
 				}
 			}
 		}
@@ -250,6 +280,7 @@ html {
 					line-height: 1.15;
 					font-size: 2em;
 					color: cadetblue;
+					animation-delay: 1.8s;
 				}
 
 				h2 {
@@ -258,6 +289,8 @@ html {
 					font-weight: 200;
 					position: relative;
 					padding-bottom: .25em;
+					font-size: 1.8em;
+					animation-delay: 1.2s;
 
 					&:after {
 						display: block;
@@ -279,6 +312,7 @@ html {
 					width: 80%;
 					line-height: 1.5;
 					margin: .1em auto 0;
+					animation-delay: 1.8s;
 				}
 			}
 		}
@@ -328,7 +362,7 @@ html {
 .post-title {
 	font-style: italic;
 	margin: .25em auto 1em;
-	width: 80%;
+	width: 90%;
 	text-align: center;
 }
 
@@ -363,6 +397,7 @@ html {
 	z-index: 1;
 	display: block;
 	background-size: cover;
+	background-position: center;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -404,3 +439,23 @@ html {
 	}
 }
 
+
+/* ABOUT ------------------------------------------------
+------------------------------------------------------------*/
+
+.about {
+	.content {
+		h1 { font-size: 2em; }
+		h4 { font-style: italic; }
+	}
+
+	.social {
+		a {
+			font-size: 1.6em;
+
+			&:hover {
+				color: darken(cadetblue, 40%);
+			}
+		}
+	}
+}

@@ -3,6 +3,10 @@ description:      Louisville Web Design by Brian Maier Jr.
 #Comment out url when working locally to resolve base urls correctly
 #url: http://blog.brianmaierjr.com
 
+# For XML Feed
+name: Brian Maier Jr. | Designer & Developer
+description: Tales from a midwest designer / dad / musician / idiot
+url: http://blog.brianmaierjr.com
 
 # Stop auto generated id's on headings
 kramdown:
@@ -18,11 +22,11 @@ owner:
 
 # Links to include in top navigation
 links:
-  - title: About
+  - title: 02. About
     url: /about
-  - title: Articles
+  - title: 03. Articles
     url: /articles
-  - title: Portfolio
+  - title: 04. Portfolio
     url: /portfolio
 
 # Links to include in top navigation for social Media
