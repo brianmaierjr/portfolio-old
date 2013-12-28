@@ -834,6 +834,10 @@ footer {
   footer a {
     color: cadetblue;
     text-decoration: underline; }
+  footer .social {
+    margin-top: 1em; }
+    footer .social a {
+      text-decoration: none; }
 
 /* HOMEPAGE ------------------------------------------------
 ------------------------------------------------------------*/
@@ -952,7 +956,7 @@ html {
       background-color: cadetblue; }
 
 .featured-image {
-  min-height: 400px;
+  min-height: 200px;
   width: 100%;
   z-index: 1;
   display: block;
@@ -962,17 +966,13 @@ html {
   top: 0;
   left: 0; }
 
-.featured-color {
-  min-height: 400px;
-  display: block; }
-
 /* POST WITH AN IMAGE */
 .post-image header {
   z-index: 200; }
 .post-image #container {
   padding-top: 2em;
   background: white;
-  margin-top: 320px;
+  margin-top: 200px;
   padding-bottom: 50px;
   position: relative;
   z-index: 100;
@@ -1070,7 +1070,21 @@ you can add resource intensive styles.
   /* ABOUT ------------------------------------------------
   ------------------------------------------------------------*/
   .about .content h1 {
-    font-size: 3.33333em; } }
+    font-size: 3.33333em; }
+
+  /* POSTSTYLES ------------------------------------------------
+  ------------------------------------------------------------*/
+  /* Post with an image */
+  .post-image #container {
+    margin-top: 400px; }
+  .post-image .featured-image {
+    min-height: 400px; }
+
+  /* FOOTER ------------------------------------------------
+  ------------------------------------------------------------*/
+  footer .social {
+    float: right;
+    margin-top: 0; } }
 /*
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and

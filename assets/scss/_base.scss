@@ -244,6 +244,12 @@ footer {
 		color: cadetblue;
 		text-decoration: underline;
 	}
+
+	.social {
+		margin-top: 1em;
+
+		a { text-decoration: none; }
+	}
 }
 
 
@@ -405,7 +411,7 @@ html {
 }
 
 .featured-image {
-	min-height: 400px;
+	min-height: 200px;
 	width: 100%;
 	z-index: 1;
 	display: block;
@@ -414,11 +420,6 @@ html {
 	position: fixed;
 	top: 0;
 	left: 0;
-}
-
-.featured-color {
-	min-height: 400px;
-	display: block;
 }
 
 
@@ -433,7 +434,7 @@ html {
 	#container {
 		padding-top: 2em;
 		background: white;
-		margin-top: 320px;
+		margin-top: 200px;
 		padding-bottom: 50px;
 		position: relative;
 		z-index: 100;
