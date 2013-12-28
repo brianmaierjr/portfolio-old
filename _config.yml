@@ -1,12 +1,11 @@
 title:            Brian Maier Jr.
 description:      Louisville Web Design by Brian Maier Jr.
 #Comment out url when working locally to resolve base urls correctly
-#url: http://blog.brianmaierjr.com
+# url: http://blog.brianmaierjr.com
 
 # For XML Feed
 name: Brian Maier Jr. | Designer & Developer
 description: Tales from a midwest designer / dad / musician / idiot
-url: http://blog.brianmaierjr.com
 
 # Stop auto generated id's on headings
 kramdown:

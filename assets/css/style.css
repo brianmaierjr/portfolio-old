@@ -837,7 +837,7 @@ html {
   html .home {
     height: 100%;
     width: 100%;
-    background: url("../img/home.jpg") center;
+    background: url("../img/home-small.jpg") center;
     background-size: cover; }
     html .home header {
       position: absolute;
@@ -1014,6 +1014,14 @@ you can add resource intensive styles.
     max-width: 600px; }
   #mainNav #navContainer #siteNav {
     max-width: 600px; }
+    #mainNav #navContainer #siteNav li {
+      font-size: 2em; }
+    #mainNav #navContainer #siteNav .social {
+      margin-top: -.15em; }
+      #mainNav #navContainer #siteNav .social li {
+        font-size: 1.5em; }
+        #mainNav #navContainer #siteNav .social li:hover span {
+          color: white; }
 
   /* BLOG INDEX ------------------------------------------------
   ------------------------------------------------------------*/
@@ -1043,12 +1051,15 @@ you can add resource intensive styles.
 
   /* HOME ------------------------------------------------
   ------------------------------------------------------------*/
-  html .home .intro .introText h1 {
-    font-size: 6em; }
-  html .home .intro .introText h2 {
-    font-size: 2.66667em; }
-  html .home .intro .introText h3 {
-    font-size: 1.75em; }
+  html .home {
+    background: url("../img/home-big.jpg") center;
+    background-size: cover; }
+    html .home .intro .introText h1 {
+      font-size: 6em; }
+    html .home .intro .introText h2 {
+      font-size: 2.66667em; }
+    html .home .intro .introText h3 {
+      font-size: 1.75em; }
 
   /* ABOUT ------------------------------------------------
   ------------------------------------------------------------*/
@@ -1064,6 +1075,32 @@ you can add resource intensive styles.
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 */
+/*
+VERTICAL MEDIA QUERY
+This is for nav menu
+*/
+@media only screen and (max-height: 600px) {
+  #mainNav #navContainer #siteNav li {
+    font-size: 1em; }
+
+  #mainNav #navContainer h2 {
+    font-size: 2em; } }
+/*
+PORTRAIT LANDSCAPE
+This is for portrait landscapes
+*/
+@media only screen and (orientation: portrait) {
+  .home {
+    background: url("../img/home-vertical-small.jpg") center;
+    background-size: cover; } }
+/*
+PORTRAIT LANDSCAPE LARGE SCREENS
+This is for portrait landscapes
+*/
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .home {
+    background: url("../img/home-vertical-big.jpg") center;
+    background-size: cover; } }
 /*
 PRINT STYLESHEET
 Feel free to customize this. Remember to add things that won't make

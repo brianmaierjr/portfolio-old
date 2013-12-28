@@ -8,7 +8,23 @@
 			max-width: 600px;
 		}
 
-		#siteNav { max-width: 600px; }
+		#siteNav {
+			max-width: 600px;
+
+			li {
+				font-size: 2em;
+			}
+
+			.social {
+				margin-top: -.15em;
+
+				li {
+					font-size: 1.5em;
+
+					&:hover span { color: white; }
+				}
+			}
+		}
 	}
 }
 
@@ -47,6 +63,9 @@
 
 html {
 	.home {
+		background: url('../img/home-big.jpg') center;
+		background-size: cover;
+
 		.intro {
 			.introText {
 				h1 { font-size: 6em; }

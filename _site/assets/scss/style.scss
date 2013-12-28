@@ -79,6 +79,42 @@ This is for the larger monitors and possibly full screen viewers.
 
 
 /*
+VERTICAL MEDIA QUERY
+This is for nav menu
+*/
+
+@media only screen and (max-height: 600px) {
+	#mainNav #navContainer #siteNav li { font-size: 1em; }
+	#mainNav #navContainer h2 { font-size: 2em; }
+}
+
+
+/*
+PORTRAIT LANDSCAPE
+This is for portrait landscapes
+*/
+
+@media only screen and (orientation: portrait) {
+	.home {
+		background: url('../img/home-vertical-small.jpg') center;
+		background-size: cover;
+	}
+}
+
+
+/*
+PORTRAIT LANDSCAPE LARGE SCREENS
+This is for portrait landscapes
+*/
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+	.home {
+		background: url('../img/home-vertical-big.jpg') center;
+		background-size: cover;
+	}
+}
+
+/*
 PRINT STYLESHEET
 Feel free to customize this. Remember to add things that won't make
 sense to print at the bottom. Things like nav, ads, and forms should
