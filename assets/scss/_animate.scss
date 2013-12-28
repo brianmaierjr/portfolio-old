@@ -41,9 +41,6 @@
 }
 
 .slideInLeft {
-	-webkit-animation-name: slideInLeft;
-	-moz-animation-name: slideInLeft;
-	-o-animation-name: slideInLeft;
 	animation-name: slideInLeft;
 }
 
@@ -61,9 +58,6 @@
 
 .slideInDown {
         animation-name: slideInDown;
-        -webkit-animation-name: slideInDown;
-		-moz-animation-name: slideInDown;
-		-o-animation-name: slideInDown;
 }
 
 
@@ -74,8 +68,5 @@
 
 .fadeIn {
         animation-name: fadeIn;
-		-webkit-animation-name: fadeIn;
-		-moz-animation-name: fadeIn;
-		-o-animation-name: fadeIn;
 }
 

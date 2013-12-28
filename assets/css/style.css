@@ -593,9 +593,6 @@ p + .drop-cap {
     transform: translateX(0); } }
 
 .slideInLeft {
-  -webkit-animation-name: slideInLeft;
-  -moz-animation-name: slideInLeft;
-  -o-animation-name: slideInLeft;
   animation-name: slideInLeft; }
 
 @keyframes slideInDown {
@@ -607,10 +604,7 @@ p + .drop-cap {
     transform: translateY(0); } }
 
 .slideInDown {
-  animation-name: slideInDown;
-  -webkit-animation-name: slideInDown;
-  -moz-animation-name: slideInDown;
-  -o-animation-name: slideInDown; }
+  animation-name: slideInDown; }
 
 @keyframes fadeIn {
   0% {
@@ -620,10 +614,7 @@ p + .drop-cap {
     opacity: 1; } }
 
 .fadeIn {
-  animation-name: fadeIn;
-  -webkit-animation-name: fadeIn;
-  -moz-animation-name: fadeIn;
-  -o-animation-name: fadeIn; }
+  animation-name: fadeIn; }
 
 /* Variables */
 /* Font Families */
