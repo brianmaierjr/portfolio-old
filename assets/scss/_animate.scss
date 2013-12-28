@@ -61,6 +61,9 @@
 
 .slideInDown {
         animation-name: slideInDown;
+        -webkit-animation-name: slideInDown;
+		-moz-animation-name: slideInDown;
+		-o-animation-name: slideInDown;
 }
 
 

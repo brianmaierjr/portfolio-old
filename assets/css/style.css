@@ -607,7 +607,10 @@ p + .drop-cap {
     transform: translateY(0); } }
 
 .slideInDown {
-  animation-name: slideInDown; }
+  animation-name: slideInDown;
+  -webkit-animation-name: slideInDown;
+  -moz-animation-name: slideInDown;
+  -o-animation-name: slideInDown; }
 
 @keyframes fadeIn {
   0% {
