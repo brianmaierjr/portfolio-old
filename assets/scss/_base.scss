@@ -240,7 +240,7 @@ footer {
 	color: cadetblue;
 	padding: 1.5em;
 	position: relative;
-	z-index: 5
+	z-index: 5;
 
 	a {
 		color: cadetblue;
@@ -365,6 +365,20 @@ html {
 	margin: .25em auto 1em;
 	width: 90%;
 	text-align: center;
+	position: relative;
+	color: pink;
+
+	&:after {
+		display: block;
+		width: 50px;
+		content: "";
+		height: 2px;
+		background: cadetblue;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -25px;
+	}
 }
 
 .post-content {
