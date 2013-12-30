@@ -5,17 +5,17 @@ MAIN STYLE SHEET
 /* Normalize that ish */
 @import 'normalize';
 
-/* Typeplate 
-@import 'typeplate'; */
+/* Variables */
+@import 'variables';
+
+/* Typography */
+@import 'typography';
 
 /* Icons vis IcoMoon */
 @import 'icomoon';
 
 /* CSS Animations from https://daneden.me/animate/ */
 @import 'animate';
-
-/* Variables */
-@import 'variables';
 
 /* Bourbon */
 @import 'bourbon/bourbon';

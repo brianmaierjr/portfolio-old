@@ -1,0 +1,36 @@
+/*
+Typography - based on Modular Scale and uses rems to up font size at each break point
+
+http://modularscale.com/scale/?px1=18&px2=780&ra1=1.5&ra2=0
+
+*/
+
+
+html {
+	font-size: 100%; /* 16px */
+}
+
+body {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-family: $serif;
+	color: $charcoal;
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $serif;
+		font-weight: 700;
+	}
+
+	h1 { font-size: 2.853rem; }
+	h2 { font-size: 2.531rem; }
+	h3 { font-size: 1.902rem; }
+	h4 { font-size: 1.688rem; }
+	h5 { font-size: 1.268rem; }
+	h6 { font-size: 1.125rem; }
+
+	p {
+		color: $charcoal;
+	}
+}
+
+

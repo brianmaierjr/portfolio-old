@@ -6,8 +6,8 @@
 		<ul>
 		  {% for post in site.posts %}
 		    <li>
-				<p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
 				<a href="{{ post.url }}">{{ post.title }}</a>
+				<p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
 				<p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 200 }}{% endif %}</p>
 		    </li>
 		  {% endfor %}
