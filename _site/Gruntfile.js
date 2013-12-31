@@ -61,7 +61,7 @@ module.exports = function(grunt) {
                     'assets/css/style.css': 'assets/scss/style.scss'
                 }
             }
-        }
+        } 
 
     });
 
@@ -74,5 +74,7 @@ module.exports = function(grunt) {
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
+
+    grunt.registerTask('dev', ['watch']);
 
 };
