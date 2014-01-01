@@ -21,15 +21,41 @@ body {
 		font-weight: 700;
 	}
 
-	h1 { font-size: 2.853rem; }
-	h2 { font-size: 2.531rem; }
-	h3 { font-size: 1.902rem; }
-	h4 { font-size: 1.688rem; }
-	h5 { font-size: 1.268rem; }
-	h6 { font-size: 1.125rem; }
+	h1 {
+		font-size: 2.853rem; 
+		margin: 1em 0 .5em;
+		line-height: 1.5em;
+	}
+
+	h2 {
+		font-size: 2.531rem;
+		margin: 1.1261em 0 .3754em;
+		line-height: .7507em;
+	}
+	h3 {
+		font-size: 1.902rem; /* 38 */
+		margin: 1em 0 .5em;
+		line-height: 1.5em;
+	}
+	h4 {
+		font-size: 1.688rem;
+		margin: 1.6881em 0 .5627em;
+		line-height: 1.1253em;
+	}
+	h5 {
+		font-size: 1.268rem;
+		margin: 2.2470em 0 .749em;
+		line-height: 1.4980em;
+	}
+	h6 {
+		font-size: 1.125rem;
+		margin: 2.5333em 0 .8444em;
+		line-height: 1.6889em;
+	}
 
 	p {
 		color: $charcoal;
+		margin: 0 0 1em;
 	}
 }
 

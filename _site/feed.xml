@@ -27,8 +27,8 @@
 &lt;p&gt;Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&lt;/p&gt;
 </description>
 				<pubDate>Mon, 10 Dec 2012 00:00:00 -0500</pubDate>
-				<link>//2012/12/10/test-post.html</link>
-				<guid isPermaLink="true">//2012/12/10/test-post.html</guid>
+				<link>//test-post</link>
+				<guid isPermaLink="true">//test-post</guid>
 			</item>
 		
 			<item>
@@ -48,8 +48,8 @@
 &lt;p&gt;Curabitur in auctor nibh. Ut sit amet felis interdum, sollicitudin dui eget, rhoncus dui. Morbi dictum vehicula est non egestas. Duis nec justo sodales, pulvinar eros sagittis, tempor nunc. Curabitur ac pharetra tellus. Ut scelerisque, eros quis mattis venenatis, eros augue iaculis odio, at dignissim risus massa non magna. Proin fringilla lobortis laoreet. Quisque porttitor, ante sit amet tempor sodales, nunc nisl rutrum mauris, non auctor magna urna sit amet ante. Duis scelerisque dui et tristique vestibulum. Aliquam egestas lacinia nulla adipiscing placerat. Cras malesuada pulvinar fermentum. In convallis consequat velit. Quisque enim leo, placerat nec libero vitae, ullamcorper molestie lectus. Ut elementum nulla enim, nec varius turpis bibendum ac. &lt;/p&gt;
 </description>
 				<pubDate>Mon, 10 Dec 2012 00:00:00 -0500</pubDate>
-				<link>//2012/12/10/another-test.html</link>
-				<guid isPermaLink="true">//2012/12/10/another-test.html</guid>
+				<link>//another-test</link>
+				<guid isPermaLink="true">//another-test</guid>
 			</item>
 		
 	</channel>

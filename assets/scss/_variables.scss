@@ -1,10 +1,31 @@
 /* Font Families */
 
-$sans-serif: 			'Univers W01', Impact, sans-serif;
+$sans-serif: 		'Univers W01', Impact, sans-serif;
 $serif: 			'Nimrod W01', Georgia, serif;
-$heading: 			'BT Clarendon W01', slab-serif;
 
 
 /* Color Palette */
 
 $charcoal: 			lighten(black, 20%);
+
+
+/* Button Mixin */
+
+@mixin button-outline() {
+	display: inline-block;
+	font-family: $sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: tomato;
+	background: white;
+	border: 3px solid tomato;
+	border-radius: 3px;
+	padding: .5em 1em;
+	@include transition(background .2s ease-in-out);
+
+	&:hover {
+		color: white;
+		background: tomato;
+		text-decoration: none;
+	}
+}

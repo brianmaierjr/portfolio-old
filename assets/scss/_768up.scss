@@ -123,8 +123,28 @@ html {
 ------------------------------------------------------------*/
 
 footer {
-	.social {
-		float: right; 
-		margin-top: 0;
+	.copyright {
+		@include span-columns(3);
+
+		.social {
+			float: left; 
+			margin-top: .5em;
+		}
+	}
+
+	.colophon {
+		@include span-columns(9); 
+	}
+}
+
+
+/* PORTFOLIO INDEX ------------------------------------------------
+------------------------------------------------------------*/
+
+.portfolio {
+	.project {
+		.projectLeft {
+			p { display: block; }
+		}
 	}
 }
