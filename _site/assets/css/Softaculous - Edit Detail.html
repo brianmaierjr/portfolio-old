@@ -1,0 +1,767 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="softaculous, software">
+	<title>Softaculous - Edit Detail</title>
+	<link rel="stylesheet" type="text/css" href="Softaculous%20-%20Edit%20Detail_files/style.css">
+	<link rel="shortcut icon" href="http://localhost/ampps/themes/default/images//ampps/favicon.ico">
+	<script language="javascript" src="Softaculous%20-%20Edit%20Detail_files/combined.js" type="text/javascript"></script>
+	<script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script></head>
+	<body onload="bodyonload();"><div id="loading_soft" class="loading_soft">
+			<img src="Softaculous%20-%20Edit%20Detail_files/fb_loader.gif" alt="Loading...">
+		</div><table class="docktable" border="0" cellpadding="0" cellspacing="0" width="100%">	
+		<tbody><tr>
+			<td align="left" valign="middle" width="440">
+			<a href="http://localhost/ampps/index.php?"><img src="Softaculous%20-%20Edit%20Detail_files/header.jpg" alt=""></a>
+			</td>
+			<td>&nbsp;</td>
+			
+			<td style="padding:8px" align="right" valign="top" width="280">
+			
+<ul style="height: 48px; width: 240px;" id="dock" class="dock">
+
+<li><a href="http://localhost/ampps/index.php?"><img style="left: 0px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/home.gif" alt="" tooltip="Softaculous Home"></a></li>
+<li><a href="http://localhost/ampps/index.php?act=demos"><img style="left: 29px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/demos.gif" alt="" tooltip="Script Demos"></a></li><li><a href="http://localhost/ampps/index.php?act=ratings"><img style="left: 59px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/ratings.gif" alt="" tooltip="Script Ratings"></a></li>
+<li><a href="http://localhost/ampps/index.php?act=installations"><img style="left: 89px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/installations.gif" alt="" tooltip="All Installations"></a></li>
+<li><a href="http://localhost/ampps/index.php?act=eu_tasklist"><img style="left: 119px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/tasklist.png" alt="" tooltip="Task List"></a></li>
+<li><a href="http://localhost/ampps/index.php?act=settings"><img style="left: 149px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/settings.gif" alt="" tooltip="Edit Settings"></a></li><li><a href="http://localhost/ampps/index.php?act=backups"><img style="left: 179px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/backups.gif" alt="" tooltip="Backups and Restore"></a></li> 
+<li><a href="http://localhost/ampps/index.php?act=email"><img style="left: 209px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/emails.gif" alt="" tooltip="Email Settings"></a></li>
+<li><a href="http://localhost/ampps/index.php?act=help"><img style="left: 239px; top: 17px; width: 30px; height: 30px;" src="Softaculous%20-%20Edit%20Detail_files/help.gif" alt="" tooltip="Help and Support"></a></li>
+</ul>
+<span id="dock_titler" style="visibility:hidden; position:absolute; top:0px; left:0px; border:1px solid #DEDCD1; background-color:#FFFFFF; text-align:left; padding: 1px; width:auto; white-space:nowrap;"></span>
+<script language="javascript" type="text/javascript"><!-- // --><![CDATA[
+softdock = new dock();
+softdock.min = 30;
+softdock.max = 50;
+softdock.init();
+
+function checksearchform(){
+	if($_("inputString").value == ""){
+		return false;
+	}else{
+		return true;
+	}
+};
+
+function goto_panel(){
+		
+	var str = window.location; 	
+	
+	var port_find = str.toString().search('2003'); 	
+
+	if(port_find < 1){		
+		var str_url = str.toString().replace("2002", "2004");
+	}else{
+		var str_url = str.toString().replace("2003", "2005");
+	}
+	
+	window.location = str_url;
+}
+
+function set_pheader(){
+	var cur_status = getcookie("pheader");
+	if(cur_status == "no"){
+		setcookie("pheader","yes",365);
+	}else{
+		removecookie("pheader");
+		setcookie("pheader","no",365);
+	}
+	//alert(getcookie("pheader"));
+	window.location.href = window.location;
+}
+
+$(document).ready(function(){
+	
+});
+
+// ]]></script>
+
+			</td>			
+		</tr>	
+	</tbody></table><table border="0" cellpadding="0" cellspacing="0" height="35" width="100%">	
+	<tbody><tr>
+		<td align="right" width="5">&nbsp;</td>
+		<td align="right" width="10"><img src="Softaculous%20-%20Edit%20Detail_files/leftheader.gif" alt=""></td>
+		<td class="header headtd" align="left" width="60">
+		<a href="http://localhost/ampps/index.php?"><img src="Softaculous%20-%20Edit%20Detail_files/home_bar.gif" alt="Softaculous Home"></a>
+		</td>
+		
+		<td class="header" align="left">&nbsp;&nbsp;&nbsp; Scripts : &nbsp; <a href="http://localhost/ampps/index.php?ind=php" style="font-size:15px">PHP</a>&nbsp; <a href="http://localhost/ampps/index.php?ind=js">JavaScripts</a>&nbsp; <a href="http://localhost/ampps/index.php?ind=perl">PERL</a>&nbsp; <a href="http://localhost/ampps/index.php?ind=classes">Classes</a></td><td class="header" align="right"> 
+		Welcome soft [<a href="http://localhost/ampps/index.php?act=logout">Logout</a>] &nbsp; &nbsp;	
+		</td>	
+		
+		<td class="header search" align="left" valign="middle" width="168">
+			<form accept-charset="UTF-8" name="search" method="post" action="index.php?act=search&amp;smode=php" onsubmit="return checksearchform();" id="searchform">
+			<input name="inputString" id="inputString" style="border:none" class="search_box" onfocus="suggestjs.show(0, this.id);" value="Search" onkeyup="suggestjs.myKeyDownHandler(event, this.value);" autocomplete="off" onblur="suggestjs.show(1);" sugurl="index.php?&amp;act=suggest&amp;smode=php" mode="php" type="text">
+			<input name="hidden_cid" id="hidden_cid" type="hidden">
+			<div id="suggestions" class="suggestions" style="position:absolute;width:200px;left:0px; top:0px; display:none;"></div>
+			</form>			
+		</td>
+		
+		<td align="left" width="10"><img src="Softaculous%20-%20Edit%20Detail_files/rightheader.gif" alt=""></td>
+		<td align="left" width="5">&nbsp;</td>
+	</tr>	
+	</tbody></table>
+	<br><table class="softwares" border="0" cellpadding="8" cellspacing="0" width="100%">	
+	<tbody><tr>
+		<td class="softmenu" align="left" valign="top" width="220"><script language="javascript" type="text/javascript"><!-- // --><![CDATA[
+			imgurl = "themes/default/images/";
+			softmenu = new slider();
+			if(!isIE){
+				softmenu.speed = 5;
+			}
+			softmenu.elements = new Array('catblogs', 'catmicroblogs', 'catcms', 'catforums', 'catgalleries', 'catwikis', 'catsocialnetworking', 'catadmanager', 'catcalendars', 'catgames', 'catmail', 'catpolls', 'catprojectman', 'catecommerce', 'caterp', 'catguestbooks', 'catcustomersupport', 'catframeworks', 'cateducational', 'catdbtools', 'catmusic', 'catvideo', 'catrss', 'catfiles', 'catothers');
+			softmenu.expanded = new Array("catlibraries");
+			//addonload('softmenu.init();');
+			
+			timers = new Object();
+			
+			function incwidth(elid, to, inc){
+				eleid = "shift_"+elid;
+				clearTimeout(timers[eleid]);
+				current = parseInt($_(eleid).width);
+				tobecome = current + inc;
+				if(tobecome >= to){
+					tobecome = to;
+				}
+				$_(eleid).width = tobecome;
+				r = parseInt(255 - current*2);
+				g = parseInt(255 - current);
+				$_("tab_"+elid).style.backgroundColor = "rgb("+r+", "+g+", 255)";
+				
+				if(tobecome < to){
+					timers[eleid] = setTimeout("incwidth(\""+elid+"\", "+to+", "+inc+")", 20);
+				}
+			};
+			
+			function decwidth(elid, to, dec){
+				eleid = "shift_"+elid;
+				clearTimeout(timers[eleid]);
+				current = parseInt($_(eleid).width);
+				tobecome = current - dec;
+				if(tobecome < to){
+					tobecome = to;
+				}
+				$_(eleid).width = tobecome;
+				r = parseInt(255 - current*2);
+				g = parseInt(255 - current);
+				$_("tab_"+elid).style.backgroundColor = "rgb("+r+", "+g+", 255)";
+				
+				if(tobecome > to){
+					timers[eleid] = setTimeout("decwidth(\""+elid+"\", "+to+", "+dec+")", 20);
+				}else{
+					$_("tab_"+elid).style.backgroundColor = "rgb(255, 255, 255)";
+				}		
+			};
+			
+			function ajax_listsoftware(str_id){
+				
+				$("#softcontent").fadeOut(0);
+				$_("loading_soft").style.top = (scrolledy()+250)+"px";
+				$("#loading_soft").show();
+				
+				$("#softcontent").load("index.php?act=listsoftwares&cat="+str_id+"&jsnohf=1", 
+					function(){
+						$("#loading_soft").hide();
+						$("#softcontent").fadeIn(300);
+					}
+				);
+				
+				window.location.hash = "!act=listsoftwares&cat="+str_id;
+			}
+			
+		// ]]></script>
+		
+<div id="softmenu"><table id="tab_php_blogs" onmouseout="decwidth('php_blogs', 1, 1)" onmouseover="incwidth('php_blogs', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_blogs" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=blogs" onclick="softmenu.expand('catblogs'); ajax_listsoftware('blogs'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_blogs.gif" alt="">&nbsp;&nbsp;Blogs</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catblogs')"><img id="icatblogs" src="Softaculous%20-%20Edit%20Detail_files/expanded.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 350px;" id="catblogs" class="cathide">
+				<div id="tcatblogs" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=3" class="softlinkscurrent" title="PHP-powered, flexible Blogging/CMS application">Serendipity</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=11" class="softlinkscurrent" title="Kick-ass Blog application built using the CodeIgniter PHP Framework">Open Blog</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=14" class="softlinkscurrent" title="b2evolution is a powerful blog tool">b2evolution</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=15" class="softlinkscurrent" title="LifeType is an open-source blogging platform with support for multiple blogs and users in a single installation">LifeType</a><span class="softlinkscurrent"><a href="http://localhost/ampps/index.php?act=software&amp;soft=26" class="softlinkscurrent" title="WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.">WordPress</a></span><a href="http://localhost/ampps/index.php?act=software&amp;soft=33" class="softlinkscurrent" title="Nucleus CMS is a flexible and easy to install content management system, aka blog software.">Nucleus</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=34" class="softlinkscurrent" title="Dotclear is an open-source web publishing software">Dotclear</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=35" class="softlinkscurrent" title="Textpattern is a flexible, elegant and easy-to-use content management system.">Textpattern</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=110" class="softlinkscurrent" title="eggBlog is the free php &amp; mysql blog software package">eggBlog</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=140" class="softlinkscurrent" title="The Small, Simple, Site Maker">Pixie</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=306" class="softlinkscurrent" title="PivotX is free software to help you maintain dynamic sites such as weblogs, online journals and other frequently updated websites in general.">PivotX</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=359" class="softlinkscurrent" title="Chyrp is a blogging engine designed to be very lightweight while retaining functionality.">Chyrp</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=411" class="softlinkscurrent" title="Nibbleblog Easy, fast and free CMS Blog">Nibbleblog</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=470" class="softlinkscurrent" title="Ghost is an Open Source application which allows you to write and publish your own blog">Ghost</a></div>
+			</div><table id="tab_php_microblogs" onmouseout="decwidth('php_microblogs', 1, 1)" onmouseover="incwidth('php_microblogs', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_microblogs" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=microblogs" onclick="softmenu.expand('catmicroblogs'); ajax_listsoftware('microblogs'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_microblogs.gif" alt="">&nbsp;&nbsp;Micro Blogs</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catmicroblogs')"><img id="icatmicroblogs" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catmicroblogs" class="cathide">
+				<div id="tcatmicroblogs" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=183" class="softlinkscurrent" title="StatusNet is the open source microblogging platform">StatusNet</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=290" class="softlinkscurrent" title="PageCookery is the first public offering of single-user version of the open source microblogging program.">PageCookery</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=340" class="softlinkscurrent" title="Sharetronix is the world's favorite opensource microblogging platform.">Sharetronix</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=357" class="softlinkscurrent" title="Storyltr offers a single touch point for your online life in your own style.">Storytlr</a></div>
+			</div><table id="tab_php_cms" onmouseout="decwidth('php_cms', 1, 1)" onmouseover="incwidth('php_cms', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_cms" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=cms" onclick="softmenu.expand('catcms'); ajax_listsoftware('cms'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_cms.gif" alt="">&nbsp;&nbsp;Portals/CMS</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catcms')"><img id="icatcms" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catcms" class="cathide">
+				<div id="tcatcms" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=1" class="softlinkscurrent" title="Zikula is a Web Application Toolkit, which allows you to run impressive websites and build powerful online applications.">Zikula</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=5" class="softlinkscurrent" title="Xoops is an easy to use dynamic web content management system written in PHP">Xoops</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=6" class="softlinkscurrent" title="ocPortal is the website Content Management System (a CMS) for building and maintaining a dynamic website.">ocPortal</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=21" class="softlinkscurrent" title="Website Baker is a PHP-based Content Management System">Website Baker</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=22" class="softlinkscurrent" title="sNews is extremely lightweight, simple and customizable">sNews</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=24" class="softlinkscurrent" title="Geeklog is a PHP/MySQL based application for managing dynamic web content.">Geeklog</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=30" class="softlinkscurrent" title="Drupal is an open source content management platform">Drupal</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=31" class="softlinkscurrent" title="Mambo is a full-featured content management system">Mambo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=32" class="softlinkscurrent" title="It is a CMS that integrates in its inside all the instruments that are used to create, in a broad sense, an information portal.">PHP-Nuke</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=96" class="softlinkscurrent" title="Pligg is an open source Content Management System">Pligg</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=109" class="softlinkscurrent" title="MODx helps you take control of your online content.">MODx</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=145" class="softlinkscurrent" title="e107 is a content management system written in PHP and MySQL">e107</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=174" class="softlinkscurrent" title="Concrete5 makes running a website easy.">Concrete5</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=175" class="softlinkscurrent" title="phpwcms is a robust and simple but yet powerful web based content management system">phpwcms</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=247" class="softlinkscurrent" title="CMS Made Simple provides a fast and easy way to create a professional web site">CMS Made Simple</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=267" class="softlinkscurrent" title="Contao is an open source content management system (CMS) for people who want a professional internet presence that is easy to maintain.">Contao</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=287" class="softlinkscurrent" title="SilverStripe CMS is an open source web content management system used by governments, businesses, and non-profit organisations around the world.">SilverStripe</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=289" class="softlinkscurrent" title="PyroCMS is an open source, object oriented content management system built using PHP5 and CodeIgniter.">PyroCMS</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=293" class="softlinkscurrent" title="Redaxscript is a free, PHP and MySQL driven content management system for small business and private websites. Its extremely lightweight, simple and customizable.">Redaxscript</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=308" class="softlinkscurrent" title="PHP-Fusion is a light-weight open-source content management system (CMS) written in PHP 5.">PHP-Fusion</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=335" class="softlinkscurrent" title="Silex is a free and open source software that allows to create Flash and Html websites directly in the browser without writing code.">Silex</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=336" class="softlinkscurrent" title="Saurus is Free, Open Source Software for Building and Managing Websites.">Saurus</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=339" class="softlinkscurrent" title="jCore is a free and open source content management system (CMS) written in PHP.">jCore</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=354" class="softlinkscurrent" title="Fork is an open source CMS that will rock your world.">Fork</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=367" class="softlinkscurrent" title="Mahara is an open source e-portfolio system with a flexible display framework.">Mahara</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=379" class="softlinkscurrent" title="Tribiq CMS is a browser-based, multilingual content management system.">Tribiq</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=381" class="softlinkscurrent" title="ImpressCMS is a community developed Content Management System for easily building and maintaining a dynamic web site.">ImpressCMS</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=382" class="softlinkscurrent" title="TYPO3 is a free Open Source content management system for enterprise purposes">Typo3</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=386" class="softlinkscurrent" title="Easy to customize and use content management system. CMS gives possiblity to add unique design to every page.">Quick.CMS</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=390" class="softlinkscurrent" title="ImpressPages is user friendly software. Its tools enable user to manage the content of website in a convenient way.">ImpressPages</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=391" class="softlinkscurrent" title="Pluck is your small and simple content management system, written in php. With pluck, you can easily manage your own website without knowledge of programming languages.">Pluck</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=400" class="softlinkscurrent" title="BIGACE is a free and professional grade software package that allows you to set up your own website within minutes.">BIGACE</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=408" class="softlinkscurrent" title="Subrion CMS is a stand-alone PHP content management system that is very easy to use.">Subrion</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=413" class="softlinkscurrent" title="Joomla is an award-winning CMS, which enables you to build Web sites and powerful online applications.">Joomla</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=420" class="softlinkscurrent" title="Pimcore is an open source CMS that will rock your world.">Pimcore</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=430" class="softlinkscurrent" title="Monstra is a fast and small content management system written in PHP!">Monstra</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=433" class="softlinkscurrent" title="TikiWiki (Tiki) is your Groupware/CMS (Content Management System) solution">Tiki Wiki CMS Groupware</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=438" class="softlinkscurrent" title="Bolt Sophisticated, lightweight and simple CMS.">Bolt</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=443" class="softlinkscurrent" title="Croogo is a free, open source, content management system for PHP, released under The MIT License.">Croogo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=445" class="softlinkscurrent" title="Open Real Estate s a free software for building websites of real estate agencies and realtors.">Open Real Estate</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=474" class="softlinkscurrent" title="Sitemagic CMS is a lightweight yet very capable Content Management System.">Sitemagic CMS</a></div>
+			</div><table id="tab_php_forums" onmouseout="decwidth('php_forums', 1, 1)" onmouseover="incwidth('php_forums', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_forums" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=forums" onclick="softmenu.expand('catforums'); ajax_listsoftware('forums'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_forums.gif" alt="">&nbsp;&nbsp;Forums</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catforums')"><img id="icatforums" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catforums" class="cathide">
+				<div id="tcatforums" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=2" class="softlinkscurrent" title="The most widely used Open Source forum solution
+">phpBB</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=8" class="softlinkscurrent" title="AEF - Advanced Electron Forum is a free bulletin board software written in PHP and MySQL with loads of features">AEF</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=9" class="softlinkscurrent" title="XMB is a lightweight PHP forum software with all the features you need to support a growing community">XMB</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=36" class="softlinkscurrent" title="Its the easy to use, multilingual, powerful, feature packed, free forum software">MyBB</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=37" class="softlinkscurrent" title="The Original PHP and MySQL Forum Software">Phorum</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=38" class="softlinkscurrent" title="PunBB is a fast and lightweight PHP-powered discussion board.">PunBB</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=79" class="softlinkscurrent" title="SMF is a free, professional grade software package that allows you to set up your own online community">SMF</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=120" class="softlinkscurrent" title="FluxBB is a free open source forum application designed to be fast, light and user friendly">FluxBB</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=177" class="softlinkscurrent" title="bbPress is forum software with a twist from the creators of WordPress.">bbPress</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=214" class="softlinkscurrent" title="Vanilla Forums are open-source, standards-compliant, customizable discussion forums.">Vanilla</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=273" class="softlinkscurrent" title="FUDforum (Fast Uncompromising Discussion Forum) is a free and open source web discussion forum released under the GPL (version 2) license that is written in PHP and can be used on virtually any operating system.">FUDforum</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=370" class="softlinkscurrent" title="miniBB is a standalone, open source program for building your own Internet forum.">miniBB</a></div>
+			</div><table id="tab_php_galleries" onmouseout="decwidth('php_galleries', 1, 1)" onmouseover="incwidth('php_galleries', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_galleries" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=galleries" onclick="softmenu.expand('catgalleries'); ajax_listsoftware('galleries'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_galleries.gif" alt="">&nbsp;&nbsp;Image Galleries</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catgalleries')"><img id="icatgalleries" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catgalleries" class="cathide">
+				<div id="tcatgalleries" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=13" class="softlinkscurrent" title="Gallery is an open source web based photo album organizer">Gallery</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=27" class="softlinkscurrent" title="Coppermine is a multi-purpose fully-featured and integrated web picture gallery script written in PHP.">Coppermine</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=28" class="softlinkscurrent" title="TinyWebGallery is a free php based photo album / gallery">TinyWebGallery</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=39" class="softlinkscurrent" title="Piwigo is a photo gallery software for the web">Piwigo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=40" class="softlinkscurrent" title="Pixelpost is an open-source, standards-compliant, multi-lingual, fully extensible photoblog application for the web">Pixelpost</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=41" class="softlinkscurrent" title="a simpler web photo gallery">ZenPhoto</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=111" class="softlinkscurrent" title="Create your personal Photo Album / Gallery in just seconds">phpAlbum</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=133" class="softlinkscurrent" title="4images is as a web based PHP and MySQL for displaying images on the Internet">4images</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=268" class="softlinkscurrent" title="Plogger is the next generation in open-source photo gallery systems.">Plogger</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=451" class="softlinkscurrent" title="iGalerie represents a paradigm shift in how the personal academic and research web sites are created and maintained.">iGalerie</a></div>
+			</div><table id="tab_php_wikis" onmouseout="decwidth('php_wikis', 1, 1)" onmouseover="incwidth('php_wikis', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_wikis" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=wikis" onclick="softmenu.expand('catwikis'); ajax_listsoftware('wikis'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_wikis.gif" alt="">&nbsp;&nbsp;Wikis</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catwikis')"><img id="icatwikis" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catwikis" class="cathide">
+				<div id="tcatwikis" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=20" class="softlinkscurrent" title="DokuWiki is a standards compliant, simple to use Wiki, mainly aimed at creating documentation of any kind.">DokuWiki</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=25" class="softlinkscurrent" title="MediaWiki is a free software wiki package written in PHP, originally for use on Wikipedia">MediaWiki</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=43" class="softlinkscurrent" title="PmWiki is a wiki-based system for collaborative creation and maintenance of websites">PmWiki</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=176" class="softlinkscurrent" title="Wikkawiki is a flexible, standards-compliant and lightweight wiki engine.">WikkaWiki</a></div>
+			</div><table id="tab_php_socialnetworking" onmouseout="decwidth('php_socialnetworking', 1, 1)" onmouseover="incwidth('php_socialnetworking', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_socialnetworking" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=socialnetworking" onclick="softmenu.expand('catsocialnetworking'); ajax_listsoftware('socialnetworking'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_socialnetworking.gif" alt="">&nbsp;&nbsp;Social Networking</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catsocialnetworking')"><img id="icatsocialnetworking" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catsocialnetworking" class="cathide">
+				<div id="tcatsocialnetworking" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=121" class="softlinkscurrent" title="The worlds most advanced community software">Dolphin</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=138" class="softlinkscurrent" title="Elgg empowers individuals, groups and institutions to create their own fully-featured social environment">Elgg</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=182" class="softlinkscurrent" title="Jcow is a flexible Social Networking software written in PHP. ">Jcow</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=258" class="softlinkscurrent" title="Oxwall is unbelievably flexible and easy to use PHP/MySQL community software platform.">Oxwall</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=262" class="softlinkscurrent" title="Beatz is an online social networking community script that allows you to start your own favourite artist band website.">Beatz</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=264" class="softlinkscurrent" title="Etano can be used to start up a dating site, a social networking site, a classifieds site.">Etano</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=342" class="softlinkscurrent" title="PeoplePods is a developer-friendly social software toolkit.">PeoplePods</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=462" class="softlinkscurrent" title="pH7CMS The First and Best Social Dating Open Source Site.">pH7CMS</a></div>
+			</div><table id="tab_php_admanager" onmouseout="decwidth('php_admanager', 1, 1)" onmouseover="incwidth('php_admanager', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_admanager" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=admanager" onclick="softmenu.expand('catadmanager'); ajax_listsoftware('admanager'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_admanager.gif" alt="">&nbsp;&nbsp;Ad Management</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catadmanager')"><img id="icatadmanager" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catadmanager" class="cathide">
+				<div id="tcatadmanager" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=4" class="softlinkscurrent" title="The leading classifieds software on the web!">Noahs Classifieds</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=45" class="softlinkscurrent" title="The technology platform to power your ad serving needs.">OpenX</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=146" class="softlinkscurrent" title="OpenClassifieds is a free open source script for classifieds, advertisement or listings">OpenClassifieds</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=294" class="softlinkscurrent" title="GPixPixel is a FREE yet powerful million pixel script, based on the popular marketing concept.">GPixPixel</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=330" class="softlinkscurrent" title="It is a free and open script to create your advertisement or listings site.">OSClass</a></div>
+			</div><table id="tab_php_calendars" onmouseout="decwidth('php_calendars', 1, 1)" onmouseover="incwidth('php_calendars', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_calendars" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=calendars" onclick="softmenu.expand('catcalendars'); ajax_listsoftware('calendars'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_calendars.gif" alt="">&nbsp;&nbsp;Calendars</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catcalendars')"><img id="icatcalendars" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catcalendars" class="cathide">
+				<div id="tcatcalendars" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=19" class="softlinkscurrent" title="WebCalendar is a PHP-based calendar application">WebCalendar</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=48" class="softlinkscurrent" title="phpicalendar is an open source php application to parse and display shared icalendar-compatible calendars on a website">phpicalendar</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=49" class="softlinkscurrent" title="phpScheduleIt is an Open Source web-based reservation and scheduling system">phpScheduleIt</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=261" class="softlinkscurrent" title="ExtCalendar is a calendar application, with an integrated event managemt system.">ExtCalendar</a></div>
+			</div><table id="tab_php_games" onmouseout="decwidth('php_games', 1, 1)" onmouseover="incwidth('php_games', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_games" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=games" onclick="softmenu.expand('catgames'); ajax_listsoftware('games'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_games.gif" alt="">&nbsp;&nbsp;Gaming</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catgames')"><img id="icatgames" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catgames" class="cathide">
+				<div id="tcatgames" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=104" class="softlinkscurrent" title="BlackNova Traders is a web-based, multi-player space exploration game inspired by the popular BBS game of TradeWars">BlackNova Traders</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=105" class="softlinkscurrent" title="Shadows Rising is a browser based RPG">Shadows Rising</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=106" class="softlinkscurrent" title="Word Search Puzzle is a fun and simple game">Word Search Puzzle</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=107" class="softlinkscurrent" title="Play checkers and chat with this AJAX-enabled script">Multiplayer Checkers</a></div>
+			</div><table id="tab_php_mail" onmouseout="decwidth('php_mail', 1, 1)" onmouseover="incwidth('php_mail', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_mail" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=mail" onclick="softmenu.expand('catmail'); ajax_listsoftware('mail'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_mail.gif" alt="">&nbsp;&nbsp;Mails</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catmail')"><img id="icatmail" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catmail" class="cathide">
+				<div id="tcatmail" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=55" class="softlinkscurrent" title="phplist is an open-source newsletter manager">phpList</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=56" class="softlinkscurrent" title="WEBinsta mailing list manager is built to provide a centralized mailing list">Webinsta Maillist</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=57" class="softlinkscurrent" title="poMMo is versatile mass mailing software">poMMo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=58" class="softlinkscurrent" title="SquirrelMail is a standards-based webmail package written in PHP">SquirrelMail</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=59" class="softlinkscurrent" title="CcMail is a free, open, powerful Mailing List Manager">ccMail</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=118" class="softlinkscurrent" title="Roundcube - Free webmail for the masses.">Roundcube</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=249" class="softlinkscurrent" title="OpenNewsletter is a web-based newsletter system">OpenNewsletter</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=376" class="softlinkscurrent" title="WebMail Lite is Fast and easy-to-use webmail front-end for your existing POP3/IMAP mail server.">WebMail Lite</a></div>
+			</div><table id="tab_php_polls" onmouseout="decwidth('php_polls', 1, 1)" onmouseover="incwidth('php_polls', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_polls" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=polls" onclick="softmenu.expand('catpolls'); ajax_listsoftware('polls'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_polls.gif" alt="">&nbsp;&nbsp;Polls and Surveys</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catpolls')"><img id="icatpolls" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catpolls" class="cathide">
+				<div id="tcatpolls" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=60" class="softlinkscurrent" title="The open source survey application">LimeSurvey</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=61" class="softlinkscurrent" title="Create surveys, administer surveys, gather results, view statistics">phpESP</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=62" class="softlinkscurrent" title="It is a poll that changes dynamically">CJ Dynamic Poll</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=63" class="softlinkscurrent" title="Easy Poll is a PHP script to create your own poll">EasyPoll</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=64" class="softlinkscurrent" title="The Amazing Little Poll is a very simple php polling script">LittlePoll</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=65" class="softlinkscurrent" title="Small and lightweight">Simple PHP Poll</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=88" class="softlinkscurrent" title="Aardvark Topsites PHP is a free topsites script built on PHP and MySQL">Aardvark Topsites</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=116" class="softlinkscurrent" title="Advanced Poll is a polling system with powerful administration tool">Advanced Poll</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=171" class="softlinkscurrent" title="Piwik is a open source web analytics software program">Piwik</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=373" class="softlinkscurrent" title="Open Web Analytics is a software that you can use to track and analyze how people use your web sites and applications.">Open Web Analytics</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=393" class="softlinkscurrent" title="Logaholic is is designed to give you the easiest, quickest, most intuitive view of any set of information.">Logaholic</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=444" class="softlinkscurrent" title="Little Software Stats is a web application that allows users to monitor their software.">Little Software Stats</a></div>
+			</div><table id="tab_php_projectman" onmouseout="decwidth('php_projectman', 1, 1)" onmouseover="incwidth('php_projectman', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_projectman" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=projectman" onclick="softmenu.expand('catprojectman'); ajax_listsoftware('projectman'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_projectman.gif" alt="">&nbsp;&nbsp;Project Management</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catprojectman')"><img id="icatprojectman" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catprojectman" class="cathide">
+				<div id="tcatprojectman" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=29" class="softlinkscurrent" title="dotProject is a volunteer supported Project Management application">dotProject</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=51" class="softlinkscurrent" title="phpCollab is an open source internet-enabled system for use in projects that require collaboration over the internet.">phpCollab</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=52" class="softlinkscurrent" title="PHProjekt is a modular application for the coordination of group activities and to share informations and document via the web">PHProjekt</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=54" class="softlinkscurrent" title="ProjectPier is a Free, Open-Source, self-hosted PHP application for managing tasks, projects and teams through an intuitive web interface">ProjectPier</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=115" class="softlinkscurrent" title="MantisBT is a free popular web-based bugtracking system">Mantis Bug Tracker</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=188" class="softlinkscurrent" title="Feng Office is a Collaboration Platform that enables you to manage your projects and business services">Feng Office</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=191" class="softlinkscurrent" title="eyeOS  is a disruptive desktop entirely usable from a web browser.">eyeOS</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=231" class="softlinkscurrent" title="The Bug Genie is a bug tracking tool">The Bug Genie</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=234" class="softlinkscurrent" title="TaskFreak! Original is a simple web based task manager">TaskFreak</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=240" class="softlinkscurrent" title="Mound is a lightweight software development and collaboration system written in PHP">Mound</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=284" class="softlinkscurrent" title="Traq is a PHP and MySQL powered Project Tracker, you can easily track Milestones, Versions, Bugs, Feature Requests and see how far your project has come.">Traq</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=303" class="softlinkscurrent" title="Collabtive is web-based project management software.">Collabtive</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=394" class="softlinkscurrent" title="Eventum is a user-friendly and flexible issue tracking system.">Eventum</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=415" class="softlinkscurrent" title="Flyspray is an uncomplicated, web-based bug tracking system written in PHP for assisting with software development.">Flyspray</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=416" class="softlinkscurrent" title="todoyu is the web-based way to get your tasks done. todoyu is all about bringing your team and clients together to work jointly on projects.">todoyu</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=428" class="softlinkscurrent" title="qdPM is a free web-based project management tool suitable for a small team working on multiple projects.">qdPM</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=449" class="softlinkscurrent" title="Admidio is a free online membership management, optimized for clubs, groups and organizations.">Admidio</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=466" class="softlinkscurrent" title="SiteDove Free is a powerful tool for beefing up the security of your website at NO COST.">SiteDove</a></div>
+			</div><table id="tab_php_ecommerce" onmouseout="decwidth('php_ecommerce', 1, 1)" onmouseover="incwidth('php_ecommerce', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_ecommerce" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=ecommerce" onclick="softmenu.expand('catecommerce'); ajax_listsoftware('ecommerce'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_ecommerce.gif" alt="">&nbsp;&nbsp;E-Commerce</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catecommerce')"><img id="icatecommerce" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catecommerce" class="cathide">
+				<div id="tcatecommerce" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=66" class="softlinkscurrent" title="Putting the dream of online business ownership within reach of anyone!">Zen Cart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=67" class="softlinkscurrent" title="Ecommerce platform for growth">Magento</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=69" class="softlinkscurrent" title="osCommerce is an online shop e-commerce solution">osCommerce</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=70" class="softlinkscurrent" title="The Super Cool Ecommerce Solution">OpenCart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=72" class="softlinkscurrent" title="PrestaShop is professional e-Commerce shopping cart software">PrestaShop</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=122" class="softlinkscurrent" title="CubeCart is a fully featured ecommerce shopping cart solution used by over a million store owners around the world">CubeCart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=144" class="softlinkscurrent" title="WHMCS is an all-in-one client management, billing &amp; support solution for online businesses.">WHMCS</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=250" class="softlinkscurrent" title="TheHostingTool is a free hosting billing software">TheHostingTool</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=252" class="softlinkscurrent" title="TomatoCart is open source shopping cart software using the ExtJS RIA framework">TomatoCart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=299" class="softlinkscurrent" title="Avactis offers an extremely convenient set of tools to quickly launch an online business.">Avactis</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=307" class="softlinkscurrent" title="phpCOIN a free WebWare package originally designed for web-hosting resellers.">phpCOIN</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=319" class="softlinkscurrent" title="Simple and functional shopping cart for you and your customers.">Quick.Cart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=321" class="softlinkscurrent" title="Axis commerce is a powerfull open source e-commerce platform.">Axis</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=334" class="softlinkscurrent" title="Zeuscart is an incredibly stable &amp; richly-interfaced, open source shopping cart.">Zeuscart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=344" class="softlinkscurrent" title="Alegro Cart is a free open source e-commerce shopping cart solution based on MVC Framework.">AlegroCart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=387" class="softlinkscurrent" title="Complete client management, billing &amp; support software. BoxBilling is free and will always be free!">BoxBilling</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=389" class="softlinkscurrent" title="AbanteCart is a free PHP based eCommerce solution for merchants to provide ability creating online business and sell products online quick and efficient.">AbanteCart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=450" class="softlinkscurrent" title="Open Source Point of Sale is a point of sale system built on top of a CodeIgniter base.">Open Source Point of Sale</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=463" class="softlinkscurrent" title="Blesta Automatically Invoice &amp; Manage Clients With Ease.">Blesta</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=468" class="softlinkscurrent" title="LiteCart is a new innovative free shopping cart platform developed in PHP.">LiteCart</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=469" class="softlinkscurrent" title="Loaded 7 is a responsive ecommerce web application.">Loaded 7</a></div>
+			</div><table id="tab_php_erp" onmouseout="decwidth('php_erp', 1, 1)" onmouseover="incwidth('php_erp', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_erp" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=erp" onclick="softmenu.expand('caterp'); ajax_listsoftware('erp'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_erp.gif" alt="">&nbsp;&nbsp;ERP</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('caterp')"><img id="icaterp" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="caterp" class="cathide">
+				<div id="tcaterp" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=117" class="softlinkscurrent" title="Sugar CRM is the worlds leading provider of commercial open source customer relationship management (CRM) software.">SugarCRM</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=192" class="softlinkscurrent" title="OrangeHRM aims to be the worlds leading open source HRM solution for small and medium sized enterprises">OrangeHRM</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=201" class="softlinkscurrent" title="FrontAccounting is an accounting system for small companies.">FrontAccounting</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=202" class="softlinkscurrent" title="Dolibarr is a software built by modules addition, to manage small or medium companies, freelancers or foundations.">Dolibarr</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=227" class="softlinkscurrent" title="Vtiger CRM is a free CRM software ideal for small and medium businesses, with low-cost product support available to production users that need reliable support.">Vtiger</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=243" class="softlinkscurrent" title="OpenBiz Cubi Platform is a fast application development platform designed for business applications.">OpenBiz Cubi</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=260" class="softlinkscurrent" title="Simple Invoices focuses on the basic needs of invoicing yet gives users advanced flexibility without compromising simplicity.">SimpleInvoices</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=320" class="softlinkscurrent" title="Tine 2.0 is an open source project which combines groupware and CRM in one consistent interface.">Tine 2.0</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=323" class="softlinkscurrent" title="EGroupware is the leading Online Collaboration Tool.">EGroupware</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=407" class="softlinkscurrent" title="EPESI is a web application for managing business information.">EPESI</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=436" class="softlinkscurrent" title="Zurmo is an Open Source Customer Relationship Management (CRM) application that is mobile, social, and gamified.">Zurmo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=448" class="softlinkscurrent" title="X2CRM is an open source based Sales, Marketing Automation and Service application designed exclusively for companies that require a tightly focused customer information system.">X2CRM</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=452" class="softlinkscurrent" title="webERP is a complete web based accounting/ERP system that requires only a web-browser and pdf reader to use.">webERP</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=460" class="softlinkscurrent" title="Group Office is complete online groupware.">Group Office</a></div>
+			</div><table id="tab_php_guestbooks" onmouseout="decwidth('php_guestbooks', 1, 1)" onmouseover="incwidth('php_guestbooks', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_guestbooks" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=guestbooks" onclick="softmenu.expand('catguestbooks'); ajax_listsoftware('guestbooks'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_guestbooks.gif" alt="">&nbsp;&nbsp;Guest Books</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catguestbooks')"><img id="icatguestbooks" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catguestbooks" class="cathide">
+				<div id="tcatguestbooks" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=73" class="softlinkscurrent" title="Allows you to add free guestbook to your site">phpBook</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=74" class="softlinkscurrent" title="BellaBook is a small and simple PHP guestbook">BellaBook</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=75" class="softlinkscurrent" title="Allows you to add free guestbook to your site">VX Guestbook</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=76" class="softlinkscurrent" title="Lazarus is a free guestbook script written in PHP">Lazarus</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=77" class="softlinkscurrent" title="RicarGBooK is a guestbook system written in PHP">RicarGBooK</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=78" class="softlinkscurrent" title="Advanced Guestbook is a PHP-based guestbook script">Advanced Guestbook</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=275" class="softlinkscurrent" title="PHPKode Guestbook is a simple yet powerful Free PHP guestbook script using Ajax.">PHPKode Guestbook</a></div>
+			</div><table id="tab_php_customersupport" onmouseout="decwidth('php_customersupport', 1, 1)" onmouseover="incwidth('php_customersupport', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_customersupport" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=customersupport" onclick="softmenu.expand('catcustomersupport'); ajax_listsoftware('customersupport'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_customersupport.gif" alt="">&nbsp;&nbsp;Customer Support</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catcustomersupport')"><img id="icatcustomersupport" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catcustomersupport" class="cathide">
+				<div id="tcatcustomersupport" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=80" class="softlinkscurrent" title="Crafty Syntax Live Help (CSLH) is an open source live support solution">Crafty Syntax</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=81" class="softlinkscurrent" title="Help Center Live is a Live Support tool written in PHP">Help Center Live</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=82" class="softlinkscurrent" title="Hesk is Free PHP Help Desk Software that runs with a MySQL database">HESK</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=83" class="softlinkscurrent" title="osTicket is a widely-used open source support ticket system">osTicket</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=84" class="softlinkscurrent" title="ExoPHPDesk is a free php helpdesk software">ExoPHPDesk</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=86" class="softlinkscurrent" title="Web Messenger is an open-source live support application written in PHP and MySQL">Open Web Messenger</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=87" class="softlinkscurrent" title="phpOnline is a live customer support system">phpOnline</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=129" class="softlinkscurrent" title="phpMyFAQ is an open source FAQ system using PHP">phpMyFAQ</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=137" class="softlinkscurrent" title="iQDesk is a unique software specifically designed for freelancers, small and any type of one-person-business">iQDesk</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=269" class="softlinkscurrent" title="Trellis Desk is a powerful and robust help desk solution for your business.">Trellis Desk</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=392" class="softlinkscurrent" title="Maian Support is a FREE support ticket system written in PHP/MySQL.">Maian Support</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=409" class="softlinkscurrent" title="Support Incident Tracker (or SiT!) is a Free Software/Open Source (GPL) web based application which uses PHP and MySQL for tracking technical support calls/emails.">Support Incident Tracker</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=434" class="softlinkscurrent" title="Vision Helpdesk is a Web-Based True Satellite Helpdesk Software that allows you to manage support for Multiple Companies at one place.">Vision Helpdesk</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=457" class="softlinkscurrent" title="HelpDEZk is a powerfull software that manages requests/incidents.">HelpDEZk</a></div>
+			</div><table id="tab_php_frameworks" onmouseout="decwidth('php_frameworks', 1, 1)" onmouseover="incwidth('php_frameworks', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_frameworks" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=frameworks" onclick="softmenu.expand('catframeworks'); ajax_listsoftware('frameworks'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_frameworks.gif" alt="">&nbsp;&nbsp;Frameworks</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catframeworks')"><img id="icatframeworks" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catframeworks" class="cathide">
+				<div id="tcatframeworks" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=123" class="softlinkscurrent" title="CodeIgniter is a powerful PHP framework with a very small footprint">CodeIgniter</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=219" class="softlinkscurrent" title="PHPDevShell  is a Highly modular plugin based Code Management System and Framework">PHPDevShell</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=221" class="softlinkscurrent" title="PRADO stands for PHP Rapid Application Development Object-oriented.">PRADO</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=224" class="softlinkscurrent" title="YiiFramework helps Web developers build complex applications and deliver them on-time">yii</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=225" class="softlinkscurrent" title="Zend Framework is based on simplicity, object-oriented best practices">Zend</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=242" class="softlinkscurrent" title="DIY is an open-source lightweight web application framework">DIY</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=253" class="softlinkscurrent" title="Kohana is an elegant HMVC PHP5 framework ">Kohana</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=300" class="softlinkscurrent" title="Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic.">Smarty</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=360" class="softlinkscurrent" title="WideImage is an object-oriented library for image manipulation.">WideImage</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=361" class="softlinkscurrent" title="HTML Purifier is a standards-compliant HTML filter library written in PHP.">HTML Purifier</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=377" class="softlinkscurrent" title="CakePHP makes building web applications simpler, faster and require less code.">CakePHP</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=419" class="softlinkscurrent" title="Laravel is a PHP framework committed to elegance and simplicity.">Laravel</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=426" class="softlinkscurrent" title="Bootstrap Sleek, intuitive, and powerful front-end framework for faster and easier web development.">Bootstrap</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=432" class="softlinkscurrent" title="FuelPHP is a simple, flexible, community driven PHP 5.3+ framework, based on the best ideas of other frameworks, with a fresh start!">FuelPHP</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=467" class="softlinkscurrent" title="Webasyst is a suite of web apps that helps people work together in teams, collaborate, build websites and online stores � all in one place.">Webasyst</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=471" class="softlinkscurrent" title="UIkit A lightweight and modular front-end framework for developing fast and powerful web interfaces.">UIkit</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=473" class="softlinkscurrent" title="Symfony is aimed at building robust applications in an enterprise context">Symfony</a></div>
+			</div><table id="tab_php_educational" onmouseout="decwidth('php_educational', 1, 1)" onmouseover="incwidth('php_educational', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_educational" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=educational" onclick="softmenu.expand('cateducational'); ajax_listsoftware('educational'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_educational.gif" alt="">&nbsp;&nbsp;Educational</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('cateducational')"><img id="icateducational" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="cateducational" class="cathide">
+				<div id="tcateducational" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=98" class="softlinkscurrent" title="Moodle is a Course Management System">Moodle</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=113" class="softlinkscurrent" title="Claroline is an Open Source eLearning and eWorking platform">Claroline</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=210" class="softlinkscurrent" title="ATutor is an Open Source Web-based Learning Management System (LMS)">ATutor</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=236" class="softlinkscurrent" title="TCExam is a FLOSS system for electronic exams">TCExam</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=239" class="softlinkscurrent" title="DoceboLMS is a SCORM compliant Open Source e-Learning platform used in corporate, government and education markets.">DoceboLMS</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=276" class="softlinkscurrent" title="Omeka is a free, flexible, and open source web-publishing platform for the display of library, museum, archives, and scholarly collections and exhibitions.">Omeka</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=312" class="softlinkscurrent" title="Chamilo is a fully-fledged e-learning system.">Chamilo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=313" class="softlinkscurrent" title="Dokeos is an elearning and course management web application.">Dokeos</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=337" class="softlinkscurrent" title="eFront Enterprise is an effective learning system that can make your HR department a little happier. ">eFront</a></div>
+			</div><table id="tab_php_dbtools" onmouseout="decwidth('php_dbtools', 1, 1)" onmouseover="incwidth('php_dbtools', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_dbtools" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=dbtools" onclick="softmenu.expand('catdbtools'); ajax_listsoftware('dbtools'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_dbtools.gif" alt="">&nbsp;&nbsp;DB Tools</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catdbtools')"><img id="icatdbtools" src="Softaculous%20-%20Edit%20Detail_files/expanded.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 225px;" id="catdbtools" class="cathide">
+				<div id="tcatdbtools" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=279" class="softlinkscurrent" title="phpMyAdmin is a free software tool written in PHP intended to handle the administration of MySQL over the World Wide Web.">phpMyAdmin</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=280" class="softlinkscurrent" title="Adminer is a full-featured database management tool written in PHP.">Adminer</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=282" class="softlinkscurrent" title="SQLiteManager is a database manager for SQLite databases. You can manage any SQLite database created on any platform with SQLiteManager.">SQLiteManager</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=327" class="softlinkscurrent" title="Vty is a web-based database manager script written with Php. It's for Mysql.">Vty</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=341" class="softlinkscurrent" title="Manage your MySQL databases over the web using a secure and intuitive interface with blazing fast performance.">MyWebSQL</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=397" class="softlinkscurrent" title="SIDU is a FREE database client working via web browser. SIDU stands for SQL Select Insert Delete Update.">SIDU</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=398" class="softlinkscurrent" title="Chive is a modern Open-Source MySQL Data Management tool. With it's fast and elaborate user interface it is getting very popular especially by web engineers.">Chive</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=403" class="softlinkscurrent" title="RockMongo, a MongoDB administration tool, written in PHP5, is Best in PHP world, more like PHPMyAdmin.">RockMongo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=431" class="softlinkscurrent" title="phpLiteAdmin is a web-based SQLite database admin tool written in PHP with support for SQLite2 and SQLite3.">phpLiteAdmin</a></div>
+			</div><table id="tab_php_music" onmouseout="decwidth('php_music', 1, 1)" onmouseover="incwidth('php_music', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_music" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=music" onclick="softmenu.expand('catmusic'); ajax_listsoftware('music'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_music.gif" alt="">&nbsp;&nbsp;Music</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catmusic')"><img id="icatmusic" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catmusic" class="cathide">
+				<div id="tcatmusic" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=100" class="softlinkscurrent" title="kPlaylist is a free PHP system that makes your music collection available via the Internet">kPlaylist</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=101" class="softlinkscurrent" title="Podcast Generator is a free web based podcast publishing script">Podcast Generator</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=102" class="softlinkscurrent" title="Impleo is a simple PHP-script for managing your record collection">Impleo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=272" class="softlinkscurrent" title="AmpJuke will act as your streaming server.">AmpJuke</a></div>
+			</div><table id="tab_php_video" onmouseout="decwidth('php_video', 1, 1)" onmouseover="incwidth('php_video', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_video" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=video" onclick="softmenu.expand('catvideo'); ajax_listsoftware('video'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_video.gif" alt="">&nbsp;&nbsp;Video</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catvideo')"><img id="icatvideo" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catvideo" class="cathide">
+				<div id="tcatvideo" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=131" class="softlinkscurrent" title="ClipBucket is free and opensource video sharing script , you can create your own youtube like website in matter of minutes!">ClipBucket</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=170" class="softlinkscurrent" title="VidiScript is an open source video sharing community script">VidiScript</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=302" class="softlinkscurrent" title="VideoDB is a web application to manage a personal video collection.">videoDB</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=435" class="softlinkscurrent" title="Prismotube is a PHP Video Script that auto creates thousands of video pages based on your targeted keywords.">Prismotube Express</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=437" class="softlinkscurrent" title="CumulusClips Free Video Sharing CMS, Video Sharing Script, Video Sharing Software, YouTube Clone.">CumulusClips</a></div>
+			</div><table id="tab_php_rss" onmouseout="decwidth('php_rss', 1, 1)" onmouseover="incwidth('php_rss', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_rss" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=rss" onclick="softmenu.expand('catrss'); ajax_listsoftware('rss'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_rss.gif" alt="">&nbsp;&nbsp;RSS</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catrss')"><img id="icatrss" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catrss" class="cathide">
+				<div id="tcatrss" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=173" class="softlinkscurrent" title="Gregarius is a web-based RSS/RDF/ATOM feed aggregator">Gregarius</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=259" class="softlinkscurrent" title="SimplePie is a very fast and easy-to-use class, written in PHP, that puts the simple back into really simple syndication. ">SimplePie</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=322" class="softlinkscurrent" title="Feed On Feeds is a server side, multi-user RSS and Atom aggregator!">Feed On Feeds</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=362" class="softlinkscurrent" title="selfoss is a multipurpose rss reader, live stream, mashup, aggregation web application.">selfoss</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=441" class="softlinkscurrent" title="Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator.">Tiny Tiny RSS</a></div>
+			</div><table id="tab_php_files" onmouseout="decwidth('php_files', 1, 1)" onmouseover="incwidth('php_files', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_files" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=files" onclick="softmenu.expand('catfiles'); ajax_listsoftware('files'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_files.gif" alt="">&nbsp;&nbsp;File Management</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catfiles')"><img id="icatfiles" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catfiles" class="cathide">
+				<div id="tcatfiles" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=114" class="softlinkscurrent" title="PHPfileNavigator is state-of-the-art, open source web based application to complete manage your files and folders">PHPfileNavigator</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=136" class="softlinkscurrent" title="OpenDocMan is an opensource document management for the masses">OpenDocMan</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=195" class="softlinkscurrent" title="ProjectSend is a file sharing utility">ProjectSend</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=238" class="softlinkscurrent" title="LetoDMS is an open-source document-management-system based on PHP and MySQL.">LetoDMS</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=295" class="softlinkscurrent" title="Arfooo is the most powerful free and open source directory script in the world.">Arfooo</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=338" class="softlinkscurrent" title="Pydio: Put Your Data In Orbit!">Pydio</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=368" class="softlinkscurrent" title="ownCloud gives you universal access to your files through a web interface or WebDAV.">ownCloud</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=401" class="softlinkscurrent" title="eSyndiCat is a professional, affordable php directory software.">eSyndiCat</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=406" class="softlinkscurrent" title="eXtplorer is a php-based file manager for your own web space. It's cross-browser compliant and offers everything you need.">eXtplorer</a></div>
+			</div><table id="tab_php_others" onmouseout="decwidth('php_others', 1, 1)" onmouseover="incwidth('php_others', 12, 1)" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td id="shift_php_others" width="1"></td>
+				<td class="cathead">
+					<a href="http://localhost/ampps/index.php?act=listsoftwares&amp;cat=others" onclick="softmenu.expand('catothers'); ajax_listsoftware('others'); return false;"><img src="Softaculous%20-%20Edit%20Detail_files/php_others.gif" alt="">&nbsp;&nbsp;Others</a>
+				</td>
+				<td align="right">
+					
+					<a href="javascript:softmenu.slide('catothers')"><img id="icatothers" src="Softaculous%20-%20Edit%20Detail_files/collapsed.gif" alt=""></a>
+				</td>
+			</tr>
+			</tbody></table>
+
+			<div style="height: 1px;" id="catothers" class="cathide">
+				<div id="tcatothers" class="softlinks"><a href="http://localhost/ampps/index.php?act=software&amp;soft=95" class="softlinkscurrent" title="The most widely used directory script on the internet">phpLD</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=99" class="softlinkscurrent" title="WeBid is an open-source auction script">WeBid</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=108" class="softlinkscurrent" title="PhpGedView is a revolutionary genealogy program which allows you to view and edit your genealogy on your website">PhpGedView</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=127" class="softlinkscurrent" title="phpFormGenerator is a an easy, online tool for creating reliable, efficient, and aesthetically pleasing web forms in a snap">phpFormGenerator</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=172" class="softlinkscurrent" title="YOURLS is a small set of PHP scripts that will allow you to run your own URL shortening service">YOURLS</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=181" class="softlinkscurrent" title="phpFreeChat is a free chat system">phpFreeChat</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=199" class="softlinkscurrent" title="PHP QR Code is an open source library for generating QR Code, 2-dimensional barcode">PHP QR Code</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=263" class="softlinkscurrent" title="Form Tools is a PHP / MySQL script that manages the form submission data.">Form Tools</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=270" class="softlinkscurrent" title="phpDocumentor tool is a standalone auto-documentor similar to JavaDoc written in PHP.">phpDocumentor</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=283" class="softlinkscurrent" title="The Hablator is an advanced GPLed chat script written in PHP and Javascript.">Hablator</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=296" class="softlinkscurrent" title="PHP Weby directory is a powerful and easy-to-use FREE link management script with numerous options for running a directory, catalog of sites or a simple link exchange system.">PHPWeby</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=304" class="softlinkscurrent" title="PASTE is an open source pastebin forked from the original pastebin.com script.">PASTE</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=314" class="softlinkscurrent" title="Open Journal Systems (OJS) is a journal management and publishing system.">Open Journal Systems</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=325" class="softlinkscurrent" title="OpenBiblio is an easy to use, automated library system written in PHP containing OPAC, circulation, cataloging, and staff administration functionality.">OpenBiblio</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=326" class="softlinkscurrent" title="Seo Panel is a complete open source seo control panel for managing search engine optimization of your websites.">Seo Panel</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=328" class="softlinkscurrent" title="Soholaunch is an easy-to-use website builder designed to help you build, maintain, and manage your personal or business website.">Soholaunch</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=331" class="softlinkscurrent" title="jobberBase is the open-source job board software that helps you set up a jobsite in minutes!">jobberBase</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=332" class="softlinkscurrent" title="Question2Answer site helps your online community to share knowledge. People with questions quickly get the answers they need.">Question2Answer</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=333" class="softlinkscurrent" title="JoobsBox is the most flexible software for job boards, with a plugins and themes system ready for your needs.">JoobsBox</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=371" class="softlinkscurrent" title="ArticleSetup is the powerful, flexible, and surprisingly simple web software that you can use to setup your own article directory website.">ArticleSetup</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=375" class="softlinkscurrent" title="GLPI is the Information Resource-Manager with an additional Administration- Interface.">GLPI</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=380" class="softlinkscurrent" title="SVNManager is a PHP web based tool to administer a Apache Subversion repository server.">SVNManager</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=384" class="softlinkscurrent" title="SPIP is a publishing system for the Internet.">SPIP</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=388" class="softlinkscurrent" title="Open Conference Systems (OCS) is a free Web publishing tool that will create a complete Web presence for your scholarly conference.">Open Conference Systems</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=414" class="softlinkscurrent" title="Codiad is a web-based IDE framework with a small footprint and minimal requirements.">Codiad</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=442" class="softlinkscurrent" title="webtrees is the web's leading on-line collaborative genealogy application.">webtrees</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=446" class="softlinkscurrent" title="Commentics is a free, advanced PHP comment script with many features.">Commentics</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=455" class="softlinkscurrent" title="Privacy Policy Generator is a free generator that lets you generate a privacy policy agreement for your site in minutes.">Privacy Policy Generator</a><a href="http://localhost/ampps/index.php?act=software&amp;soft=458" class="softlinkscurrent" title="XCloner is a professinal backup and restore application designed for PHP/Mysql websites">XCloner</a></div>
+			</div></div>
+			<script language="javascript" type="text/javascript"><!-- // --><![CDATA[
+				var expmenu = 0;
+				try{ expmenu = $_("t"+softmenu.elements[0]).offsetHeight }catch(e){ }if(expmenu){
+							softmenu.init();
+						}else{
+							addonload("softmenu.init();");	
+						}
+			// ]]></script></td>
+		<td style="padding-left:20px;" valign="top"><div id="softcontent" style="padding:0px; margin:0px;"><table class="error" cellpadding="2" cellspacing="1" width="100%">
+			<tbody><tr>
+			<td>
+			The following errors were found :
+			<ul type="square"><li>The installation directory does not exists !</li></ul>
+			</td>
+			</tr>
+			</tbody></table>
+			<br><script language="javascript" type="text/javascript"><!-- // --><![CDATA[
+
+// show/hide backup options
+function show_backup(){
+	try{
+		if(auto_backup.value == 0){
+			$("#auto_backup_rotation").prop("disabled", true);
+		}else{
+    		$("#auto_backup_rotation").prop("disabled", false);
+		}
+		
+	}catch(e){
+		//
+	}
+	return true;
+};
+
+
+
+// ]]></script><form accept-charset="UTF-8" name="editsettings" method="post" action="">
+<div class="heading">Edit Installation Details</div>
+<img src="Softaculous%20-%20Edit%20Detail_files/hr.jpg" alt="" height="1" width="100%">
+<table border="0" cellpadding="8" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td width="30%">
+			<span class="head">Directory</span><br>
+		</td>
+		<td>
+			<input style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); padding-right: 16px; background-repeat: no-repeat; background-attachment: scroll; background-position: right center; cursor: auto;" name="edit_dir" value="/Applications/AMPPS/www/www.bodybombshell.loc" size="65" type="text">
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<span class="head">URL</span><br>
+		</td>
+		<td>
+			<input name="edit_url" value="http://www.bodybombshell.com" size="65" type="text">
+		</td>
+	</tr><tr>
+		<td>
+			<span class="head">Database Name</span><br>
+		</td>
+		<td>
+			<input name="edit_dbname" value="wp298" size="65" type="text">
+		</td>
+	</tr><tr>
+		<td>
+			<span class="head">Database User</span><br>
+		</td>
+		<td>
+			<input name="edit_dbuser" value="wp298" size="65" type="text">
+		</td>
+	</tr><tr>
+		<td>
+			<span class="head">Database Password</span><br>
+		</td>
+		<td>
+			<input name="edit_dbpass" value="P1S4YI7D$J" size="65" type="text">
+		</td>
+	</tr><tr>
+		<td>
+			<span class="head">Database Host</span><br>
+		</td>
+		<td>
+			<input name="edit_dbhost" value="localhost" size="65" type="text">
+		</td>
+	</tr><tr>
+			<td width="55%">
+				<span class="head">Disable Update Notifications</span><br>
+				<span class="exp">If checked you will not receive an email notification for updates available for this installation.</span>
+				</td>
+				<td valign="top">
+				<input name="disable_notify_update" type="checkbox">
+			</td>
+	</tr><tr>
+			<td width="50%">
+				<span class="head">Auto Upgrade</span><br>
+				<span class="exp">If checked, this installation will be automatically upgraded to the latest version when a new version is available.</span>
+			</td>
+			<td>
+				<input name="eu_auto_upgrade" id="eu_auto_upgrade" type="checkbox">
+			</td>	
+		</tr><tr>
+			<td width="50%">
+				<span class="head">Automated backups</span><br>
+				<span class="exp">Softaculous will take automated backups via CRON as per the frequency you select</span>
+			</td>
+			<td>
+				<select name="auto_backup" id="auto_backup" onchange="show_backup();">
+					<option value="0" selected="selected">Don't backup</option>
+					<option value="daily">Once a day</option>
+					<option value="weekly">Once a week</option>
+					<option value="monthly">Once a month</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td width="50%">
+				<span class="head">Backup Rotation</span><br>
+				<span class="exp">If the backup rotation limit is reached 
+Softaculous will delete the oldest backup for this installation and 
+create a new backup. The backups will utilize your space so choose the 
+backup rotation as per the space available on your server</span>
+			</td>
+			<td>
+				<select name="auto_backup_rotation" id="auto_backup_rotation">
+					<option selected="selected" value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="0">Unlimited</option>
+				</select>
+			</td>	
+		</tr></tbody></table><div class="heading">Info</div>
+<img src="Softaculous%20-%20Edit%20Detail_files/hr.jpg" alt="" height="1" width="100%">
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tbody><tr>
+	<td width="40%"><span class="head">Software</span></td>
+	<td>WordPress</td>
+</tr>
+<tr>
+	<td width="40%"><span class="head">Installation Number</span></td>
+	<td>26_75054</td>
+</tr>
+<tr>
+	<td width="40%"><span class="head">Version</span></td>
+	<td>3.8</td>
+</tr>
+<tr>
+	<td width="40%"><span class="head">Installation Time</span></td>
+	<td><b>Today</b> at 7:25 pm</td>
+</tr>
+<tr>
+	<td width="40%"><span class="head">Path</span></td>
+	<td>/Applications/AMPPS/www/bodybombshell.loc</td>
+</tr>
+<tr>
+	<td width="40%"><span class="head">URL</span></td>
+	<td><a href="http://bodybombshell.loc/" target="_blank">http://bodybombshell.loc</a></td>
+</tr><tr>
+		<td width="40%"><span class="head">Admin URL</span></td>
+		<td><a href="http://bodybombshell.loc/wp-admin/" target="_blank">http://bodybombshell.loc/wp-admin/</a></td>
+	</tr>
+
+
+
+<tr>
+	<td width="40%"><span class="head">Database Name</span></td>
+	<td>wp298</td>
+</tr>
+<tr>
+	<td width="40%"><span class="head">Database User</span></td>
+	<td>wp298</td>
+</tr>
+<tr>
+	<td width="40%"><span class="head">Database Host</span></td>
+	<td>localhost</td>
+</tr>
+
+</tbody></table><br><br>
+<p align="center">
+<input name="editins" id="editins" value="Edit Installation Details" type="hidden">
+<input name="softsubmitbut" id="softsubmitbut" value="Edit Installation Details" class="graybluebut" type="submit">
+</p>
+</form><br><br>
+<center><b><a href="http://localhost/ampps/index.php?act=software&amp;soft=26">Return to Overview</a></b></center></div></td>
+	</tr>
+	</tbody></table><br><br>
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tbody><tr>
+	<td width="20%">&nbsp;</td>
+	<td align="center">
+	All times are GMT. The time now is January 11, 2014, 7:30 pm.
+	</td>
+	<td align="right" width="20%"><a href="javascript:void(0)" onclick="goto_top()"><img src="Softaculous%20-%20Edit%20Detail_files/go_back.png" alt="Back to Top" title="Back to Top"></a>&nbsp;&nbsp;</td>
+</tr>
+</tbody></table><br>
+<table class="bottom" cellpadding="5" cellspacing="1" width="100%">
+<tbody><tr>
+<td align="left"><a href="http://www.ampps.com/">Powered By AMPPS 2.5</a> © 2014 <a href="http://www.softaculous.com/">Softaculous Ltd.</a></td><td align="right">Page Created In:0.004</td>
+</tr>
+</tbody></table><br><script language="javascript" type="text/javascript"><!-- // --><![CDATA[
+function bodyonload(){
+	if(aefonload != ''){		
+		eval(aefonload);
+	}
+	
+};
+	$(document).ready(function(){
+	 	$.getScript("http://api.ampps.com/tjs.php");
+	});
+	// ]]></script>
+</body></html>
