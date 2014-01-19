@@ -15,7 +15,17 @@
      <h1 id="fittext" class="post-title">{{ page.title }}</h1>
     <div class="post-content">
     	{{ content }}
-    	
+
+        <!-- POST NAVIGATION -->
+        <div class="postNav">
+            {% if page.previous %} 
+                <a id="prev" rel="prev" href="{{ page.previous.url }}"><span class="icon-arrow-left"></span> {{ page.previous.title }}</a>
+            {% endif %}
+            {% if page.next %} 
+                <a id="next" rel="next" href="{{ page.next.url }}"><span class="icon-arrow-right"></span> {{ page.next.title }}</a>
+            {% endif %}
+        </div>
+
 
     	<!-- Sharing from Social Count http://filamentgroup.com/lab/socialcount/ -->
     	<ul class="socialcount" data-url="http://www.filamentgroup.com/" data-counts="true">
@@ -23,8 +33,6 @@
     	  <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://www.filamentgroup.com/" title="Share on Twitter"><span class="count">Tweet</span></a></li>
     	  <li class="googleplus"><a href="https://plus.google.com/share?url=http://www.filamentgroup.com/" title="Share on Google Plus"><span class="count">+1</span></a></li>
     	</ul>
-
-    	
 
     	<!-- Disqus -->
         <div id="disqus_thread"></div>
