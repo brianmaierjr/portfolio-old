@@ -345,6 +345,9 @@ html {
 					line-height: 1.5;
 					margin: .1em auto 0;
 					animation-delay: 2s;
+					-moz-animation-delay: 2s;
+					-webkit-animation-delay: 2s;
+					-o-animation-delay: 2s;
 				}
 
 				a {
