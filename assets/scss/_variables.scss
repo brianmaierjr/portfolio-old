@@ -11,21 +11,21 @@ $charcoal: 			lighten(black, 20%);
 
 /* Button Mixin */
 
-@mixin button-outline() {
+@mixin button-outline($color: tomato) {
 	display: inline-block;
 	font-family: $sans-serif;
 	font-weight: 200;
 	text-transform: uppercase;
-	color: tomato;
+	color: $color;
 	background: white;
-	border: 3px solid tomato;
+	border: 3px solid $color;
 	border-radius: 3px;
 	padding: .5em 1em;
 	@include transition(background .2s ease-in-out);
 
 	&:hover {
 		color: white;
-		background: tomato;
+		background: $color;
 		text-decoration: none;
 	}
 }
