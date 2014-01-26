@@ -85,11 +85,25 @@ body {
 
 header {
 	overflow: hidden;
-	padding: 0 20px 20px;
-	position: absolute;
+	padding: 0 20px 0;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	z-index: 9999;
+
+	&.slideDown {
+		top: 0;
+	}
+
+	&.slideUp {
+		top: -300px;
+	}
 
 	a {
 		@include transition(all 0.2s ease-in-out);
@@ -261,14 +275,25 @@ html {
 
 	.home {
 		height: 100%;
-		width: 100%;
-		/* background: url('../img/home-small.jpg') center; */
-		background-size: cover;
-		
-		header {
-			position: absolute;
-			z-index: 300;
-			width: 100%;
+		width: 100%; 
+
+		.intro {
+			background: url('../img/home-small.jpg') no-repeat fixed center center;
+			background-size: cover;
+		}
+
+		.about {
+			background: url('../img/blog-portfolio.jpg') no-repeat fixed center center;
+			background-size: cover;
+
+			.aboutText {
+
+				p {
+					color: white;
+					max-width: 60%;
+					margin: 0 auto;
+				}
+			}
 		}
 
 		footer {
