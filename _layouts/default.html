@@ -1,5 +1,12 @@
 {% include head.html %}
 
+{% if page.image %}
+
+  <div class="featured-image" style="background-image: url('/assets/img/{{ page.image }}')"></div>
+
+{% endif %}
+
+
 <div id="container">
 	<div class="content">
 		{{ content }}

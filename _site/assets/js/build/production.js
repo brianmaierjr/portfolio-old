@@ -58,6 +58,7 @@
 })( jQuery );
 
 
+(function(e){"use strict";e.jribbble={};var t=function(t,s){e.ajax({type:"GET",url:"http://api.dribbble.com"+t,data:s[1]||{},dataType:"jsonp",success:function(e){e===undefined?s[0]({error:!0}):s[0](e)}})},s={getShotById:"/shots/$/",getReboundsOfShot:"/shots/$/rebounds/",getShotsByList:"/shots/$/",getShotsByPlayerId:"/players/$/shots/",getShotsThatPlayerFollows:"/players/$/shots/following/",getPlayerById:"/players/$/",getPlayerFollowers:"/players/$/followers/",getPlayerFollowing:"/players/$/following/",getPlayerDraftees:"/players/$/draftees/",getCommentsOfShot:"/shots/$/comments/",getShotsThatPlayerLikes:"/players/$/shots/likes/"},o=function(e){return function(){var s=[].slice.call(arguments),o=e.replace("$",s.shift());t(o,s)}};for(var r in s)e.jribbble[r]=o(s[r])})(jQuery,window,document);
 /*! SocialCount - v0.1.6 - 2013-08-08
 * https://github.com/filamentgroup/SocialCount
 * Copyright (c) 2013 zachleat; Licensed MIT */
@@ -413,71 +414,52 @@
 
 
 
+// Smooth anchor scrolling 
 
-// Portfolio Animations
-
-(function($) {
-
-  /**
-   * Copyright 2012, Digital Fusion
-   * Licensed under the MIT license.
-   * http://teamdf.com/jquery-plugins/license/
-   *
-   * @author Sam Sehnert
-   * @desc A small plugin that checks whether elements are within
-   *     the user visible viewport of a web browser.
-   *     only accounts for vertical position, not horizontal.
-   */
-
-  $.fn.visible = function(partial) {
-    
-      var $t            = $(this),
-          $w            = $(window),
-          viewTop       = $w.scrollTop(),
-          viewBottom    = viewTop + $w.height(),
-          _top          = $t.offset().top,
-          _bottom       = _top + $t.height(),
-          compareTop    = partial === true ? _bottom : _top,
-          compareBottom = partial === true ? _top : _bottom;
-    
-    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
-
-  };
-    
-})(jQuery);
-
-
-var win = $(window);
-var allMods = $(".projectRight");
-
-// Already visible modules
-allMods.each(function(i, el) {
-  var el = $(el);
-  if (el.visible(true)) {
-    el.addClass("already-visible"); 
-  } 
-});
-
-win.scroll(function(event) {
-  
-  allMods.each(function(i, el) {
-    var el = $(el);
-    if (el.visible(true)) {
-      el.addClass("fadeInRightBig"); 
-    } 
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
   });
-  
 });
 
 
-$(window).scroll(function(event) {
-  
-  $(".projectRight").each(function(i, el) {
-    var el = $(el);
-    if (el.visible(true)) {
-      el.addClass("fadeInRightBig"); 
-    } 
-  });
-  
-});
+// Jribbble
 
+$.jribbble.getShotsByPlayerId('brianmaierjr', function (playerShots) {
+    var html = [];
+
+    $.each(playerShots.shots, function (i, shot) {
+        html.push('<li><div class="overlay"><h3>' + shot.title + '</h3>');
+        html.push('<p> ' + shot.likes_count + '</p></div>');
+        html.push('<img src="' + shot.image_teaser_url + '" ');
+        html.push('alt="' + shot.title + '"></a></li>');
+    });
+
+    $('#portfolio').html(html.join(''));
+}, {page: 1, per_page: 10});
+
+//Fittext
+
+jQuery("#fittext").fitText(1.2, { minFontSize: '36px', maxFontSize: '200px' });
+
+
+// Headroom.js
+
+$(".header").headroom({
+  "tolerance": 0,
+  "offset": 200,
+  "classes": {
+    "initial": "slideInDown",
+    "pinned": "slideDown",
+    "unpinned": "slideUp"
+  }
+});

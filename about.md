@@ -5,10 +5,10 @@ title: About Brian Maier Jr.
 description: The man, the beast, the legend
 tags: [about, Brian Maier Jr.]
 class: about
+image: blog-portfolio.jpg
 ---
 
 
-![Beautiful eh?](/assets/img/me.jpg)
 ## Brian Maier Jr.
 *Idiot Extraordinaire*
 

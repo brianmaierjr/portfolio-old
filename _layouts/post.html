@@ -29,7 +29,7 @@
                 <a id="prev" rel="prev" href="{{ page.previous.url }}"><span class="icon-arrow-left"></span> {{ page.previous.title }}</a>
             {% endif %}
             {% if page.next %} 
-                <a id="next" rel="next" href="{{ page.next.url }}"><span class="icon-arrow-right"></span> {{ page.next.title }}</a>
+                <a id="next" rel="next" href="{{ page.next.url }}">{{ page.next.title }} <span class="icon-arrow-right"></span></a>
             {% endif %}
         </div>
 

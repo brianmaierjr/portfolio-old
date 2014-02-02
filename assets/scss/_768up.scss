@@ -87,6 +87,18 @@ html {
 				h3 { font-size: 1.75em; }
 			}
 		}
+
+		
+		.about {
+
+			.aboutText {
+				@include span-columns(8);
+				@include shift(2);
+				p {
+					color: $charcoal;
+				}
+			}
+		}
 	}
 }
 
@@ -95,6 +107,13 @@ html {
 ------------------------------------------------------------*/
 
 .about {
+	.featured-image {
+		min-height: 500px;
+	}
+	#container {
+		margin-top: 500px;
+		
+	}
 	.content {
 		h1 {
 			font-size: 3.33333em;

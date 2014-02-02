@@ -30,6 +30,7 @@ body {
 		font-family: $serif;
 		font-weight: 700;
 		margin: 0 0 1rem;
+		line-height: 1.4;
 	}
 
 	p {
@@ -95,7 +96,7 @@ header {
 	-ms-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
-	z-index: 9999;
+	z-index: 100;
 
 	&.slideDown {
 		top: 0;
@@ -118,7 +119,8 @@ header {
 		float: right;
 		margin-top: .35em;
 		font-size: 2em;
-		color: $charcoal;
+		color: white;
+		text-shadow: 1px 1px 2px rgba(0,0,0,.4);
 	}
 
 	#logo {
@@ -130,7 +132,10 @@ header {
 		font-size: 1.5em;
 		margin-top: .7em;
 
-		a { color: $charcoal; }
+		a {
+			color: white;
+			text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+		}
 
 	}
 }
@@ -275,26 +280,49 @@ html {
 
 	.home {
 		height: 100%;
-		width: 100%; 
+		width: 100%;
+		background: url('../img/bg.jpg') no-repeat fixed center center;
+		background-size: cover;
 
 		.intro {
-			background: url('../img/home-small.jpg') no-repeat fixed center center;
-			background-size: cover;
+
 		}
 
 		.about {
-			background: url('../img/blog-portfolio.jpg') no-repeat fixed center center;
-			background-size: cover;
 
 			.aboutText {
+				@include span-columns(12);
+				max-width: 800px;
 
 				p {
-					color: white;
-					max-width: 60%;
-					margin: 0 auto;
+					color: $charcoal;
 				}
 			}
 		}
+
+		#dribbble {
+
+			.dribbbleText {
+				@include span-columns(12);
+				max-width: 800px;
+			}
+			
+			ul {
+
+				li {
+					@include span-columns(4);
+					position: relative;
+
+					.overlay { 
+						display: none;
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
+			}
+		}
+
 
 		footer {
 			background: white;
@@ -323,43 +351,15 @@ html {
 
 				h2 {
 					font-family: $sans-serif;
-					color: lighten($charcoal, 10%);
+					color: lighten($charcoal, 70%);
 					font-weight: 300;
 					position: relative;
-					padding: .5em;
 					font-size: 1.5em;
 					animation-delay: 1.2s;
 					-moz-animation-delay: 1.2s;
 					-webkit-animation-delay: 1.2s;
 					-o-animation-delay: 1.2s;
 					display: inline-block;
-					background: white;
-					border-radius: 5px 5px 5px 0;
-					color: $charcoal;
-
-					/* &:after {
-						display: block;
-						width: 50px;
-						content: "";
-						height: 2px;
-						background: white;
-						position: absolute;
-						top: 100%;
-						left: 50%;
-						margin-left: -25px;
-					} */
-
-					&:after {
-						content: "";
-						position: absolute;
-						top: 100%;
-						left: 0;
-						width: 0px;
-						height: 0px;
-						border-style: solid;
-						border-width: 10px 10px 0 0;
-						border-color: #ffffff transparent transparent transparent;
-					}
 				}
 
 				h3 {
@@ -373,6 +373,7 @@ html {
 					-moz-animation-delay: 2s;
 					-webkit-animation-delay: 2s;
 					-o-animation-delay: 2s;
+					color: darken(white, 20%);
 				}
 
 				a {
@@ -387,12 +388,6 @@ html {
 					font-size: .9em;
 
 					&:hover { text-decoration: none; }
-
-					span {
-						background: white;
-						padding: .5em;
-						border-radius: 50%;
-					}
 				}
 			}
 		}
@@ -408,7 +403,7 @@ html {
 	font-family: $serif;
 	font-weight: bold;
 	padding-bottom: .25em;
-	line-height: 1.375;
+	line-height: 1.1;
 }
 
 
@@ -507,13 +502,14 @@ html {
 .post {
 
 	header {
-		z-index: 200;
+		z-index: 100;
 	}
 
 	.postNav {
 		border-top: 1px dashed darken(white, 10%);
 		border-bottom: 1px dashed darken(white, 10%);
 		padding: 1em 0;
+		margin-bottom: 2em;
 
 		@include outer-container();
 
@@ -521,6 +517,11 @@ html {
 			@include span-columns(6);
 
 			&:hover { text-decoration: none; }
+		}
+
+		#next {
+			float: right;
+			text-align: right;
 		}
 	}
 
@@ -553,13 +554,11 @@ html {
 	#logo {
 		a {
 			color :white;
-			text-shadow: 1px 1px 2px rgba(0,0,0,.4);
 		}
 	}
 
 	#menuBtn {
 		color: white;
-		text-shadow: 1px 1px 2px rgba(0,0,0,.4);
 	}
 
 }
@@ -570,7 +569,7 @@ html {
 .post-image {
 
 	header {
-		z-index: 200;
+		z-index: 100;
 	}
 
 	#container {
@@ -591,6 +590,13 @@ html {
 ------------------------------------------------------------*/
 
 .about {
+	#container {
+		background: white;
+		position: relative;
+		z-index: 200;
+		padding: 40px 20px;
+		margin-top: 200px;
+	}
 	.content {
 		h1 { font-size: 2em; }
 		h4 { font-style: italic; }
