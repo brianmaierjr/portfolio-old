@@ -296,14 +296,11 @@ html {
 	.home {
 		height: 100%;
 		width: 100%;
-		background: url('../img/bg.jpg') no-repeat fixed center center;
+		background: url('../img/bg-river-dark.jpg') no-repeat fixed center center;
 		background-size: cover;
 
-		.intro {
-
-		}
-
-		.about {
+		#craftsman {
+			background: #6c7379;
 
 			.aboutText {
 				@include span-columns(12);
@@ -354,10 +351,12 @@ html {
 				text-align: center;
 
 				h1 {
+					font-style: italic;
+					font-weight: 700;
 					margin: 0 auto;
 					line-height: 1.15;
 					font-size: 2em;
-					color: cadetblue;
+					color: white;
 					animation-delay: 3s;
 					-moz-animation-delay: 3s;
 					-o-animation-delay: 3s;
@@ -366,7 +365,7 @@ html {
 
 				h2 {
 					font-family: $sans-serif;
-					color: lighten($charcoal, 70%);
+					color: darken(white, 20%);
 					font-weight: 300;
 					position: relative;
 					font-size: 1.5em;
@@ -379,8 +378,8 @@ html {
 
 				h3 {
 					font-family: $serif;
-					font-style: italic;
 					font-size: 1.2em;
+					font-weight: 400;
 					width: 80%;
 					line-height: 1.5;
 					margin: .1em auto 0;
@@ -401,6 +400,8 @@ html {
 					-webkit-animation-delay: 2.5s;
 					-o-animation-delay: 2.5s;
 					font-size: .9em;
+
+					span { color: white; }
 
 					&:hover { text-decoration: none; }
 				}
