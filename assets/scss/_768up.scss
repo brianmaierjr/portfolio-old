@@ -84,22 +84,44 @@ html {
 		.intro {
 			.introText {
 				h1 { font-size: 6em; }
-				h3 { font-size: 1.75em; }
 			}
 		}
-
 		
 		#craftsman {
+
 			.aboutText {
-				@include span-columns(8);
-				@include shift(2);
+				p {
+					@include span-columns(6);
+					float: left;
+				}
+			}
+
+			.intro {
+				margin-bottom: 3em;
+			}
+
+			.intro, .aboutText {
+				max-width: 1140px;
+				margin: 1em auto;
 			}
 		}
 
 		#dribbble {
+
+			#portfolio {
+				li {
+					width: 33%;
+					float: left;
+					margin: 0;
+
+					img {
+						display: block;
+					}
+				}
+			}
+
 			.dribbbleText {
-				@include span-columns(8);
-				@include shift(2);
+				@include span-columns(12);
 			}
 		}
 	}
