@@ -12,15 +12,15 @@
 
 <div id="container">
     <p class="date">{{ page.date | date: "%b %d, %Y" }}</p>
-     <h1 id="fittext" class="post-title">{{ page.title }}</h1>
+     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-content">
     	{{ content }}
 
     	<!-- Sharing from Social Count http://filamentgroup.com/lab/socialcount/ -->
     	<ul class="socialcount" data-url="http://www.filamentgroup.com/" data-counts="true">
-    	  <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.filamentgroup.com/" title="Share on Facebook"><span class="count">Like</span></a></li>
-    	  <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://www.filamentgroup.com/" title="Share on Twitter"><span class="count">Tweet</span></a></li>
-    	  <li class="googleplus"><a href="https://plus.google.com/share?url=http://www.filamentgroup.com/" title="Share on Google Plus"><span class="count">+1</span></a></li>
+    	  <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}" title="Share on Facebook"><span class="count">Like</span></a></li>
+    	  <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ page.title }}%20%7C%20{{ page.url }}" title="Share on Twitter"><span class="count">Tweet</span></a></li>
+    	  <li class="googleplus"><a href="https://plus.google.com/share?url={{ page.url }}" title="Share on Google Plus"><span class="count">+1</span></a></li>
     	</ul>
 
         <!-- POST NAVIGATION -->

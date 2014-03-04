@@ -6,12 +6,12 @@
 
  ::selection {
  	color: white;
- 	background: steelblue;
+ 	background: $pink;
  }
 
  ::-moz-selection {
  	color: white;
- 	background: steelblue;
+ 	background: $pink;
  }
 
  blockquote {
@@ -49,11 +49,11 @@ body {
 
 	a { 
 		text-decoration: none;
-		color: steelblue;
+		color: $pink;
 
 		&:hover {
 			text-decoration: underline;
-			color: darken(steelblue, 15%);
+			color: darken($pink, 15%);
 		}
 	}
 
@@ -96,7 +96,7 @@ body {
 header {
 	overflow: hidden;
 	padding: 0 20px 0;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -194,18 +194,18 @@ header {
 					list-style: none;
 					border-bottom: 2px dotted $charcoal;
 					font-style: italic;
-					color: steelblue;
+					color: $blue;
 					padding: .5em 0;
 
 					a {
-						color: steelblue;
+						color: $blue;
 						font-size: 1em;
 						font-family: $serif;
 						font-style: italic;
 					}
 
 					&:hover a {
-						color: lighten(steelblue, 10%);
+						color: lighten($blue, 10%);
 						text-decoration: none;
 					}
 
@@ -243,7 +243,7 @@ header {
 
 footer {
 	clear: both;
-	background: darken(white, 5%);
+	background: darken(white, 10%);
 	padding: 1.5em;
 	position: relative;
 	z-index: 5;
@@ -275,7 +275,7 @@ footer {
 				font-size: 1.5em;
 
 				&:hover {
-					color: darken(steelblue, 15%);
+					color: darken($blue, 15%);
 					text-decoration: none;
 				}
 			}
@@ -344,6 +344,7 @@ html {
 					margin: 0;
 					position: relative;
 					display: block;
+					padding: 1em;
 
 					img {
 						max-width: 100%;
@@ -355,7 +356,7 @@ html {
 						top: 0;
 						left: 0;
 						text-align: center;
-						background: rgba(0,0,0,.8);
+						background: rgba(234,76,137,.9);
 						width: 100%;
 						height: 100%;
 						color: white;
@@ -366,10 +367,35 @@ html {
 						-o-transition: .2s all ease-in-out;
 						transition: .2s all ease-in-out;
 
+						.overlayText {
+							position: relative;
+							top: 50%;
+							-webkit-transform: translateY(-50%);
+							-moz-transform: translateY(-50%);
+							-ms-transform: translateY(-50%);
+							-o-transform: translateY(-50%);
+							transform: translateY(-50%);
+						}
+
 						h3 {
 							color: white;
 							font-family: $sans-serif;
 							font-weight: 200;
+
+							a {
+								color: white;
+								text-decoration: none;
+							}
+						}
+
+						p {
+							span {
+								margin-left: .25em;
+							}
+
+							font-size: 1.5em;
+							margin-bottom: 0;
+							color: white;
 						}
 					}
 
@@ -378,11 +404,6 @@ html {
 					}
 				}
 			}
-		}
-
-
-		footer {
-			background: white;
 		}
 
 		section {
@@ -531,7 +552,13 @@ html {
 		margin: 3em 0 4em;
 
 		> li {
-			background-color: steelblue;
+			background-color: $blue;
+
+			&:hover a {
+				padding: 0;
+				margin: 0;
+				background: none;
+			}
 		}
 	}
 }
@@ -594,7 +621,7 @@ html {
 		width: 100%;
 		z-index: 1;
 		display: block;
-		background: steelblue;
+		background: $blue;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -648,7 +675,14 @@ html {
 	}
 	.content {
 		h1 { font-size: 2em; }
-		h2 { margin-bottom: 0; }
+		h2 { 
+			font-family: $heading;
+			font-size: 4.5em;
+			text-transform: uppercase;
+			font-weight: 200;
+			margin-bottom: 0;
+			line-height: .9;
+		}
 		h4 { font-style: italic; }
 	}
 }
