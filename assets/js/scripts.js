@@ -14,7 +14,7 @@ $.jribbble.getShotsByPlayerId('brianmaierjr', function (playerShots) {
 }, {page: 1, per_page: 9});
 
 
-// Fittext
+// Fittext 
 
 jQuery("#fittext, .post-title").fitText(1.2, { minFontSize: '36px', maxFontSize: '200px' });
 
@@ -30,8 +30,17 @@ $(function() {
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
-        return false;
+        return false; 
       }
     }
   });
 });
+
+
+// Skrollr Initialization
+
+var s = skrollr.init();
+
+
+
+
