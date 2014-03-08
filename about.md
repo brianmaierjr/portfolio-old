@@ -12,11 +12,11 @@ image: blog-portfolio.jpg
 ## Brian Maier Jr.
 *Idiot Extraordinaire*
 
-With over 5 years experience I have had my hand in many different projects ranging from web/mobile apps & websites, branding, front-end development, video production, illustration and more. I strive to keep the user in the forefront and to always keep learning.
+In my 5+ years I've had my hand in many different projects ranging from web apps, mobile app, websites, branding, front-end development, video production, illustration and more. I strive to keep the user in the forefront and to always keep learning.
 
 ### What I've Done
 
-* Worked on projects for P&G, Pizza Hut, Big Ass Fans and Walmart and more
+* Worked on projects for P&G, Big Ass Fans and Walmart and more
 * Presented at WordCamp on the topic of Responsive Design.
 * Was featured on dozens of design blogs and galleries.
 * Created tools that are used by thousands of other designers.

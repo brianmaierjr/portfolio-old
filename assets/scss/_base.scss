@@ -6,12 +6,12 @@
 
  ::selection {
  	color: white;
- 	background: $pink;
+ 	background: olive;
  }
 
  ::-moz-selection {
  	color: white;
- 	background: $pink;
+ 	background: olive;
  }
 
  blockquote {
@@ -57,11 +57,11 @@ body {
 
 	a { 
 		text-decoration: none;
-		color: $pink;
+		color: olive;
 
 		&:hover {
 			text-decoration: underline;
-			color: darken($pink, 15%);
+			color: darken(olive, 15%);
 		}
 	}
 
