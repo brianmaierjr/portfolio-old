@@ -37,12 +37,24 @@ $(function() {
 });
 
 
-// Skrollr Initialization
+// Waypoints
 
-//var s = skrollr.init(
-//    forceHeight=false
-//  );
+jQuery(function($) {
+ 
+  $('#craftsman').waypoint(function() {
+    $('#craftsman .intro, #craftsman .aboutText').addClass( 'animated fadeInUp' );
+  },
+  {
+    offset: '60%',
+    triggerOnce: true
+  });
 
-
-
-
+  $('#dribbble').waypoint(function() {
+    $('#dribbble h2, #dribbble #portfolio').addClass( 'animated fadeInUp' );
+  },
+  {
+    offset: '60%',
+    triggerOnce: true
+  });
+ 
+});

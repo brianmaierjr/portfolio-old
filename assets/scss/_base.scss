@@ -6,12 +6,12 @@
 
  ::selection {
  	color: white;
- 	background: olive;
+ 	background: darkkhaki;
  }
 
  ::-moz-selection {
  	color: white;
- 	background: olive;
+ 	background: darkkhaki;
  }
 
  blockquote {
@@ -57,11 +57,11 @@ body {
 
 	a { 
 		text-decoration: none;
-		color: olive;
+		color: darkkhaki;
 
 		&:hover {
 			text-decoration: underline;
-			color: darken(olive, 15%);
+			color: darken(darkkhaki, 15%);
 		}
 	}
 
@@ -196,18 +196,18 @@ header {
 					list-style: none;
 					border-bottom: 2px dotted $charcoal;
 					font-style: italic;
-					color: $blue;
+					color: darkkhaki;
 					padding: .5em 0;
 
 					a {
-						color: $blue;
+						color: darkkhaki;
 						font-size: 1em;
 						font-family: $serif;
 						font-style: italic;
 					}
 
 					&:hover a {
-						color: lighten($blue, 10%);
+						color: darken(darkkhaki, 10%);
 						text-decoration: none;
 					}
 
@@ -229,6 +229,7 @@ header {
 			top: .1em;
 			right: .55em;
 			font-size: 2em;
+			color: tomato;
 
 			&:hover { text-decoration: none; }
 		}
@@ -245,7 +246,7 @@ header {
 
 footer {
 	clear: both;
-	background: darken(white, 10%);
+	background: lighten(darkkhaki, 30%);
 	padding: 1.5em;
 	position: relative;
 	z-index: 5;
@@ -307,10 +308,12 @@ html {
 				font-size: 1.75rem;
 				font-family: $sans-serif;
 				font-weight: 200;
-				margin-bottom: 1em
+				margin-bottom: 1em;
+				opacity: 0;
 			}
 			
 			.aboutText {
+				opacity: 0;
 				@include outer-container();
 				p {
 					@include span-columns(12);
@@ -325,11 +328,8 @@ html {
 
 		#dribbble {
 
-			.dribbbleText {
-				@include span-columns(12);
-			}
-
 			h2 {
+				opacity: 0;
 				font-family: $heading;
 				font-weight: 200;
 				text-transform: uppercase;
@@ -337,6 +337,7 @@ html {
 			}
 			
 			#portfolio {
+				opacity: 0;
 				width: 100%;
 				@include outer-container();
 
@@ -458,6 +459,7 @@ html {
 					-webkit-animation-delay: 2.5s;
 					-o-animation-delay: 2.5s;
 					font-size: .9em;
+					outline: none;
 
 					span { color: white; }
 
@@ -486,6 +488,14 @@ html {
 ------------------------------------------------------------*/
 
 .blog {
+
+	header {
+		background: $blue;
+	}
+
+	#container .content {
+		padding-top: 2em;
+	}
 
 	ul {
 		li {
@@ -682,15 +692,6 @@ html {
 		margin-top: 200px;
 	}
 	.content {
-		h1 { font-size: 2em; }
-		h2 { 
-			font-family: $heading;
-			font-size: 4.5em;
-			text-transform: uppercase;
-			font-weight: 200;
-			margin-bottom: 0;
-			line-height: .9;
-		}
 		h4 { font-style: italic; }
 	}
 }
