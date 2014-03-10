@@ -16,7 +16,8 @@ $.jribbble.getShotsByPlayerId('brianmaierjr', function (playerShots) {
 
 // Fittext 
 
-jQuery("#fittext, .post-title").fitText(1.2, { minFontSize: '36px', maxFontSize: '200px' });
+jQuery("#fittext").fitText(1.2);
+jQuery(".post-title").fitText(1.2, { minFontSize: '36px', maxFontSize: '200px' });
 
 
 // Smooth Scrolling via csstricks.com
@@ -58,3 +59,18 @@ jQuery(function($) {
   });
  
 });
+
+// Headroom.js
+
+$(".header").headroom({
+  "tolerance": 0,
+  "offset": 0,
+  "classes": {
+    "initial": "animated",
+    "pinned": "slideDown",
+    "unpinned": "slideUp",
+    "top": "headroom--top",
+    "notTop": "headroom--not-top"
+  }
+});
+

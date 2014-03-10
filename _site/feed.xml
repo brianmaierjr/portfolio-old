@@ -7,49 +7,26 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Test Post</title>
-				<description>&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/p&gt;
+				<title>New Year, New Site</title>
+				<description>&lt;p&gt;Woah. I&amp;#39;ve finally finished this portfolio and I couldn&amp;#39;t be happier.&lt;/p&gt;
 
-&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;p&gt;I may have jumped the gun but I wanted to get it out and see what people think. There is still plenty of work to be done and by pushing it live I&amp;#39;m hoping to have it done sooner than later.&lt;/p&gt;
 
-&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h2&gt;To-do&lt;/h2&gt;
 
-&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Test, test, and test more on multiple devices.&lt;/li&gt;
+&lt;li&gt;Check for unused css/code&lt;/li&gt;
+&lt;li&gt;Image optimization for mobile&lt;/li&gt;
+&lt;li&gt;Mess with fittext on homepage (still too small)&lt;/li&gt;
+&lt;li&gt;Customize sharing buttons further&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6&gt;Heading 6&lt;/h6&gt;
-
-&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
-
-&lt;p&gt;Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&lt;/p&gt;
+&lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;
 </description>
 				<pubDate>Mon, 10 Dec 2012 00:00:00 -0500</pubDate>
 				<link>//test-post</link>
 				<guid isPermaLink="true">//test-post</guid>
-			</item>
-		
-			<item>
-				<title>New Year, New Setup</title>
-				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet libero non lorem interdum elementum. Duis velit massa, facilisis non mauris ut, blandit consequat justo. Donec et est vel erat varius faucibus non sit amet elit. Pellentesque vel volutpat turpis, quis tincidunt ligula.&lt;/p&gt;
-
-&lt;p&gt;Sed consectetur mauris non enim convallis bibendum. Cras congue, justo sit amet elementum pharetra, enim libero faucibus lorem, id rhoncus elit dolor nec odio. Proin dictum quam ut erat blandit, eget accumsan massa dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sed lacus at leo iaculis luctus. Curabitur sapien justo, egestas sed auctor euismod, dignissim non magna. Donec neque elit, vehicula nec imperdiet vel, hendrerit eu sem. In vel velit sed nibh vulputate faucibus. Sed eget suscipit risus.&lt;/p&gt;
-
-&lt;h2&gt;Heading 2&lt;/h2&gt;
-
-&lt;p&gt;Sed dictum congue augue, ac malesuada dui ultricies id. Praesent non fermentum nibh. Mauris sit amet tempus nunc, ut adipiscing felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel sem in lacus iaculis tristique. Aenean varius erat lorem, sed tincidunt lacus varius ac. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis dignissim aliquet ipsum eu consequat. Proin ut diam sed lorem egestas condimentum. Aenean venenatis libero feugiat enim scelerisque, sit amet porta nisi egestas. Pellentesque condimentum sem et orci eleifend, non aliquet dolor pellentesque.&lt;/p&gt;
-
-&lt;blockquote&gt;Curabitur nec sapien eu tortor aliquam blandit sed in sapien. Proin non dolor vel ante euismod malesuada a ac justo. Fusce mollis dictum vehicula. Donec mattis porttitor imperdiet. Nam elit urna, varius vitae commodo a, sodales sed ante. Nunc vel vestibulum eros, ut tincidunt lorem.&lt;/blockquote&gt;
-
-&lt;h3&gt;Heading 3&lt;/h3&gt;
-
-&lt;p&gt;Curabitur in auctor nibh. Ut sit amet felis interdum, sollicitudin dui eget, rhoncus dui. Morbi dictum vehicula est non egestas. Duis nec justo sodales, pulvinar eros sagittis, tempor nunc. Curabitur ac pharetra tellus. Ut scelerisque, eros quis mattis venenatis, eros augue iaculis odio, at dignissim risus massa non magna. Proin fringilla lobortis laoreet. Quisque porttitor, ante sit amet tempor sodales, nunc nisl rutrum mauris, non auctor magna urna sit amet ante. Duis scelerisque dui et tristique vestibulum. Aliquam egestas lacinia nulla adipiscing placerat. Cras malesuada pulvinar fermentum. In convallis consequat velit. Quisque enim leo, placerat nec libero vitae, ullamcorper molestie lectus. Ut elementum nulla enim, nec varius turpis bibendum ac. &lt;/p&gt;
-</description>
-				<pubDate>Mon, 10 Dec 2012 00:00:00 -0500</pubDate>
-				<link>//another-test</link>
-				<guid isPermaLink="true">//another-test</guid>
 			</item>
 		
 	</channel>
