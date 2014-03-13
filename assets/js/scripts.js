@@ -16,8 +16,8 @@ $.jribbble.getShotsByPlayerId('brianmaierjr', function (playerShots) {
 
 // Fittext 
 
-jQuery("#fittext").fitText(1.2);
-jQuery(".post-title").fitText(1.2, { minFontSize: '36px', maxFontSize: '200px' });
+jQuery("#fittext").fitText(.75);
+jQuery(".post-title").fitText(1, { minFontSize: '36px', maxFontSize: '200px' });
 
 
 // Smooth Scrolling via csstricks.com

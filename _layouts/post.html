@@ -16,12 +16,12 @@
     <div class="post-content">
     	{{ content }}
 
-    	<!-- Sharing from Social Count http://filamentgroup.com/lab/socialcount/ -->
-    	<ul class="socialcount" data-url="http://www.filamentgroup.com/" data-counts="true">
-    	  <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}" title="Share on Facebook"><span class="count">Like</span></a></li>
-    	  <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ page.title }}%20%7C%20{{ page.url }}" title="Share on Twitter"><span class="count">Tweet</span></a></li>
-    	  <li class="googleplus"><a href="https://plus.google.com/share?url={{ page.url }}" title="Share on Google Plus"><span class="count">+1</span></a></li>
-    	</ul>
+    	<!-- Sharing from Social Count http://filamentgroup.com/lab/socialcount/ 
+    	<ul class="socialcount" data-url="{{ post.url }}" data-counts="true">
+          <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.filamentgroup.com/" title="Share on Facebook"><span class="count">Like</span></a></li>
+          <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://www.filamentgroup.com/" title="Share on Twitter"><span class="count">Tweet</span></a></li>
+          <li class="googleplus"><a href="https://plus.google.com/share?url=http://www.filamentgroup.com/" title="Share on Google Plus"><span class="count">+1</span></a></li>
+        </ul> -->
 
         <!-- POST NAVIGATION -->
         <div class="postNav">
@@ -33,7 +33,7 @@
             {% endif %}
         </div>
 
-    	<!-- Disqus -->
+    	<!-- Disqus
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -47,7 +47,7 @@
             })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
         
         
     </div><!-- end .post -->

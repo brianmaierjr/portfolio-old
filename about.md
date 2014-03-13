@@ -9,9 +9,9 @@ image: blog-portfolio.jpg
 ---
 
 
-<h1 class="post-title">Brian Maier Jr.</h1>  
+<h1 id="fittext">Brian Maier Jr.</h1>
 
-<p class="intro">In my 5+ years designing I've had my hand in many different projects ranging from <strong>web apps, mobile app, websites, branding, front-end development, video production, illustration and more</strong>. I strive to always keep the user in the forefront and to keep learning.</p>
+<p class="intro">In my 5+ years designing I've had my hand in many different projects ranging from web apps, mobile app, websites, branding, front-end development, video production, illustration and more. I strive to always keep the user in the forefront and to keep learning.</p>
 
 ## What I've Done
 
@@ -30,22 +30,25 @@ I always have a side project or two in the works. It keeps me on my toes and all
 *Currently in development:* Photoshop plugin for the 147 Colors
 
 ### [Loutography](http://loutography.com/ "Loutography")<br/>
-I love taking photos, and now that I have a camera in my pocket at all times I decided to showcase some of them. Loutography is a photo exploration of the wonderful city of Louisville, Kentucky where I currently reside.
+I love taking photos, and now that I have a camera in my pocket at all times I decided to showcase some of them. Loutography is my photo exploration of the wonderful city of Louisville, Kentucky where I currently reside.
 
 ### Vandal League<br/>
 Coming Soon
 
+<!--
+<hr>
+
 ## About This Site
 
-This is the fifth version of my website/portfolio. This time around I opted for a lightweight static generated site that reads and performs well on any device. Her are some of the tools I used to create it.
+This is the fifth version of my website/portfolio. This time around I opted for a lightweight static generated site that reads and performs well on any device. Here are some of the tools I used to create it.
 
 ### Javascript
 
 [FitText](http://www.fittextjs.com "FitText") - Used on headings for stretchy awesomeness.<br/>
-[Waypoints](http://imakewebthings.com/jquery-waypoints/ "Waypoints") Used to trigger homepage animations.<br/>
-[Jribbble](http://www.jribbble.com "Jribbble") A Jquery plugin for the Dribbble API.<br/>
-[SocialCount](http://filamentgroup.com/lab/socialcount/ "SociaCount") Lighter & Faster social networking buttons on blog posts.<br/>
-[Grunt](http://gruntjs.com/ "Grunt") Grunt is used to compress images, compile & minify sass, concatenate & minify javascript/jquery. <br/>
+[Waypoints](http://imakewebthings.com/jquery-waypoints/ "Waypoints") - Used to trigger homepage animations.<br/>
+[Jribbble](http://www.jribbble.com "Jribbble") - A Jquery plugin for the Dribbble API.<br/>
+[SocialCount](http://filamentgroup.com/lab/socialcount/ "SociaCount") - Lighter & Faster social networking buttons on blog posts.<br/>
+[Grunt](http://gruntjs.com/ "Grunt") - Grunt is used to compress images, compile & minify sass, concatenate & minify javascript/jquery. <br/>
 
 
 ### Tools/Programs
@@ -53,11 +56,11 @@ This is the fifth version of my website/portfolio. This time around I opted for 
 [TypeCast](http://typecast.com/ "TypeCast") - TypeCast was used to prototype the type used for this site.<br/>
 [Disqus](http://disqus.com/ "Disqus") - Commenting solution for blog posts, I love the way this looks out of the box.<br/>
 [fonts.com](http://www.fonts.com "Fonts.com") - Fonts.com provided the fonts used for this site. Nimrod was used for body text and headings are Univers.<br/>
-[Icomoon](http://icomoon.io "Icon") Icon font custom built by IcoMoon.<br/>
-[Bourbon Neat](http://neat.bourbon.io/ "Bourbon Neat") A lightweight semantic grid framework.<br/>
-[Jekyll](http://jekyllrb.com/ "Jekyll") Static site generator.<br/>
-[Github Pages](http://pages.github.com/ "GitHub Pages") Hosted for free on GitHub pages.<br/>
+[Icomoon](http://icomoon.io "Icon") - Icon font custom built by IcoMoon.<br/>
+[Bourbon Neat](http://neat.bourbon.io/ "Bourbon Neat") - A lightweight semantic grid framework.<br/>
+[Jekyll](http://jekyllrb.com/ "Jekyll") - Static site generator.<br/>
+[Github Pages](http://pages.github.com/ "GitHub Pages") - Hosted for free on GitHub pages.<br/>
 
-
+-->
 
 

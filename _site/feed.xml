@@ -7,26 +7,46 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>New Year, New Site</title>
+				<title>Draft Post</title>
 				<description>&lt;p&gt;Woah. I&amp;#39;ve finally finished this portfolio and I couldn&amp;#39;t be happier.&lt;/p&gt;
 
 &lt;p&gt;I may have jumped the gun but I wanted to get it out and see what people think. There is still plenty of work to be done and by pushing it live I&amp;#39;m hoping to have it done sooner than later.&lt;/p&gt;
 
-&lt;h2&gt;To-do&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;example&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Example&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+ 
+
+&lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 12 Mar 2014 20:16:45 -0400</pubDate>
+				<link>//draft-post</link>
+				<guid isPermaLink="true">//draft-post</guid>
+			</item>
+		
+			<item>
+				<title>New Year, New Site</title>
+				<description>&lt;p&gt;Woah. I&amp;#39;ve finally finished this portfolio and I couldn&amp;#39;t be happier.&lt;/p&gt;
+
+&lt;p&gt;I may have jumped the gun but I wanted to get it out and see what people think. There is still plenty of work to be done and by pushing it live I&amp;#39;m hoping to have it done sooner than later. Thanks to &lt;a href=&quot;https://medium.com/p/f8083e76146d&quot; title=&quot;Stop putting it off and accept the challenge.&quot;&gt;this article&lt;/a&gt; I decided to just put up what I have and run with it. &lt;/p&gt;
+
+&lt;h2&gt;The unofficial to-do list&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Test, test, and test more on multiple devices.&lt;/li&gt;
 &lt;li&gt;Check for unused css/code&lt;/li&gt;
 &lt;li&gt;Image optimization for mobile&lt;/li&gt;
-&lt;li&gt;Mess with fittext on homepage (still too small)&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Mess with fittext on homepage (still too small)&lt;/s&gt;&lt;/li&gt;
 &lt;li&gt;Customize sharing buttons further&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;
 </description>
-				<pubDate>Mon, 10 Dec 2012 00:00:00 -0500</pubDate>
-				<link>//test-post</link>
-				<guid isPermaLink="true">//test-post</guid>
+				<pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
+				<link>//new-year-new-site</link>
+				<guid isPermaLink="true">//new-year-new-site</guid>
 			</item>
 		
 	</channel>
