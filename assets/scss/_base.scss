@@ -66,14 +66,6 @@ body {
 		}
 	}
 
-	ul {
-		margin: 0 0 2rem;
-
-		li {
-			margin-bottom: .2em;
-		}
-	}
-
 	#container {
 		clear: both;
 		padding: 100px 20px 40px;
@@ -82,12 +74,6 @@ body {
 
 		img {
 			max-width: 100%;
-		}
-	}
-
-	.highlight {
-		pre {
-			margin: 0 0 2rem;
 		}
 	}
 	
@@ -319,7 +305,7 @@ html {
 	.home {
 		height: 100%;
 		width: 100%;
-		background: url('../img/bg-river-dark-small.jpg')  no-repeat scroll center center $blue;
+		background: url('../img/bg-river-dark-small.jpg')  no-repeat scroll center center ;
 		background-size: cover;
 
 		#craftsman {
