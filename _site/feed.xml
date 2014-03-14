@@ -21,7 +21,7 @@
 
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;
 </description>
-				<pubDate>Wed, 12 Mar 2014 20:16:45 -0400</pubDate>
+				<pubDate>Wed, 12 Mar 2014 20:41:14 -0400</pubDate>
 				<link>//draft-post</link>
 				<guid isPermaLink="true">//draft-post</guid>
 			</item>
@@ -39,7 +39,8 @@
 &lt;li&gt;Check for unused css/code&lt;/li&gt;
 &lt;li&gt;Image optimization for mobile&lt;/li&gt;
 &lt;li&gt;&lt;s&gt;Mess with fittext on homepage (still too small)&lt;/s&gt;&lt;/li&gt;
-&lt;li&gt;Customize sharing buttons further&lt;/li&gt;
+&lt;li&gt;Customize sharing buttons&lt;/li&gt;
+&lt;li&gt;Add Disqus to posts&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;
