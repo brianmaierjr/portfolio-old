@@ -24,18 +24,6 @@
 
 &lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
 
-&lt;h4&gt;Heading 4&lt;/h4&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-
-&lt;h5&gt;Heading 5&lt;/h5&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-
-&lt;h6&gt;Heading 6&lt;/h6&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;example&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Example&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt; 
@@ -45,7 +33,7 @@
 
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;
 </description>
-				<pubDate>Sat, 15 Mar 2014 00:38:28 -0400</pubDate>
+				<pubDate>Sat, 15 Mar 2014 01:20:36 -0400</pubDate>
 				<link>//draft-post</link>
 				<guid isPermaLink="true">//draft-post</guid>
 			</item>
@@ -64,7 +52,8 @@
 &lt;li&gt;Image optimization for mobile&lt;/li&gt;
 &lt;li&gt;&lt;s&gt;Mess with fittext on homepage (still too small)&lt;/s&gt;&lt;/li&gt;
 &lt;li&gt;Customize sharing buttons&lt;/li&gt;
-&lt;li&gt;Add Disqus to posts&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Add Disqus to posts&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Set up Vertical Rhythm&lt;/s&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;

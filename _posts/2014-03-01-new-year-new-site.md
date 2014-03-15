@@ -16,6 +16,7 @@ I may have jumped the gun but I wanted to get it out and see what people think. 
 * Image optimization for mobile
 * <s>Mess with fittext on homepage (still too small)</s>
 * Customize sharing buttons
-* Add Disqus to posts
+* <s>Add Disqus to posts</s>
+* <s>Set up Vertical Rhythm</s>
 
 If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.
