@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Style Guide
-class: post
-color: cadetblue
+class: post post-image
+image: style-guide.png 
 ---
 
 A style guide for this site/blog. Enjoy.
