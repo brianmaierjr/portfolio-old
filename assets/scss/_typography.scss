@@ -16,46 +16,46 @@ body {
 	font-family: $serif;
 	color: $charcoal;
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 		font-family: $serif;
-		font-weight: 700;
+		font-weight: 700; 
 	}
 
-	h1 {
-		font-size: 2.853rem; 
-		margin: 1em 0 .5em;
-		line-height: 1.5em;
+	h1, .h1 {
+		font-size: 2.853rem;
+		line-height: 3.75rem;
+		margin: 0 0 .75rem;
 	}
 
-	h2 {
+	h2, .h2 {
 		font-size: 2.531rem;
-		margin: 1.1261em 0 .3754em;
-		line-height: .7507em;
+		line-height: 3rem;
+		margin: 0 0 .75rem;
 	}
-	h3 {
-		font-size: 1.902rem; /* 38 */
-		margin: 1em 0 .5em;
-		line-height: 1.5em;
+	h3, .h3 {
+		font-size: 1.902rem;
+		line-height: 3rem;
+		margin: 0 0 .75em;
 	}
-	h4 {
+	h4, .h4 {
 		font-size: 1.688rem;
-		margin: 1.6881em 0 .5627em;
-		line-height: 1.1253em;
+		line-height: 2.25rem;
+		margin: 0 0 .75em;
 	}
-	h5 {
+	h5, .h5 {
 		font-size: 1.268rem;
-		margin: 2.2470em 0 .749em;
-		line-height: 1.4980em;
+		line-height: 1.5rem;
+		margin: 0 0 .75em;
 	}
-	h6 {
+	h6, .h6 {
 		font-size: 1.125rem;
-		margin: 2.5333em 0 .8444em;
-		line-height: 1.6889em;
+		line-height: 1.5rem;
+		margin: 0 0 .75em;
 	}
 
 	p {
 		color: $charcoal;
-		margin: 0 0 1em;
+		margin: 0 0 1rem;
 	}
 }
 
