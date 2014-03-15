@@ -251,7 +251,7 @@ body {
 
 footer {
 	clear: both;
-	background: lighten(darkkhaki, 30%);
+	background: darken(white, 7%); 
 	padding: 1.5em;
 	position: relative;
 	z-index: 5;
@@ -268,6 +268,16 @@ footer {
 		}
 
 		p { font-size: .8em; }
+
+		a {
+			color: cadetblue;
+			text-decoration: underline;
+
+			&:hover {
+				text-decoration: none;
+				color: darken(cadetblue, 25%);
+			}
+		}
 	}
 
 	.copyright {
@@ -277,13 +287,19 @@ footer {
 		.social {
 			width: 100%;
 			margin-top: 1em;
+			-webkit-transition: .2s all ease-in-out;
+			-moz-transition: .2s all ease-in-out;
+			-ms-transition: .2s all ease-in-out;
+			-o-transition: .2s all ease-in-out;
+			transition: .2s all ease-in-out;
 
 			a {
 				text-decoration: none;
 				font-size: 1.5em;
+				color: $blue;
 
 				&:hover {
-					color: darken($blue, 15%);
+					color: lighten($blue, 25%);
 					text-decoration: none;
 				}
 			}
@@ -449,13 +465,13 @@ html {
 					color: darken(white, 20%);
 					font-weight: 300;
 					position: relative;
-					font-size: 1em;
+					font-size: .8em;
 					animation-delay: 1.2s;
 					-moz-animation-delay: 1.2s;
 					-webkit-animation-delay: 1.2s;
 					-o-animation-delay: 1.2s;
 					display: inline-block;
-					line-height: 1.9;
+					line-height: 1.4;
 				}
 
 				a {
@@ -569,16 +585,14 @@ html {
 	@include span-columns(12);
 
 	img { max-width :100%; }
-	p {
-		line-height: 1.9;
+	p { line-height: 1.9; }
 
-		&:first-of-type {
-			font-family: $sans-serif;
-			font-weight: 300;
-			font-size: 1.3rem;
-			line-height: 1.6167;
-			margin-bottom: 2rem;
-		}
+	> p:first-of-type {
+		font-family: $sans-serif;
+		font-weight: 300;
+		font-size: 1.3rem;
+		line-height: 1.6167;
+		margin-bottom: 2rem;
 	}
 
 	.socialcount {
@@ -645,7 +659,7 @@ html {
 		z-index: 90;
 		position: relative;
 		padding-top: 2em;
-		margin-top: 4em;
+		margin-top: 5em;
 		padding-bottom: 50px;
 		overflow: visible;
 	}

@@ -11,11 +11,11 @@ image: blog-portfolio.jpg
 
 <h1>Brian Maier Jr.</h1>
 
-<p class="intro">In my 5+ years designing I've had my hand in many different projects ranging from web apps, mobile app, websites, branding, front-end development, video production, illustration and more. I strive to always keep the user in the forefront and to keep learning.</p>
+<p class="intro">In my 5+ years designing I've had my hand in many different projects ranging from web apps, mobile apps, websites, branding, front-end development, video production, illustration and more. I strive to always keep the user in the forefront and to never stop learning.</p>
 
 <h2 class="h3">What I've Done</h2>
 
-* Worked on projects for P&G, Big Ass Fans and Walmart and more.
+* Worked on projects for P&G, Big Ass Fans, Walmart and more.
 * Presented at WordCamp on the topic of Responsive Design.
 * Was featured on dozens of design blogs and galleries.
 * Created tools that are used by thousands of other designers.
@@ -23,7 +23,7 @@ image: blog-portfolio.jpg
 
 <h2 class="h3">Side Projects</h2>
 
-I always have a side project or two in the works. It keeps me on my toes and allows me to experiment with new techniques and technologies. Here are a few that have survived throught the years.
+I always have a side project or two in the works. It keeps me on my toes and allows me to experiment with new techniques and technologies. Here are a few that have survived throughout the years.
 
 <h3 class="h4"><a href="http://147colors.com">147 Colors</a></h3>
 147 Colors is a tool built to help web designers and developers learn the 147 CSS color names that are available today. It is a tool that is used by thousands of people all over the world.

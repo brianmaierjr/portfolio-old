@@ -440,7 +440,7 @@ $.jribbble.getShotsByPlayerId('brianmaierjr', function (playerShots) {
 
 // Fittext 
 
-jQuery("#fittext").fitText(.75);
+jQuery("#fittext").fitText(.75, { minFontSize: '68px' });
 jQuery(".post-title").fitText(1, { minFontSize: '36px', maxFontSize: '200px' });
 
 
