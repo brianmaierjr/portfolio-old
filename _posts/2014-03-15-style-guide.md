@@ -17,7 +17,7 @@ Mumblecore iPhone distillery Cosby sweater, mlkshk selvage Thundercats brunch de
 
 <h2 class="h3">Blockquote</h2>
 
-> "This is a blockquote"
+> "This is a blockquote. It is the blockiest of the blockquotes."
 
 
 # Heading One

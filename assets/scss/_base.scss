@@ -114,6 +114,15 @@ body {
 		top: 0;
 		background: $blue;
 		position: fixed;
+
+		#logo {
+			margin-top: .4em;
+			line-height: 1;
+		}
+
+		#menuBtn {
+			margin-top: 0;
+		}
 	}
 
 	&.slideUp {
@@ -200,28 +209,32 @@ body {
 					list-style: none;
 					border-bottom: 2px dotted $charcoal;
 					font-style: italic;
-					color: $blue;
+					color: cadetblue;
 					padding: .5em 0;
 
 					a {
-						color: $blue;
+						color: cadetblue;
 						font-size: 1em;
 						font-family: $serif;
 						font-style: italic;
+						display: block;
 					}
 
 					&:hover a {
-						color: lighten($blue, 25%);
+						color: lighten(cadetblue, 20%);
 						text-decoration: none;
 					}
 
 					ul {
 						float: right;
+						line-height: 1;
 
 						li {
+							line-height: 1;
 							border: none;
-							display: inline;
+							display: inline-block;
 							font-size: 1.5em;
+							padding: 0;
 						}
 					}
 				}
@@ -230,7 +243,7 @@ body {
 
 		.closeBtn {
 			position: absolute;
-			top: .1em;
+			top: .55em;
 			right: .55em;
 			font-size: 2em;
 			color: tomato;
@@ -514,7 +527,31 @@ html {
 .blog {
 
 	header {
-		background: $blue;
+		background: none;
+
+		#logo {
+			a {
+				color: $blue;
+				text-shadow: none;
+			}
+		}
+
+		#menuBtn {
+			color: $blue;
+			text-shadow: none;
+		}
+
+		&.slideDown.headroom--not-top {
+			#logo {
+				a {
+					color: white;
+				}
+			}
+
+			#menuBtn {
+				color: white;
+			}
+		}
 	}
 
 	#container .content {
@@ -636,8 +673,12 @@ html {
 
 		@include outer-container();
 
-		#prev, #next {
-			@include span-columns(6);
+		#prev {
+			@include span-columns(12);
+
+			strong {
+				color: $charcoal;
+			}
 
 			&:hover { text-decoration: none; }
 		}
