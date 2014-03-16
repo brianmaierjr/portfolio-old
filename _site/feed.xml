@@ -40,22 +40,19 @@
 		
 			<item>
 				<title>Style Guide</title>
-				<description>&lt;p&gt;A style guide for this site/blog. Enjoy.&lt;/p&gt;
+				<description>&lt;p&gt;A constant work in progress that represents markup patterns and common styles from this site.&lt;/p&gt;
 
 &lt;h2 class=&quot;h3&quot;&gt;Body Text&lt;/h2&gt;
 
 &lt;p&gt;Gastropub before they sold out selvage Echo Park Banksy locavore, pop-up High Life whatever artisan polaroid fanny pack distillery brunch. Meggings craft beer cardigan fanny pack fixie Portland YOLO, mixtape art party.&lt;/p&gt;
 
-&lt;p&gt;Mumblecore iPhone distillery Cosby sweater, mlkshk selvage Thundercats brunch deep v try-hard mixtape. Post-ironic asymmetrical kogi four loko. Kitsch Blue Bottle jean shorts fingerstache, gluten-free photo booth banjo.
-&lt;br&gt;
-&lt;h2 class=&quot;h3&quot;&gt;Blockquote&lt;/h2&gt;&lt;/p&gt;
+&lt;p&gt;Mumblecore iPhone distillery Cosby sweater, mlkshk selvage Thundercats brunch deep v try-hard mixtape. Post-ironic asymmetrical kogi four loko. Kitsch Blue Bottle jean shorts fingerstache, gluten-free photo booth banjo.&lt;/p&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;Blockquote&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;quot;This is a blockquote&amp;quot;&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;h2 class=&quot;h3&quot;&gt;Headings&lt;/h2&gt;&lt;/p&gt;
 
 &lt;h1&gt;Heading One&lt;/h1&gt;
 
@@ -69,8 +66,7 @@
 
 &lt;h6&gt;Heading Six&lt;/h6&gt;
 
-&lt;p&gt;&lt;br&gt;
-&lt;h2 class=&quot;h3&quot;&gt;Unordered List&lt;/h2&gt;&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Unordered List&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;UL List Item
@@ -87,8 +83,7 @@
 &lt;li&gt;UL List Item&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br&gt;
-&lt;h2 class=&quot;h3&quot;&gt;Ordered List&lt;/h2&gt;&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Ordered List&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;OL List Item&lt;/li&gt;
@@ -98,8 +93,7 @@
 &lt;li&gt;OL List Item&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;br&gt;
-&lt;h2 class=&quot;h3&quot;&gt;Code Highlighting&lt;/h2&gt;&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Code Highlighting&lt;/h2&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;example&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt; 
