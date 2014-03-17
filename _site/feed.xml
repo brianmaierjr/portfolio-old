@@ -10,6 +10,31 @@
 				<title>Style Guide</title>
 				<description>&lt;p&gt;A constant work in progress that represents markup patterns and common styles from this site.&lt;/p&gt;
 
+&lt;h2 class=&quot;h3&quot;&gt;Colors&lt;/h2&gt;
+
+&lt;div class=&quot;colors&quot;&gt;
+    &lt;div class=&quot;blue&quot;&gt;Blue (#566069)&lt;/div&gt;
+    &lt;div class=&quot;cadetblue&quot;&gt;CadetBlue&lt;/div&gt;
+    &lt;div class=&quot;darkkhaki&quot;&gt;DarkKhaki&lt;/div&gt;
+    &lt;div class=&quot;khaki&quot;&gt;Khaki&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;Typography&lt;/h2&gt;
+
+&lt;p class=&quot;univers&quot;&gt;
+    &lt;span class=&quot;light&quot;&gt;Univers Light&lt;/span&gt;
+    &lt;span class=&quot;condensedLight&quot;&gt;Univers Condensed Light&lt;/span&gt;
+    &lt;span class=&quot;condensedUltra&quot;&gt;Univers Condensed Ultra&lt;/span&gt;
+    &lt;span class=&quot;condensedUltraLight&quot;&gt;Univers Condensed Ultra Light&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;nimrod&quot;&gt;
+    &lt;div class=&quot;regular&quot;&gt;Nimrod Regular&lt;/div&gt;
+    &lt;div class=&quot;regularItalic&quot;&gt;&lt;em&gt;Nimrod Italic&lt;/em&gt;&lt;/div&gt;
+    &lt;div class=&quot;bold&quot;&gt;&lt;strong&gt;Nimrod Bold&lt;/strong&gt;&lt;/div&gt;
+    &lt;div class=&quot;boldItalic&quot;&gt;&lt;strong&gt;&lt;em&gt;NimrodBoldItalic&lt;/em&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;h2 class=&quot;h3&quot;&gt;Body Text&lt;/h2&gt;
 
 &lt;p&gt;Gastropub before they sold out selvage Echo Park Banksy locavore, pop-up High Life whatever artisan polaroid fanny pack distillery brunch. Meggings craft beer cardigan fanny pack fixie Portland YOLO, mixtape art party.&lt;/p&gt;

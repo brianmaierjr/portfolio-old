@@ -1,11 +1,36 @@
 ---
 layout: post
 title: Style Guide
-class: post post-image
+class: post post-image style-guide
 image: style-guide.svg
 ---
 
 A constant work in progress that represents markup patterns and common styles from this site.
+
+<h2 class="h3">Colors</h2>
+<div class="colors">
+	<div class="blue">Blue (#566069)</div>
+	<div class="cadetblue">CadetBlue</div>
+	<div class="darkkhaki">DarkKhaki</div>
+	<div class="khaki">Khaki</div>
+</div>
+
+
+<h2 class="h3">Typography</h2>
+
+<p class="univers">
+	<span class="light">Univers Light</span>
+	<span class="condensedLight">Univers Condensed Light</span>
+	<span class="condensedUltra">Univers Condensed Ultra</span>
+	<span class="condensedUltraLight">Univers Condensed Ultra Light</span>
+</p>
+
+<div class="nimrod">
+	<div class="regular">Nimrod Regular</div>
+	<div class="regularItalic"><em>Nimrod Italic</em></div>
+	<div class="bold"><strong>Nimrod Bold</strong></div>
+	<div class="boldItalic"><strong><em>NimrodBoldItalic</em></strong></div>
+</div>
 
 
 <h2 class="h3">Body Text</h2>

@@ -53,7 +53,7 @@ body {
 		}
 	}
 
-	ul {
+	ul, ol {
 		margin: 0 0 2rem;
 
 		li {
@@ -400,11 +400,11 @@ html {
 						height: 100%;
 						color: white;
 						z-index: 100;
-						-webkit-transition: .2s all ease-in-out;
-						-moz-transition: .2s all ease-in-out;
-						-ms-transition: .2s all ease-in-out;
-						-o-transition: .2s all ease-in-out;
-						transition: .2s all ease-in-out;
+						-webkit-transition: .5s all ease-in-out;
+						-moz-transition: .5s all ease-in-out;
+						-ms-transition: .5s all ease-in-out;
+						-o-transition: .5s all ease-in-out;
+						transition: .5s all ease-in-out;
 
 						.overlayText {
 							position: relative;
@@ -748,6 +748,60 @@ html {
 
 
 }
+
+
+
+/* ART DIRECTED POSTS ----------------------------------------------------
+------------------------------------------------------------*/
+
+.style-guide {
+
+	.colors {
+		div {
+			display: block;
+			position: relative;
+			padding-top: 3em;
+			margin-bottom: 1rem;
+
+			&:before {
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 3em;
+				content: "";
+				background: $blue;
+
+			}
+
+			&.cadetblue:before { background: cadetblue; }
+			&.khaki:before { background: khaki; }
+			&.darkkhaki:before { background: darkkhaki; }
+		}
+	}
+
+	.univers {
+		font-family: $sans-serif;
+
+		span { display: block; }
+		.light { font-weight: 100; }
+		.condensedLight { font-weight: 100; }
+		.condensedUltra {
+			font-family: $heading;
+			font-weight: 400; }
+		.condensedUltraLight {
+			font-family: $heading;
+			font-weight: 300;
+		}
+	}
+
+
+	.univers, .nimrod {
+		font-size: 1.3rem;
+	}
+}
+
 
 
 /* ABOUT ------------------------------------------------
