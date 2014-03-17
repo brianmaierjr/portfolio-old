@@ -5,7 +5,7 @@ markdown:         redcarpet
 pygments:         true
 permalink: 		  /:categories/:title
 #Comment out url when working locally to resolve base urls correctly
-url: http://blog.brianmaierjr.com
+url: http://brianmaierjr.com
 
 # Links to include in top navigation
 links:
