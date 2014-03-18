@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Brian Maier Jr. | Designer & Developer
+title: Home
 class: home
 ---
 
