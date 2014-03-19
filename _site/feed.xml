@@ -7,38 +7,6 @@
 		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Draft Post</title>
-				<description>&lt;p&gt;Woah. I&amp;#39;ve finally finished this portfolio and I couldn&amp;#39;t be happier.&lt;/p&gt;
-
-&lt;p&gt;I may have jumped the gun but I wanted to get it out and see what people think. There is still plenty of work to be done and by pushing it live I&amp;#39;m hoping to have it done sooner than later.&lt;/p&gt;
-
-&lt;h1&gt;Big Ass Heading&lt;/h1&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-
-&lt;h2&gt;Another Sweet Ass Heading&lt;/h2&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-
-&lt;h3&gt;Why are there soo many headings?&lt;/h3&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;example&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Example&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt; 
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
- 
-
-&lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;
-</description>
-				<pubDate>Sat, 15 Mar 2014 01:20:36 -0400</pubDate>
-				<link>http://brianmaierjr.com//draft-post</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//draft-post</guid>
-			</item>
-		
-			<item>
 				<title>Style Guide</title>
 				<description>&lt;p&gt;A constant work in progress that represents markup patterns and common styles from this site.&lt;/p&gt;
 

@@ -21,6 +21,10 @@
         <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count">Tweet</span></a></li>
         <li class="googleplus"><a href="https://plus.google.com/share?url={{ page.url }}" title="Share on Google Plus"><span class="count">+1</span></a></li>
     </ul>-->
+    <p><strong>Tagged in:</strong>
+        {% for tag in page.tags %}<a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>
+        {% endfor %}
+    </p>
 
         <!-- POST NAVIGATION -->
         {% if page.previous %} 
