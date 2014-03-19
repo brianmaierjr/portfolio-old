@@ -596,8 +596,25 @@ html {
 ------------------------------------------------------------*/
 
 .archive {
+
 	.archiveList {
 		list-style: none;
+	}
+
+	header {
+		background: none;
+
+		#logo {
+			a {
+				color: $blue;
+				text-shadow: none;
+			}
+		}
+
+		#menuBtn {
+			color: $blue;
+			text-shadow: none;
+		}
 	}
 }
 
@@ -838,6 +855,7 @@ html {
 		h4 { font-style: italic; }
 	}
 }
+
 
 
 /* PORTFOLIO INDEX ------------------------------------------------

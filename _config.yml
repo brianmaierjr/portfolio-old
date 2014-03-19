@@ -4,6 +4,8 @@ description:      Online home of midwest designer & developer Brian Maier Jr.
 markdown:         redcarpet
 pygments:         true
 permalink: 		  /:categories/:title
+paginate: 		  2
+paginate_path:    /blog/page:num
 #Comment out url when working locally to resolve base urls correctly
 url: http://brianmaierjr.com
 

@@ -1,14 +1,14 @@
 {% include head.html %}
 
 <div id="container">
-	<div class="content">
+	<div class="content animated fadeInUp">
 		<!--<h1 class="pageTitle">Recent Articles</h1>-->
 		<ul>
 		  {% for post in site.posts %}
 		    <li>
 		    	<p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
 				<h2 class="h4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				<p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 200 }}{% endif %}</p>
+				<p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ post.content | strip_html | truncate: 200 }}{% endif %}</p>
 		    </li>
 		  {% endfor %}
 		</ul>
