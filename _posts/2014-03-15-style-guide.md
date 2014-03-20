@@ -3,7 +3,6 @@ layout: post
 title: Style Guide
 class: post post-image style-guide
 image: style-guide.svg
-tags: design development pattern-library
 ---
 
 A constant work in progress that represents markup patterns and common styles from this site.

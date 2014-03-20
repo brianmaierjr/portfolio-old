@@ -6,6 +6,9 @@ pygments:         true
 permalink: 		  /:categories/:title
 paginate: 		  2
 paginate_path:    /blog/page:num
+include:          [.htaccess]
+
+
 #Comment out url when working locally to resolve base urls correctly
 url: http://brianmaierjr.com
 
