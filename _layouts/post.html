@@ -16,15 +16,16 @@
     <div class="post-content">
     	{{ content }}
 
-    <!--<ul class="socialcount" data-url="{{ page.url }}" data-counts="true" data-share-text="{{ page.title }} | {{ site.url }}{{ page.url }}">
-        <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}" title="Share on Facebook"><span class="count">Like</span></a></li>
+    <ul class="socialcount" data-url="{{ page.url }}" data-counts="true" data-share-text="{{ page.title }} | {{ site.url }}{{ page.url }}">
+        <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.title }}%20|%20 {{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count">Like</span></a></li>
         <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count">Tweet</span></a></li>
-        <li class="googleplus"><a href="https://plus.google.com/share?url={{ page.url }}" title="Share on Google Plus"><span class="count">+1</span></a></li>
-    </ul>-->
-    <!--<p><strong>Tagged in:</strong>
-        {% for tag in page.tags %}<a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>
+        <li class="googleplus"><a href="https://plus.google.com/share?url={{ page.title }}%20|%20 {{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count">+1</span></a></li>
+    </ul>
+
+    <p><strong>Tagged in:</strong>
+        {% for category in page.categories %}<a href="/category/{{ post.url }}">{{ category }}</a>
         {% endfor %}
-    </p>-->
+    </p>
 
         <!-- POST NAVIGATION -->
         {% if page.previous %} 

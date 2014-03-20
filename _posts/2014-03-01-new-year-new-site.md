@@ -3,6 +3,7 @@ layout: post
 title: New Year, New Site
 class: post
 color: darkkhaki
+categories: [news]
 ---
 
 Woah. I've finally finished this portfolio and I couldn't be happier.
