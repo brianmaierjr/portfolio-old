@@ -4,12 +4,10 @@ description:      Online home of midwest designer & developer Brian Maier Jr.
 markdown:         redcarpet
 pygments:         true
 permalink: 		  /:categories/:title
-paginate: 		  2
-paginate_path:    /blog/page:num
 include:          [.htaccess]
 
 #Comment out url when working locally to resolve base urls correctly
-#url: http://brianmaierjr.com
+url: http://brianmaierjr.com
 
 # Links to include in top navigation
 links:
