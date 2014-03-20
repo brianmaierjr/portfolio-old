@@ -26,7 +26,7 @@
  }
 
 body {
-	background: yellow;
+	background: white;
 	color: $charcoal;
 
 	#main {
@@ -755,6 +755,19 @@ html {
 		color: white;
 	}
 
+}
+
+
+/* SHARING */
+
+.share {
+	margin-bottom: 2rem;
+	text-align: center;
+
+	a {
+		@include button-outline($blue);
+		font-size: 1em;
+	}
 }
 
 

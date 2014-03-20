@@ -3,7 +3,6 @@ layout: post
 title: New Year, New Site
 class: post
 color: darkkhaki
-categories: [news]
 ---
 
 Woah. I've finally finished this portfolio and I couldn't be happier.
@@ -14,9 +13,9 @@ I may have jumped the gun but I wanted to get it out and see what people think. 
 
 * Test, test, and test more on multiple devices.
 * Check for unused css/code
-* Image optimization for mobile
+* <s>Image optimization for mobile</s>
 * <s>Mess with fittext on homepage (still too small)</s>
-* Customize sharing buttons
+* <s>Customize sharing buttons</s>
 * <s>Add Disqus to posts</s>
 * <s>Set up Vertical Rhythm</s>
 
