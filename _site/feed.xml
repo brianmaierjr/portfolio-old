@@ -3,8 +3,8 @@
 	<channel>
 		<title>Brian Maier Jr. | Designer &amp; Developer</title>
 		<description>Online home of midwest designer &amp; developer Brian Maier Jr.</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://brianmaierjr.com</link>
+		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Style Guide</title>
@@ -98,8 +98,8 @@
  
 </description>
 				<pubDate>Sat, 15 Mar 2014 00:00:00 -0400</pubDate>
-				<link>//style-guide</link>
-				<guid isPermaLink="true">//style-guide</guid>
+				<link>http://brianmaierjr.com//style-guide</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//style-guide</guid>
 			</item>
 		
 			<item>
@@ -108,23 +108,37 @@
 
 &lt;p&gt;I may have jumped the gun but I wanted to get it out and see what people think. There is still plenty of work to be done and by pushing it live I&amp;#39;m hoping to have it done sooner than later. Thanks to &lt;a href=&quot;https://medium.com/p/f8083e76146d&quot; title=&quot;Stop putting it off and accept the challenge.&quot;&gt;this article&lt;/a&gt; I decided to just put up what I have and run with it. &lt;/p&gt;
 
-&lt;h2 class=&quot;h3&quot;&gt;The unofficial to-do list&lt;/h2&gt;
+&lt;h2 class=&quot;h3&quot;&gt;A couple highlights:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; powered.&lt;/li&gt;
+&lt;li&gt;Hosted FREE on &lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My first dive into the world of &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;, it will not be my last!&lt;/li&gt;
+&lt;li&gt;Do you even responsive, bro?&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s fast.&lt;/li&gt;
+&lt;li&gt;Redirect for IE 6-8 users, enjoy it jerks.&lt;/li&gt;
+&lt;li&gt;Vertical Rhythm flows oh so smooth.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fittextjs.com/&quot;&gt;FitText&lt;/a&gt; for all the blog headings.&lt;/li&gt;
+&lt;li&gt;Semantic grid provide by the &lt;a href=&quot;http://neat.bourbon.io/&quot;&gt;Neatest of Bourbons&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;The unofficial to-do list:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Test, test, and test more on multiple devices.&lt;/li&gt;
-&lt;li&gt;Check for unused css/code&lt;/li&gt;
-&lt;li&gt;&lt;s&gt;Image optimization for mobile&lt;/s&gt;&lt;/li&gt;
-&lt;li&gt;&lt;s&gt;Mess with fittext on homepage (still too small)&lt;/s&gt;&lt;/li&gt;
-&lt;li&gt;&lt;s&gt;Customize sharing buttons&lt;/s&gt;&lt;/li&gt;
-&lt;li&gt;&lt;s&gt;Add Disqus to posts&lt;/s&gt;&lt;/li&gt;
-&lt;li&gt;&lt;s&gt;Set up Vertical Rhythm&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;Check for unused css/code.&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Image optimization for mobile.&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Mess with fittext on homepage (still too small).&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Customize sharing buttons.&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Add Disqus to posts.&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Set up vertical rhythm.&lt;/s&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.&lt;/p&gt;
+&lt;p&gt;If you notice anything else that is off or wonky please feel free to comment and as always, thanks for reading.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
-				<link>//new-year-new-site</link>
-				<guid isPermaLink="true">//new-year-new-site</guid>
+				<link>http://brianmaierjr.com//new-year-new-site</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//new-year-new-site</guid>
 			</item>
 		
 	</channel>
