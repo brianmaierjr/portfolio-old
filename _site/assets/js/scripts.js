@@ -21,7 +21,7 @@ jQuery(".post-title").fitText(1, { minFontSize: '36px', maxFontSize: '200px' });
 
 
 // Smooth Scrolling via csstricks.com
-
+ 
 $(function() {
   $('.home .animated.bounce').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -73,4 +73,5 @@ $(".header").headroom({
     "notTop": "headroom--not-top"
   }
 });
+
 

@@ -7,7 +7,7 @@ color: darkkhaki
 
 Woah. I've finally finished this portfolio and I couldn't be happier.
 
-I may have jumped the gun but I wanted to get it out and see what people think. There is still plenty of work to be done and by pushing it live I'm hoping to have it done sooner than later. Thanks to [this article](https://medium.com/p/f8083e76146d "Stop putting it off and accept the challenge.") I decided to just put up what I have and run with it. 
+I may have jumped the gun but I wanted to get it out and see what people think. There is still plenty of work to be done and by pushing it live I'm hoping to have it done sooner than later. Thanks to [this article](https://medium.com/p/f8083e76146d "Stop putting it off and accept the challenge.") I decided to just put up what I have and run with it.  
 
 <h2 class="h3">A couple highlights:</h2>
 
