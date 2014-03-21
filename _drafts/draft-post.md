@@ -1,28 +1,26 @@
 ---
 layout: post
-title: Draft Post
+title: 147 problems but a HEX 'aint one
 class: post
 color: #566069
 ---
 
-Woah. I've finally finished this portfolio and I couldn't be happier.
+I'm proud to introduce a useful and extremely useful 147 Colors Photoshop CC Extension.
 
-I may have jumped the gun but I wanted to get it out and see what people think. There is still plenty of work to be done and by pushing it live I'm hoping to have it done sooner than later.
+For those of you that don't know, I created a site documenting the 147 CSS Color names called [147 Colors](http://147colors.com "147 Colors"). Since it's launch it has gotten a great response from designers & developers around the world.
 
-# Big Ass Heading
-Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.
+I pushed myself to think of what was next for 147 Colors (if anything) and this is what came from it. The other options was an iPhone app, which I still want to do.
 
-## Another Sweet Ass Heading
-Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.
+<h2 class="h3">How to use the plugin</h2>
 
-### Why are there soo many headings?
-Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Download this file [Example Link](http://example.com "Example Alt")
 
-{% highlight html %}
-<div class="example">
-	<p>Example</p>
-	<h1>Heading</h1> 
-</div>
-{% endhighlight %} 
+Install it
 
-If you notice anything else that is off or wonky please feel free to comment. Thanks for reading.
+Filter colors or find alphabetically
+
+Press i on your keyboard or select the eyedropper tool and sample the color
+
+<h2 class="h3">Coclusion</h2>
+
+I hope everyone that downloads this enjoys it and incorporates it into their workflow. If you do enjoy this please share this post on twitter and share the love!
