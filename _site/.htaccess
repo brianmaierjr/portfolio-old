@@ -17,3 +17,11 @@ ExpiresDefault "access plus 2 days"
 RewriteEngine on
 RewriteCond %{HTTP_USER_AGENT} "MSIE [6-8]" [NC]
 RewriteRule ^(.*)$ http://browsehappy.com/ [R=301,L]
+
+
+## Fix Simple Social Icons for Firefox ##
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
