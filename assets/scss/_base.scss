@@ -343,16 +343,25 @@ html {
 				font-weight: 200;
 				margin-bottom: 1em;
 				opacity: 0;
+
+				&.animated {
+					animation-duration: 2s;
+				}
 			}
 			
 			.aboutText {
 				opacity: 0;
 				@include outer-container();
+
 				p {
 					@include span-columns(12);
 					float: none;
 					font-size: .9em;
 					color: lighten($charcoal, 10%);
+				}
+				
+				&.animated {
+					animation-duration: 2s;
 				}
 			}
 
