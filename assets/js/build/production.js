@@ -476,7 +476,7 @@ $(function() {
         return false; 
       }
     }
-  });
+  }); 
 });
 
 
@@ -484,18 +484,28 @@ $(function() {
 
 jQuery(function($) {
  
-  $('#craftsman').waypoint(function() {
-    $('#craftsman .intro, #craftsman .aboutText').addClass( 'animated fadeInUp' );
+  $('#craftsman .aboutText').waypoint(function() {
+    $(this).addClass( 'animated fadeInUp' ); 
+  }, 
+  {
+    offset: '100%',
+    triggerOnce: false
+  });
+
+  $('#craftsman .intro').waypoint(function() {
+    $(this).addClass( 'animated fadeInUp' );
   },
   {
-    offset: '100%'
+    offset: '100%',
+    triggerOnce: false
   });
 
   $('#dribbble').waypoint(function() {
     $('#dribbble h2, #dribbble #portfolio').addClass( 'animated fadeInUp' );
   },
   {
-    offset: '100%'
+    offset: '100%',
+    triggerOnce: false
   });
  
 });

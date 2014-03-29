@@ -342,9 +342,17 @@ html {
 				font-family: $sans-serif;
 				font-weight: 200;
 				margin-bottom: 1em;
+				-webkit-animation-duration: 2s; 
+				-moz-animation-duration: 2s; 
+				-o-animation-duration: 2s; 
+				animation-duration: 2s; 
 			}
 			
 			.aboutText {
+				-webkit-animation-duration: 2s; 
+				-moz-animation-duration: 2s; 
+				-o-animation-duration: 2s; 
+				animation-duration: 2s; 
 				@include outer-container();
 				p {
 					@include span-columns(12);

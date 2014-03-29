@@ -10,7 +10,7 @@ module.exports = function(grunt) {
                     'assets/js/lib/*.js', // All JS in the libs folder
                     'assets/js/scripts.js'  // This specific file
                 ],
-                dest: 'assets/js/build/production.js',
+                dest: 'assets/js/build/production.js'
             } 
         },
 
@@ -71,7 +71,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-uncss');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
