@@ -75,3 +75,7 @@ $(".header").headroom({
 });
 
 
+
+// Stellar.js
+
+$('.featured-image').stellar();

@@ -15,7 +15,7 @@
  }
 
  blockquote {
- 	font-family: $serif;
+ 	font-family: $serif; 
  	font-style: italic;
  	margin: 1em .5em;
  	line-height: 2;
@@ -45,11 +45,11 @@ body {
 
 	a { 
 		text-decoration: none;
-		color: darkkhaki;
+		color: darken(darkkhaki, 15%);
 
 		&:hover {
 			text-decoration: underline;
-			color: darken(darkkhaki, 15%);
+			color: darkkhaki;
 		}
 	}
 

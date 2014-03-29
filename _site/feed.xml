@@ -7,23 +7,61 @@
 		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Introducing Unihand</title>
+				<description>&lt;p&gt;I&amp;#39;m proud to announce my first font, available for free for everyone everywhere.&lt;/p&gt;
+
+&lt;p&gt;Unihand is a hand-drawn font based on one of my favorites Univers Ultra Condensed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/unihand.jpg&quot; alt=&quot;Unihad type sample&quot;&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sat, 29 Mar 2014 08:11:16 -0400</pubDate>
+				<link>http://brianmaierjr.com//introducting-unihand</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//introducting-unihand</guid>
+			</item>
+		
+			<item>
 				<title>An introduction to flexbox</title>
-				<description>&lt;p&gt;CSS Flexible Box is becoming increasingly popular. It&amp;#39;s time to find out what the hype is about.&lt;/p&gt;
+				<description>&lt;p&gt;Things change on the web with an incredible speed. Just like its predecessors (responsive design, icon fonts, web fonts) I have been hearing quite a bit about Flexbox. Let&amp;#39;s see how flexible this box is.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;In the flex layout model, the children of a flex container can be laid out in any direction, and can &amp;quot;flex&amp;quot; their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 class=&quot;h3&quot;&gt;Sold&lt;/h2&gt;
+&lt;p&gt;Already I&amp;#39;m liking this just by the above abstract statement. The most appealing part right off the bat is that this pertains to &amp;quot;flexing&amp;quot; horizontallly AND vertically. Yup, sold.&lt;/p&gt;
+
+&lt;p&gt;Before you get started there are some terms that you need to understand before getting started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.w3.org/TR/css-flexbox-1/images/flex-direction-terms.svg&quot; alt=&quot;Flexbox Terminology&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;They are somewhat self explanatory but for more information refer to the &lt;a href=&quot;CSS%20Flexible%20Box%20specs%20via%20W3C&quot;&gt;http://www.w3.org/TR/css-flexbox-1/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;Properties&lt;/h2&gt;
+
+&lt;h3 class=&quot;h4&quot;&gt;Flex Containers&lt;/h3&gt;
+
+&lt;p&gt;To start out Flex containers use the &amp;#39;&lt;code&gt;flex&lt;/code&gt;&amp;#39; and &amp;#39;&lt;code&gt;inline-flex&lt;/code&gt;&amp;#39; &amp;#39;&lt;code&gt;display&lt;/code&gt;&amp;#39; values.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;flex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;inline-flex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;flex&lt;/code&gt;&lt;br&gt;
+causes an element to generate a block-level flex container box&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;inline-flex&lt;/code&gt;&lt;br&gt;
+causes an element to generate an inline-level flex container box&lt;/p&gt;
+
+&lt;h3 class=&quot;h4&quot;&gt;Flex Items&lt;/h3&gt;
+
+&lt;p&gt;Flex items are the in-flow boxes generated from the contents of the element that generated the &lt;code&gt;flex container&lt;/code&gt;.&lt;/p&gt;
 </description>
-				<pubDate>Thu, 20 Mar 2014 23:25:34 -0400</pubDate>
+				<pubDate>Fri, 28 Mar 2014 23:22:47 -0400</pubDate>
 				<link>http://brianmaierjr.com//an-introduction-to-flexbox</link>
 				<guid isPermaLink="true">http://brianmaierjr.com//an-introduction-to-flexbox</guid>
 			</item>
 		
 			<item>
-				<title>147 problems but a HEX &#39;aint one</title>
-				<description>&lt;p&gt;I&amp;#39;m proud to introduce a useful and extremely useful 147 Colors Photoshop CC Extension.&lt;/p&gt;
+				<title>I&#39;ve got 147 problems but a HEX &#39;aint one</title>
+				<description>&lt;p&gt;I&amp;#39;m proud to introduce a new and extremely useful 147 Colors Photoshop CC Extension.&lt;/p&gt;
 
 &lt;p&gt;For those of you that don&amp;#39;t know, I created a site documenting the 147 CSS Color names called &lt;a href=&quot;http://147colors.com&quot; title=&quot;147 Colors&quot;&gt;147 Colors&lt;/a&gt;. Since it&amp;#39;s launch it has gotten a great response from designers &amp;amp; developers around the world.&lt;/p&gt;
 
@@ -37,15 +75,13 @@
 
 &lt;p&gt;Filter colors or find alphabetically&lt;/p&gt;
 
-&lt;p&gt;Press i on your keyboard or select the eyedropper tool and sample the color&lt;/p&gt;
-
 &lt;h2 class=&quot;h3&quot;&gt;Coclusion&lt;/h2&gt;
 
 &lt;p&gt;I hope everyone that downloads this enjoys it and incorporates it into their workflow. If you do enjoy this please share this post on twitter and share the love!&lt;/p&gt;
 </description>
-				<pubDate>Thu, 20 Mar 2014 23:24:16 -0400</pubDate>
-				<link>http://brianmaierjr.com//draft-post</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//draft-post</guid>
+				<pubDate>Sun, 23 Mar 2014 19:38:52 -0400</pubDate>
+				<link>http://brianmaierjr.com//147-problems</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//147-problems</guid>
 			</item>
 		
 			<item>
