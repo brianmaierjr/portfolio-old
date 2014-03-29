@@ -1,11 +1,11 @@
 ---
 layout: post
-title: I've got 147 problems but a HEX 'aint one
+title: 147 problems but a HEX 'aint one
 class: post
 color: #566069
 ---
 
-I'm proud to introduce a new and extremely useful 147 Colors Photoshop CC Extension.
+I'm proud to introduce a useful and extremely useful 147 Colors Photoshop CC Extension.
 
 For those of you that don't know, I created a site documenting the 147 CSS Color names called [147 Colors](http://147colors.com "147 Colors"). Since it's launch it has gotten a great response from designers & developers around the world.
 
@@ -18,6 +18,8 @@ Download this file [Example Link](http://example.com "Example Alt")
 Install it
 
 Filter colors or find alphabetically
+
+Press i on your keyboard or select the eyedropper tool and sample the color
 
 <h2 class="h3">Coclusion</h2>
 

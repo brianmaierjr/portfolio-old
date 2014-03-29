@@ -15,11 +15,11 @@
  }
 
  blockquote {
- 	font-family: $serif; 
+ 	font-family: $serif;
  	font-style: italic;
  	margin: 1em .5em;
  	line-height: 2;
- 	font-size: 1.3em; 
+ 	font-size: 1.3em;
  	padding-left: 1em;
  	border-left: 5px solid darkkhaki;
  	color: $blue;
@@ -28,7 +28,6 @@
 body {
 	background: white;
 	color: $charcoal;
-	font-family: $serif;
 
 	#main {
 		height: 100%;
@@ -46,11 +45,11 @@ body {
 
 	a { 
 		text-decoration: none;
-		color: darken(darkkhaki, 15%);
+		color: darkkhaki;
 
 		&:hover {
 			text-decoration: underline;
-			color: darkkhaki;
+			color: darken(darkkhaki, 15%);
 		}
 	}
 
@@ -344,25 +343,16 @@ html {
 				font-weight: 200;
 				margin-bottom: 1em;
 				opacity: 0;
-
-				&.animated {
-					animation-duration: 2s;
-				}
 			}
 			
 			.aboutText {
 				opacity: 0;
 				@include outer-container();
-
 				p {
 					@include span-columns(12);
 					float: none;
 					font-size: .9em;
 					color: lighten($charcoal, 10%);
-				}
-				
-				&.animated {
-					animation-duration: 2s;
 				}
 			}
 

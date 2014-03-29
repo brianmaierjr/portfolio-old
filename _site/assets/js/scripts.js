@@ -46,7 +46,7 @@ jQuery(function($) {
     $('#craftsman .intro, #craftsman .aboutText').addClass( 'animated fadeInUp' );
   },
   {
-    offset: '100%',
+    offset: '60%',
     triggerOnce: true
   });
 
@@ -54,7 +54,7 @@ jQuery(function($) {
     $('#dribbble h2, #dribbble #portfolio').addClass( 'animated fadeInUp' );
   },
   {
-    offset: '100%',
+    offset: '60%',
     triggerOnce: true
   });
  
@@ -75,7 +75,3 @@ $(".header").headroom({
 });
 
 
-
-// Stellar.js
-
-$('.featured-image').stellar();
