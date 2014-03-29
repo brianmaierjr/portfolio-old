@@ -488,16 +488,14 @@ jQuery(function($) {
     $('#craftsman .intro, #craftsman .aboutText').addClass( 'animated fadeInUp' );
   },
   {
-    offset: '60%',
-    triggerOnce: true
+    offset: '100%'
   });
 
   $('#dribbble').waypoint(function() {
     $('#dribbble h2, #dribbble #portfolio').addClass( 'animated fadeInUp' );
   },
   {
-    offset: '60%',
-    triggerOnce: true
+    offset: '100%'
   });
  
 });

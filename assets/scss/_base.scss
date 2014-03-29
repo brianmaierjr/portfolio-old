@@ -342,11 +342,9 @@ html {
 				font-family: $sans-serif;
 				font-weight: 200;
 				margin-bottom: 1em;
-				opacity: 0;
 			}
 			
 			.aboutText {
-				opacity: 0;
 				@include outer-container();
 				p {
 					@include span-columns(12);
@@ -362,7 +360,6 @@ html {
 		#dribbble {
 
 			h2 {
-				opacity: 0;
 				font-family: $heading;
 				font-weight: 200;
 				text-transform: uppercase;
@@ -371,7 +368,6 @@ html {
 			
 			#portfolio {
 				padding: 0 0 2em;
-				opacity: 0;
 				width: 100%;
 				@include outer-container();
 
