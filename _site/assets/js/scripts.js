@@ -1,4 +1,4 @@
-// Jribbble
+8// Jribbble
 
 $.jribbble.getShotsByPlayerId('brianmaierjr', function (playerShots) {
     var html = [];
@@ -43,27 +43,24 @@ $(function() {
 jQuery(function($) {
  
   $('#craftsman .aboutText').waypoint(function() {
-    $(this).addClass( 'animated fadeInUp' ); 
+    $(this).toggleClass( 'animated fadeInUp' ); 
   }, 
   {
-    offset: '100%',
-    triggerOnce: false
+    offset: '100%'
   });
 
   $('#craftsman .intro').waypoint(function() {
-    $(this).addClass( 'animated fadeInUp' );
+    $(this).toggleClass( 'animated fadeInUp' );
   },
   {
-    offset: '100%',
-    triggerOnce: false
+    offset: '100%'
   });
 
   $('#dribbble').waypoint(function() {
-    $('#dribbble h2, #dribbble #portfolio').addClass( 'animated fadeInUp' );
+    $('#dribbble h2, #dribbble #portfolio').toggleClass( 'animated fadeInUp' );
   },
   {
-    offset: '100%',
-    triggerOnce: false
+    offset: '100%'
   });
  
 });

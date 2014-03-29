@@ -4,6 +4,15 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+        shell: {
+            jekyllBuild: {
+                command: 'jekyll build'
+            },
+            jekyllServe: {
+                command: 'jekyll serve'
+            }
+        },
+
         concat: {   
             dist: {
                 src: [
@@ -33,6 +42,20 @@ module.exports = function(grunt) {
         },
 
         watch: {
+            jekyll: {
+                files: [
+                '_includes/*.html',
+                '_layouts/*.html',
+                '_posts/*.markdown',
+                '_config.yml',
+                'index.html'
+                 ],
+                tasks: ['shell:jekyllBuild', 'shell:jekyllServe'],
+                options: {
+                    interrupt: true,
+                    atBegin: true
+                }
+            },
             options: {
                 livereload: true,
             },
@@ -69,12 +92,13 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
+    grunt.registerTask('default', ['shell', 'concat', 'uglify', 'imagemin', 'sass', 'watch']);
 
-    grunt.registerTask('dev', ['watch']);
+    grunt.registerTask('dev', ['shell', 'watch']);
 
 };

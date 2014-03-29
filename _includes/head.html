@@ -51,7 +51,7 @@
 
     ga('create', 'UA-30261260-1', 'brianmaierjr.com');
     ga('send', 'pageview');
-  </script>
+  </script> 
 
 </head>
 
@@ -60,18 +60,19 @@
   <nav role="navigation" id="mainNav">
     <a href="#" class="closeBtn"><span class="icon-cross"></span></a>
     <div id="navContainer">
-      <h2>Table of Contents</h2> 
+      <h2>Table of Contents</h2>  
       <ul id="siteNav">
         <li><a href="/">01. Home</a></li>
         {% for link in site.links %} 
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %} 
-        <li>04. Social
+        <li>
           <ul class="social">
               <li><a href="http://twitter.com/brianmaierjr"><span class="icon-twitter"></span></a></li>
               <li><a href="http://github.com/brianmaierjr"><span class="icon-github"></span></a></li>
               <li><a href="http://dribbble.com/brianmaierjr"><span class="icon-dribbble"></span></a></li>
               <li><a href="http://linkedin.com/in/brianmaierjr"><span class="icon-linkedin"></span></a></li>
+              <li><a href="mailto:brimaidesigns@gmail.com"><span class="icon-mail"></span></a></li>
           </ul>
         </li>
       </ul>
