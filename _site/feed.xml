@@ -7,21 +7,6 @@
 		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>An introduction to flexbox</title>
-				<description>&lt;p&gt;CSS Flexible Box is becoming increasingly popular. It&amp;#39;s time to find out what the hype is about.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;In the flex layout model, the children of a flex container can be laid out in any direction, and can &amp;quot;flex&amp;quot; their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 class=&quot;h3&quot;&gt;Sold&lt;/h2&gt;
-</description>
-				<pubDate>Thu, 20 Mar 2014 23:25:34 -0400</pubDate>
-				<link>http://brianmaierjr.com//an-introduction-to-flexbox</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//an-introduction-to-flexbox</guid>
-			</item>
-		
-			<item>
 				<title>147 problems but a HEX &#39;aint one</title>
 				<description>&lt;p&gt;I&amp;#39;m proud to introduce a useful and extremely useful 147 Colors Photoshop CC Extension.&lt;/p&gt;
 
@@ -43,9 +28,24 @@
 
 &lt;p&gt;I hope everyone that downloads this enjoys it and incorporates it into their workflow. If you do enjoy this please share this post on twitter and share the love!&lt;/p&gt;
 </description>
-				<pubDate>Thu, 20 Mar 2014 23:24:16 -0400</pubDate>
+				<pubDate>Sat, 29 Mar 2014 09:50:29 -0400</pubDate>
 				<link>http://brianmaierjr.com//draft-post</link>
 				<guid isPermaLink="true">http://brianmaierjr.com//draft-post</guid>
+			</item>
+		
+			<item>
+				<title>An introduction to flexbox</title>
+				<description>&lt;p&gt;CSS Flexible Box is becoming increasingly popular. It&amp;#39;s time to find out what the hype is about.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In the flex layout model, the children of a flex container can be laid out in any direction, and can &amp;quot;flex&amp;quot; their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;Sold&lt;/h2&gt;
+</description>
+				<pubDate>Sat, 29 Mar 2014 09:50:29 -0400</pubDate>
+				<link>http://brianmaierjr.com//an-introduction-to-flexbox</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//an-introduction-to-flexbox</guid>
 			</item>
 		
 			<item>
