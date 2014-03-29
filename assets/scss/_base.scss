@@ -19,7 +19,7 @@
  	font-style: italic;
  	margin: 1em .5em;
  	line-height: 2;
- 	font-size: 1.3em;
+ 	font-size: 1.3em; 
  	padding-left: 1em;
  	border-left: 5px solid darkkhaki;
  	color: $blue;
@@ -28,6 +28,7 @@
 body {
 	background: white;
 	color: $charcoal;
+	font-family: $serif;
 
 	#main {
 		height: 100%;
