@@ -618,32 +618,6 @@ html {
 }
 
 
-/* TAG PAGES ------------------------------------------------
-------------------------------------------------------------*/
-
-.archive {
-
-	.archiveList {
-		list-style: none;
-	}
-
-	header {
-		background: none;
-
-		#logo {
-			a {
-				color: $blue;
-				text-shadow: none;
-			}
-		}
-
-		#menuBtn {
-			color: $blue;
-			text-shadow: none;
-		}
-	}
-}
-
 
 /* POSTSTYLES ------------------------------------------------
 ------------------------------------------------------------*/
@@ -896,6 +870,17 @@ html {
 }
 
 
+
+/* LABS ------------------------------------------------
+------------------------------------------------------------*/
+
+.labs {
+	.featured-image {
+		background-position: center center;
+		background-size: 100% 100%;
+		background-repeat: repeat;
+	}
+}
 
 /* PORTFOLIO INDEX ------------------------------------------------
 
