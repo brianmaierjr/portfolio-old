@@ -480,6 +480,14 @@ $(function() {
 });
 
 
+// Make entire div clickable on homepage dribbble feed via csstricks.com
+
+$("#portfolio li").click(function(){
+     window.location=$(this).find("a").attr("href"); 
+     return false; 
+});
+
+
 // Waypoints
 
 jQuery(function($) {
@@ -520,5 +528,7 @@ $(".header").headroom({
     "notTop": "headroom--not-top"
   }
 });
+
+
 
 

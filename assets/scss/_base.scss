@@ -874,11 +874,16 @@ html {
 /* LABS ------------------------------------------------
 ------------------------------------------------------------*/
 
-.labs {
+.labs { 
 	.featured-image {
-		background-position: center center;
-		background-size: 100% 100%;
+		background-position: center center; 
+		background-size: auto;
 		background-repeat: repeat;
+		min-height: 500px; 
+	}
+
+	#container {
+		padding-top: 520px; 
 	}
 }
 

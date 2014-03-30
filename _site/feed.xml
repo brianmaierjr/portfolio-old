@@ -3,8 +3,8 @@
 	<channel>
 		<title>Brian Maier Jr. | Designer &amp; Developer</title>
 		<description>Online home of midwest designer &amp; developer Brian Maier Jr.</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://brianmaierjr.com</link>
+		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Style Guide</title>
@@ -98,8 +98,8 @@
  
 </description>
 				<pubDate>Sat, 15 Mar 2014 00:00:00 -0400</pubDate>
-				<link>//style-guide</link>
-				<guid isPermaLink="true">//style-guide</guid>
+				<link>http://brianmaierjr.com//style-guide</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//style-guide</guid>
 			</item>
 		
 			<item>
@@ -137,8 +137,8 @@
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment and as always, thanks for reading.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
-				<link>//new-year-new-site</link>
-				<guid isPermaLink="true">//new-year-new-site</guid>
+				<link>http://brianmaierjr.com//new-year-new-site</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//new-year-new-site</guid>
 			</item>
 		
 	</channel>
