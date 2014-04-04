@@ -94,11 +94,3 @@ $(".header").headroom({
     "notTop": "headroom--not-top"
   }
 });
-
-
-// Stellar.js
-$.stellar({
-  horizontalOffset: 56.25,
-  verticalOffset: 56.25
-});
-
