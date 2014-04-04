@@ -276,6 +276,7 @@ footer {
 
 		h6 {
 			margin-top: 0;
+			margin-bottom: .5em;
 			font-family: $sans-serif;
 			font-weight: 300;
 		}
@@ -312,7 +313,7 @@ footer {
 				color: $blue;
 
 				&:hover {
-					color: lighten($blue, 25%);
+					color: cadetblue;
 					text-decoration: none;
 				}
 			}
@@ -330,7 +331,8 @@ html {
 	.home {
 		height: 100%;
 		width: 100%;
-		background: url('../img/bg-river-dark-small.jpg')  no-repeat scroll center center ;
+		background: url('../img/bg-river-dark-small.jpg')  no-repeat scroll 0 0 ;
+		background-position: fixed;
 		background-size: cover;
 
 		#craftsman {
@@ -584,25 +586,31 @@ html {
 
 	#container .content {
 		padding-top: 2em;
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		-o-animation-delay: 1s;
+		animation-delay: 1s;
 	}
 
-	ul {
-		padding: 0;
+}
 
-		li {
-			list-style-type: none;
-			padding: 1em 0;
+.postListing {
+	padding: 0;
 
-			h2 {
-				text-transform: none;
+	li {
+		list-style-type: none;
+		padding: 1em 0;
 
-				a {
-					font-family: $serif;
-					font-style: italic;
-					margin-bottom: .2em;
-					font-size: 1.6em;
-					font-weight: 600;
-				}
+		h2 {
+			text-transform: none;
+			margin-top: .2em;
+
+			a {
+				font-family: $serif;
+				font-style: italic;
+				margin-bottom: .2em;
+				font-size: 1.6em;
+				font-weight: 600;
 			}
 		}
 	}
@@ -859,6 +867,11 @@ html {
 		margin-top: 200px;
 	}
 	.content {
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		-o-animation-delay: 1s;
+		animation-delay: 1s;
+
 		h1 {
 			font-family: $heading;
 			text-transform: uppercase;
@@ -870,22 +883,6 @@ html {
 }
 
 
-
-/* LABS ------------------------------------------------
-------------------------------------------------------------*/
-
-.labs { 
-	.featured-image {
-		background-position: center center; 
-		background-size: auto;
-		background-repeat: repeat;
-		min-height: 500px; 
-	}
-
-	#container {
-		padding-top: 520px; 
-	}
-}
 
 /* PORTFOLIO INDEX ------------------------------------------------
 

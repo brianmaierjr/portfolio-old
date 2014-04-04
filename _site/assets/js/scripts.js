@@ -70,6 +70,14 @@ jQuery(function($) {
   {
     offset: '100%'
   });
+
+  $('.introText').waypoint(function() {
+    $('.introText h1').toggleClass( 'fadeIn' ).toggleClass( 'fadeOut' );
+    $('.introText h2').toggleClass( 'slideInLeft' ).toggleClass( 'fadeOut' );
+  },
+  {
+    offset: '-10%'
+  });
  
 });
 
@@ -88,5 +96,9 @@ $(".header").headroom({
 });
 
 
-
+// Stellar.js
+$.stellar({
+  horizontalOffset: 56.25,
+  verticalOffset: 56.25
+});
 

@@ -3,7 +3,7 @@
 <div id="container">
 	<div class="content animated fadeInUp">
 		<!--<h1 class="pageTitle">Recent Articles</h1>-->
-		<ul>
+		<ul class="postListing">
 		  {% for post in site.posts %}
 		    <li>
 		    	<p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
