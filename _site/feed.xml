@@ -3,8 +3,65 @@
 	<channel>
 		<title>Brian Maier Jr. | Designer &amp; Developer</title>
 		<description>Online home of midwest designer &amp; developer Brian Maier Jr.</description>
-		<link>http://brianmaierjr.com</link>
-		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>The Year of Brian</title>
+				<description>&lt;p&gt;Pushing freelance work aside for the sake of my future, hopefully.&lt;/p&gt;
+
+&lt;p&gt;This year I push aside freelance work and extra money for projects that could never see the light of day. Why? A couple reasons.&lt;/p&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;We benefit more from personal projects&lt;/h2&gt;
+
+&lt;p&gt;I believe that we, as designers and developers, benefit more from personal projects. Unforunately the return is not immediate but it is in fact grander. &lt;/p&gt;
+</description>
+				<pubDate>Wed, 02 Apr 2014 21:58:36 -0400</pubDate>
+				<link>//year-of-brian</link>
+				<guid isPermaLink="true">//year-of-brian</guid>
+			</item>
+		
+			<item>
+				<title>147 problems but a HEX &#39;aint one</title>
+				<description>&lt;p&gt;I&amp;#39;m proud to introduce a useful and extremely useful 147 Colors Photoshop CC Extension.&lt;/p&gt;
+
+&lt;p&gt;For those of you that don&amp;#39;t know, I created a site documenting the 147 CSS Color names called &lt;a href=&quot;http://147colors.com&quot; title=&quot;147 Colors&quot;&gt;147 Colors&lt;/a&gt;. Since it&amp;#39;s launch it has gotten a great response from designers &amp;amp; developers around the world.&lt;/p&gt;
+
+&lt;p&gt;I pushed myself to think of what was next for 147 Colors (if anything) and this is what came from it. The other options was an iPhone app, which I still want to do.&lt;/p&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;How to use the plugin&lt;/h2&gt;
+
+&lt;p&gt;Download this file &lt;a href=&quot;http://example.com&quot; title=&quot;Example Alt&quot;&gt;Example Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Install it&lt;/p&gt;
+
+&lt;p&gt;Filter colors or find alphabetically&lt;/p&gt;
+
+&lt;p&gt;Press i on your keyboard or select the eyedropper tool and sample the color&lt;/p&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;Coclusion&lt;/h2&gt;
+
+&lt;p&gt;I hope everyone that downloads this enjoys it and incorporates it into their workflow. If you do enjoy this please share this post on twitter and share the love!&lt;/p&gt;
+</description>
+				<pubDate>Sat, 29 Mar 2014 10:18:32 -0400</pubDate>
+				<link>//draft-post</link>
+				<guid isPermaLink="true">//draft-post</guid>
+			</item>
+		
+			<item>
+				<title>An introduction to flexbox</title>
+				<description>&lt;p&gt;CSS Flexible Box is becoming increasingly popular. It&amp;#39;s time to find out what the hype is about.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In the flex layout model, the children of a flex container can be laid out in any direction, and can &amp;quot;flex&amp;quot; their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 class=&quot;h3&quot;&gt;Sold&lt;/h2&gt;
+</description>
+				<pubDate>Sat, 29 Mar 2014 10:18:32 -0400</pubDate>
+				<link>//an-introduction-to-flexbox</link>
+				<guid isPermaLink="true">//an-introduction-to-flexbox</guid>
+			</item>
 		
 			<item>
 				<title>Style Guide</title>
@@ -98,8 +155,8 @@
  
 </description>
 				<pubDate>Sat, 15 Mar 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//style-guide</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//style-guide</guid>
+				<link>//style-guide</link>
+				<guid isPermaLink="true">//style-guide</guid>
 			</item>
 		
 			<item>
@@ -137,8 +194,8 @@
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment and as always, thanks for reading.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
-				<link>http://brianmaierjr.com//new-year-new-site</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//new-year-new-site</guid>
+				<link>//new-year-new-site</link>
+				<guid isPermaLink="true">//new-year-new-site</guid>
 			</item>
 		
 	</channel>
