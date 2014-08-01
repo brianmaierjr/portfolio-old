@@ -24,7 +24,7 @@ $layout-direction: nil !default;
   @if $columns != $grid-columns {
     $parent-columns: $columns;
   } @else {
-    $parent-columns: $grid-columns;
+    $parent-columns: $grid-columns !global;
   }
 
   @return $parent-columns;

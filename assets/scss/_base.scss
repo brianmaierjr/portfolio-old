@@ -244,7 +244,7 @@ body {
 
 		.closeBtn {
 			position: absolute;
-			top: .55em;
+			top: 0;
 			right: .55em;
 			font-size: 2em;
 			color: tomato;
@@ -335,8 +335,8 @@ html {
 		background-position: fixed;
 		background-size: cover;
 
-		#craftsman {
-			padding: 4em 1em;
+		#craftsman { 
+			padding: 4em 1em; 
 
 			.intro {
 				@include span-columns(12); 
@@ -345,23 +345,27 @@ html {
 				font-family: $sans-serif;
 				font-weight: 200;
 				margin-bottom: 1em;
-
-				&.animated {
-					-webkit-animation-duration: 2s; 
-					-moz-animation-duration: 2s; 
-					-o-animation-duration: 2s; 
-					animation-duration: 2s; 
-				}
-			}
-			
-			.aboutText {
-				@include outer-container();
+				opacity: 0;  
 
 				&.animated {
 					-webkit-animation-duration: 2s; 
 					-moz-animation-duration: 2s; 
 					-o-animation-duration: 2s; 
 					animation-duration: 2s;
+					opacity: 1;
+				}
+			}
+			
+			.aboutText {
+				@include outer-container();
+				opacity: 0;
+
+				&.animated {
+					-webkit-animation-duration: 2s; 
+					-moz-animation-duration: 2s; 
+					-o-animation-duration: 2s; 
+					animation-duration: 2s;
+					opacity: 1;
 				}
 
 				p {
@@ -382,18 +386,21 @@ html {
 				font-weight: 200;
 				text-transform: uppercase;
 				text-align: center;
+				opacity: 0;
 
 				&.animated {
 					-webkit-animation-duration: 2s; 
 					-moz-animation-duration: 2s; 
 					-o-animation-duration: 2s; 
 					animation-duration: 2s;
+					opacity: 1;
 				}
 			}
 			
 			#portfolio {
 				padding: 0 0 2em;
 				width: 100%;
+				opacity: 0;
 				@include outer-container();
 
 				&.animated {
@@ -401,6 +408,7 @@ html {
 					-moz-animation-duration: 2s; 
 					-o-animation-duration: 2s; 
 					animation-duration: 2s;
+					opacity: 1;
 				}
 
 				li {

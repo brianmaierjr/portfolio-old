@@ -16,7 +16,7 @@
 
 &lt;p&gt;I believe that we, as designers and developers, benefit more from personal projects. Unforunately the return is not immediate but it is in fact grander. &lt;/p&gt;
 </description>
-				<pubDate>Wed, 02 Apr 2014 21:58:36 -0400</pubDate>
+				<pubDate>Thu, 31 Jul 2014 21:15:04 -0400</pubDate>
 				<link>//year-of-brian</link>
 				<guid isPermaLink="true">//year-of-brian</guid>
 			</item>
@@ -43,7 +43,7 @@
 
 &lt;p&gt;I hope everyone that downloads this enjoys it and incorporates it into their workflow. If you do enjoy this please share this post on twitter and share the love!&lt;/p&gt;
 </description>
-				<pubDate>Sat, 29 Mar 2014 10:18:32 -0400</pubDate>
+				<pubDate>Thu, 31 Jul 2014 21:15:04 -0400</pubDate>
 				<link>//draft-post</link>
 				<guid isPermaLink="true">//draft-post</guid>
 			</item>
@@ -58,7 +58,7 @@
 
 &lt;h2 class=&quot;h3&quot;&gt;Sold&lt;/h2&gt;
 </description>
-				<pubDate>Sat, 29 Mar 2014 10:18:32 -0400</pubDate>
+				<pubDate>Thu, 31 Jul 2014 21:15:04 -0400</pubDate>
 				<link>//an-introduction-to-flexbox</link>
 				<guid isPermaLink="true">//an-introduction-to-flexbox</guid>
 			</item>
@@ -142,17 +142,6 @@
 &lt;li&gt;OL List Item&lt;/li&gt;
 &lt;li&gt;OL List Item&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;h2 class=&quot;h3&quot;&gt;Code Highlighting&lt;/h2&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;example&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt; 
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;example-sub&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Hello World!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
- 
 </description>
 				<pubDate>Sat, 15 Mar 2014 00:00:00 -0400</pubDate>
 				<link>//style-guide</link>

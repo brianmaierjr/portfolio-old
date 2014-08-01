@@ -72,14 +72,3 @@ Mumblecore iPhone distillery Cosby sweater, mlkshk selvage Thundercats brunch de
 5. OL List Item
 
 
-<h2 class="h3">Code Highlighting</h2>
-
-{% highlight html %}
-<div class="example">
-	<h1>Heading</h1> 
-	<div class="example-sub">
-		<p>Hello World!</p>
-	</div>
-</div>
-{% endhighlight %} 
-

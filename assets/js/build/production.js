@@ -496,21 +496,24 @@ jQuery(function($) {
     $(this).toggleClass( 'animated fadeInUp' ); 
   }, 
   {
-    offset: '100%'
+    offset: '85%', 
+    triggerOnce: true
   });
 
   $('#craftsman .intro').waypoint(function() {
-    $(this).toggleClass( 'animated fadeInUp' );
+    $(this).toggleClass( 'animated fadeInUp' );  
   },
   {
-    offset: '100%'
+    offset: '85%',  
+    triggerOnce: true   
   });
 
   $('#dribbble').waypoint(function() {
     $('#dribbble h2, #dribbble #portfolio').toggleClass( 'animated fadeInUp' );
   },
   {
-    offset: '100%'
+    offset: '85%',
+    triggerOnce: true
   });
 
   $('.introText').waypoint(function() {
@@ -518,14 +521,15 @@ jQuery(function($) {
     $('.introText h2').toggleClass( 'slideInLeft' ).toggleClass( 'fadeOut' );
   },
   {
-    offset: '-10%'
+    offset: '-10%',
+    triggerOnce: true
   });
  
 });
 
-// Headroom.js
+// Headroom.js 
 
-$(".header").headroom({
+$(".header").headroom({ 
   "tolerance": 0,
   "offset": 0,
   "classes": {
