@@ -25,9 +25,18 @@
  	color: $blue;
  }
 
+
+html {
+	overflow-y: scroll;
+}
+
 body {
 	background: white;
 	color: $charcoal;
+
+	&.noScroll {
+		overflow: hidden; 
+	}
 
 	#main {
 		height: 100%;

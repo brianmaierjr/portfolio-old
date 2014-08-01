@@ -98,3 +98,19 @@ $(".header").headroom({
     "notTop": "headroom--not-top"
   }
 });
+
+
+// Disable Scrolling when Main Menu is shown
+
+$('#menuBtn').click(function(e) { 
+  $('body').addClass('noScroll');
+});
+
+$('#mainNav .closeBtn').click(function(e) { 
+  $('body').removeClass('noScroll');
+});
+
+
+
+
+
