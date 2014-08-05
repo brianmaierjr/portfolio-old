@@ -63,18 +63,6 @@ module.exports = function(grunt) {
             }
         },
 
-        criticalcss: {
-            custom_options: {
-                options: {
-                    url: "http://0.0.0.0:4000/",
-                    width: 1200,
-                    height: 900,
-                    outputfile: "assets/css/critical.css",
-                    filename: "assets/css/style.css"
-                }
-            }
-        },
-
         penthouse: {
             extract : {
                 outfile : 'assets/css/critical.css',
@@ -93,7 +81,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-criticalcss');
     grunt.loadNpmTasks('grunt-penthouse');
 
 
