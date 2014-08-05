@@ -10,6 +10,8 @@
     "grunt-contrib-sass": "~0.6.0",
     "grunt-jekyll": "~0.4.1",
     "grunt-shell": "~0.6.4",
-    "grunt-uncss": "~0.2.0"
+    "grunt-uncss": "~0.2.0",
+    "grunt-criticalcss": "~0.1.8",
+    "grunt-penthouse": "~0.1.1"
   }
 }

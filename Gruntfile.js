@@ -61,6 +61,28 @@ module.exports = function(grunt) {
                     'assets/css/style.css': 'assets/scss/style.scss'
                 }
             }
+        },
+
+        criticalcss: {
+            custom_options: {
+                options: {
+                    url: "http://0.0.0.0:4000/",
+                    width: 1200,
+                    height: 900,
+                    outputfile: "assets/css/critical.css",
+                    filename: "assets/css/style.css"
+                }
+            }
+        },
+
+        penthouse: {
+            extract : {
+                outfile : 'assets/css/critical.css',
+                css : 'assets/css/style.css',
+                url : 'http://0.0.0.0:4000/',
+                width : 1300,
+                height : 900
+            },
         }
 
     });
@@ -71,6 +93,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-criticalcss');
+    grunt.loadNpmTasks('grunt-penthouse');
+
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
