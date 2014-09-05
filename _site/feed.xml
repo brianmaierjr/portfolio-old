@@ -7,6 +7,61 @@
 		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The State of Tools</title>
+				<description>&lt;p&gt;One of the best parts of my job is staying updated. The web is constantly changing and with it we as web designers must adapt.&lt;/p&gt;
+
+&lt;p&gt;In this adaptation process I come across many new tools/apps/plugins/extensions, whatever you want to call them, daily. Hell, I even made one myself with &lt;a href=&quot;http:147colors.com&quot;&gt;147 Colors&lt;/a&gt;. I test out as many of these tools as I can and very rarely do they obtain a spot in my daily workflow.&lt;/p&gt;
+
+&lt;p&gt;I recently read Frank Chimero&amp;#39;s article &lt;a href=&quot;http://frankchimero.com/blog/no-new-tools/&quot; target=&quot;_blank&quot;&gt;No New Tools&lt;/a&gt; and I have to say I agree with the sentiment of this article. In it Frank pleads that we stop making tools for the sake of making them and that we focus on the underlying methodology and ideology behind what we do and how we do it. He sums it up best here:&lt;/p&gt;
+
+&lt;blockquote&gt;I don’t want a new app to help me do work; I want different ways to think about work so I can get more done. It’s a nuanced difference, but I think it is an important one.&lt;/blockquote&gt;
+</description>
+				<pubDate>Fri, 05 Sep 2014 00:00:00 -0400</pubDate>
+				<link>http://brianmaierjr.com//the-state-of-tools</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//the-state-of-tools</guid>
+			</item>
+		
+			<item>
+				<title>30 Days</title>
+				<description>&lt;p&gt;Since launching my site 6 months ago I have only written two blog posts...&lt;/p&gt;
+
+&lt;p&gt;The entire point of me building my site out in Jekyll and using GitHub was for this purpose exactly. What can I say, finding the time to write has been much harder than I thought. Fortunately for me I follow Matt D. Smit who &lt;a href=&quot;http://mattdsmith.com/30-day-blog-challenge&quot;&gt;rececntly posted&lt;/a&gt; about a 30 day blog challenge. He has chosen to accept the challenge and so have I.&lt;/p&gt;
+
+&lt;blockquote&gt;“Difficulties strengthen the mind, as labor does the body.” &lt;br&gt;― Seneca&lt;/blockquote&gt;
+
+&lt;p&gt;Yesterday was my first post and today I sit here on my lunch break desperately attempting to churn out enough words to have a sufficient post.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m looking forward to finishing out these 30 days of blogging. Writing has never been a strong point of mine but I&amp;#39;m inspired by everyone who can write well. If I grow in the slightest bit then it will prove to be successful. &lt;/p&gt;
+
+&lt;p&gt;Until tomorrow.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 04 Sep 2014 00:00:00 -0400</pubDate>
+				<link>http://brianmaierjr.com//30-days</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//30-days</guid>
+			</item>
+		
+			<item>
+				<title>Hidden Ipsum</title>
+				<description>&lt;p&gt;I should first say that I love &lt;a href=&quot;http://littleipsum.com/&quot; target=&quot;_blank&quot;&gt;LittleIpsum&lt;/a&gt;. It&amp;#39;s a great little app that has saved me a decent amount of time since using it.&lt;/p&gt;
+
+&lt;p&gt;This week I was performing a test on a form at work and within the message field I posted a quick 4 paragraphs using &lt;a href=&quot;http://littleipsum.com/&quot; target=&quot;_blank&quot;&gt;LittleIpsum&lt;/a&gt; and thought nothing about it. A couple days later I was approached and asked where I had obtained the said Ipsum becuase it contained some questionable content.&lt;/p&gt;
+
+&lt;h2&gt;Huh?&lt;/h2&gt;
+
+&lt;p&gt;It appears that one of the people who received the form within the company had actually taken the Ipsum and placed it wihin Google Translate, go figure.&lt;/p&gt;
+
+&lt;p&gt;The sample four paragraphs returned the sentence, &amp;quot;The Chinese hate Pakistan&amp;quot; several times within the text. Hmmmmmmmmmm. Along with this phrase it also returned some ramblings about hate. Does Lorem Ipsum have a hidden agenda? Freak accident? &lt;/p&gt;
+
+&lt;p&gt;Odd as it may seem to translate Lorem Ipsum it still seems more odd that it would return these phrases. I compared the app Ipsum to generated text via &lt;a href=&quot;http://lipsum.com&quot; target=&quot;_blank&quot;&gt;www.lipsum.com&lt;/a&gt; and I did not see a similar problem occur.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll still use my LittleIpsum app but I must question how this content is being generated and hope it doesn&amp;#39;t reflect poorly on me.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 03 Sep 2014 00:00:00 -0400</pubDate>
+				<link>http://brianmaierjr.com//hidden-ipsum</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//hidden-ipsum</guid>
+			</item>
+		
+			<item>
 				<title>Style Guide</title>
 				<description>&lt;p&gt;A constant work in progress that represents markup patterns and common styles from this site.&lt;/p&gt;
 
