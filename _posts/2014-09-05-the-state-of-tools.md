@@ -2,7 +2,7 @@
 layout: post
 title: The State of Tools
 class: post
-color: tomato
+color: khaki
 ---
 
 One of the best parts of my job is staying updated. The web is constantly changing and with it we as web designers must adapt.
