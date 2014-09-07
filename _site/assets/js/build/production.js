@@ -522,7 +522,7 @@ jQuery(function($) {
   },
   {
     offset: '-10%',
-    triggerOnce: true
+    triggerOnce: false
   });
  
 });

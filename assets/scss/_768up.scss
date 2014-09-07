@@ -37,14 +37,6 @@ html {
 }
 
 
-/* BLOG INDEX ------------------------------------------------
-------------------------------------------------------------*/
-
-.blog {
-
-}
-
-
 /* POST STYLES ------------------------------------------------
 ------------------------------------------------------------*/
 
@@ -86,23 +78,17 @@ html {
 			}
 		}
 		
-		#craftsman {
+		#craftsman { 
 
-			.aboutText {
-				p {
-					@include span-columns(6);
-					float: left;
-				}
+			.aboutText { 
+				@include span-columns(8);
+				@include shift(2); 
 			}
 
 			.intro {
-				margin-bottom: 3em;
-			}
-
-			.intro, .aboutText {
-				max-width: 68rem;
-				margin: 1em auto;
-			}
+				@include span-columns(8);
+				@include shift(2);
+			} 
 		}
 
 		#dribbble {

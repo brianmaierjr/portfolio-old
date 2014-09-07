@@ -11,7 +11,7 @@
 
  ::-moz-selection {
  	color: white;
- 	background: darkkhaki;
+ 	background: darkkhaki; 
  }
 
  blockquote {
@@ -22,7 +22,6 @@
  	font-size: 1.3em;
  	padding-left: 1em;
  	border-left: 5px solid darkkhaki;
- 	color: $blue;
  }
 
 
@@ -345,7 +344,8 @@ html {
 		background-size: cover;
 
 		#craftsman { 
-			padding: 4em 1em; 
+			padding: 4em 1em;
+			@include outer-container;
 
 			.intro {
 				@include span-columns(12); 
@@ -366,7 +366,7 @@ html {
 			}
 			
 			.aboutText {
-				@include outer-container();
+				@include span-columns(12); 
 				opacity: 0;
 
 				&.animated {
@@ -378,7 +378,6 @@ html {
 				}
 
 				p {
-					@include span-columns(12);
 					float: none;
 					font-size: .9em; 
 					color: lighten($charcoal, 10%);
@@ -755,9 +754,9 @@ html {
 		z-index: 90;
 		position: relative;
 		padding-top: 2em;
-		margin-top: 5em;
+		margin-top: 3em;
 		padding-bottom: 50px;
-		overflow: visible;
+		overflow: visible; 
 	}
 
 	.featured-color {
