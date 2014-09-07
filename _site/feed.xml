@@ -3,8 +3,8 @@
 	<channel>
 		<title>Brian Maier Jr. | Designer &amp; Developer</title>
 		<description>Online home of midwest designer &amp; developer Brian Maier Jr.</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://brianmaierjr.com</link>
+		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>The State of Tools</title>
@@ -17,8 +17,8 @@
 &lt;blockquote&gt;I don’t want a new app to help me do work; I want different ways to think about work so I can get more done.&lt;/blockquote&gt;
 </description>
 				<pubDate>Fri, 05 Sep 2014 00:00:00 -0400</pubDate>
-				<link>//the-state-of-tools</link>
-				<guid isPermaLink="true">//the-state-of-tools</guid>
+				<link>http://brianmaierjr.com//the-state-of-tools</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//the-state-of-tools</guid>
 			</item>
 		
 			<item>
@@ -36,8 +36,8 @@
 &lt;p&gt;Until tomorrow.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 04 Sep 2014 00:00:00 -0400</pubDate>
-				<link>//30-days</link>
-				<guid isPermaLink="true">//30-days</guid>
+				<link>http://brianmaierjr.com//30-days</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//30-days</guid>
 			</item>
 		
 			<item>
@@ -57,8 +57,8 @@
 &lt;p&gt;I&amp;#39;ll still use my LittleIpsum app but I must question how this content is being generated and hope it doesn&amp;#39;t reflect poorly on me.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 03 Sep 2014 00:00:00 -0400</pubDate>
-				<link>//hidden-ipsum</link>
-				<guid isPermaLink="true">//hidden-ipsum</guid>
+				<link>http://brianmaierjr.com//hidden-ipsum</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//hidden-ipsum</guid>
 			</item>
 		
 			<item>
@@ -142,8 +142,8 @@
 &lt;/ol&gt;
 </description>
 				<pubDate>Sat, 15 Mar 2014 00:00:00 -0400</pubDate>
-				<link>//style-guide</link>
-				<guid isPermaLink="true">//style-guide</guid>
+				<link>http://brianmaierjr.com//style-guide</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//style-guide</guid>
 			</item>
 		
 			<item>
@@ -181,8 +181,8 @@
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment and as always, thanks for reading.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
-				<link>//new-year-new-site</link>
-				<guid isPermaLink="true">//new-year-new-site</guid>
+				<link>http://brianmaierjr.com//new-year-new-site</link>
+				<guid isPermaLink="true">http://brianmaierjr.com//new-year-new-site</guid>
 			</item>
 		
 	</channel>
