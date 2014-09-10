@@ -15,7 +15,7 @@ So I moved to Louisville, Kentucky and for 3 years I designed and developed in a
 In time I found <a href="http://learninghouse.com" target="_blank">The Learning House</a>, a company that partners with Universities to develop online programs. After meeting the creative director I knew we were going to be a good fit and that together we could accomplish our goals.
 
 <h2 class="h3">The same but different</h2>
-Don't get me wrong, we still have clients and deadlines at <a href="http://learninghouse.com" target="_blank">The Learning House</a> but instead are focused on results. We are not obtaining clients to knock out a quick site and get paid. We instead partner and have the time and power to research and analyze every angle to get the best results we can. I love the pace of work here and even though I don't get to do off the wall creative projects I get to refine my skills and become a better rounded Front End Developer.
+Don't get me wrong, we still have clients and deadlines at <a href="http://learninghouse.com" target="_blank">The Learning House</a>, but instead are focused on results. We are not obtaining clients to knock out a quick site and get paid. We instead partner and have the time and power to research and analyze every angle to get the best results we can. I love the pace of work here and even though I don't get to do off the wall creative projects, I get to refine my skills and become a better rounded Front End Developer.
 
 <h2 class="h3">Conclusion</h2>
 If you are not happy with your current job take the time to analyze why and fix it. I was stuck for too long and growing more anxious and stressed by the day. Now I come in to work excited and ready to keep learning.
