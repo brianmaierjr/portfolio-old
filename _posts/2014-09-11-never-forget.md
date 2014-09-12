@@ -16,3 +16,4 @@ The Ickey Shuffle never fails to make me smile and as a long time Bengals fan it
 <div class="video-container">
 	<iframe width="853" height="480" src="//www.youtube.com/embed/a9oVth5rJbg" frameborder="0" allowfullscreen></iframe>
 </div>
+<br/>
