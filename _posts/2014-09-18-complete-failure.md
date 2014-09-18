@@ -13,7 +13,7 @@ With the addition of another size ( or two ) of iPhones coming I think it is imp
 
 <h2>SVG Resources</h2>
 <ul>
-<li><a href="http://css-tricks.com/svg-sprites-use-better-icon-fonts/" target="_blank">aIcon System with SVG Sprites</a></li>
+<li><a href="http://css-tricks.com/svg-sprites-use-better-icon-fonts/" target="_blank">Icon System with SVG Sprites</a></li>
 <li><a href="http://css-tricks.com/svg-use-external-source/" target="_blank">SVG `use` with External Source</a></li>
 <li><a href="https://github.com/jonathantneal/svg4everybody" target="_blank">SVG4Everybody - use external SVG spritemaps today</a></li>
 <li><a href="https://github.com/FWeinb/grunt-svgstore" target="_blank">Merge svgs from a folder with SVGStore</a></li>
