@@ -21,14 +21,4 @@ I may have jumped the gun but I wanted to get it out and see what people think. 
 * [FitText](http://fittextjs.com/) for all the blog headings.
 * Semantic grid provide by the [Neatest of Bourbons](http://neat.bourbon.io/).
 
-<h2 class="h3">The unofficial to-do list:</h2>
-
-* Test, test, and test more on multiple devices.
-* Check for unused css/code.
-* <s>Image optimization for mobile.</s>
-* <s>Mess with fittext on homepage (still too small).</s>
-* <s>Customize sharing buttons.</s>
-* <s>Add Disqus to posts.</s>
-* <s>Set up vertical rhythm.</s>
-
 If you notice anything else that is off or wonky please feel free to comment and as always, thanks for reading.
