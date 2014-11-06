@@ -2,14 +2,16 @@
 MAIN STYLE SHEET
 ***********************************/
 
-/* Normalize that ish */
-@import 'normalize';
+/* Normalize that ish */ 
+@import 'normalize'; 
 
 /* Variables */
 @import 'variables'; 
 
 /* Typography */
-@import 'typography';
+@import url(http://fonts.googleapis.com/css?family=Oswald);@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
+@import 'typography'; 
 
 /* Syntax Highlighting */
 @import 'syntax'; 

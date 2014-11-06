@@ -21,7 +21,7 @@ image: blog-portfolio.jpg
 * Created tools that are used by thousands of other designers.
 * Helped multiple startups gain traction and receive funding from various sources.
 
-<h2 class="h3">Side Projects</h2>
+<!--<h2 class="h3">Side Projects</h2>
 
 I always have a side project or two in the works. It keeps me on my toes and allows me to experiment with new techniques and technologies. Here are a few that have survived throughout the years.
 
@@ -35,7 +35,6 @@ I love taking photos, and now that I have a camera in my pocket at all times I d
 <h3 class="h4">Vandal League</h3>
 Coming Soon
 
-<!--
 <hr>
 
 <h2 class="h3">About This Site</h2>

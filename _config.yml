@@ -5,7 +5,7 @@ markdown:         redcarpet
 pygments:         true
 permalink: 		  /:categories/:title
 include:          [.htaccess]
-url:              http://brianmaierjr.com  
+#url:              http://brianmaierjr.com  
 categories: 
 
 # Links to include in top navigation 
