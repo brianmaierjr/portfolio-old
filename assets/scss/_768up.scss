@@ -59,7 +59,7 @@ html {
 }
 
 .content {
-	@include span-columns(8);
+	@include span-columns(8); 
 	@include shift(2);
 }
 
@@ -68,10 +68,10 @@ html {
 ------------------------------------------------------------*/
 
 html {
-	.home {
-		background: url('../img/bg-river-dark.jpg') no-repeat fixed center center;
+	.home { 
+		background: url('../img/bg-head.jpg') no-repeat fixed center center;
 		background-size: cover;
-
+ 
 		.intro {
 			.introText {
 				h1 { font-size: 6em; }

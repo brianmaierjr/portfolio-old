@@ -128,15 +128,15 @@ body {
 	width: 100%;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
-	-ms-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out; 
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 	z-index: 9999;
 
 	&.slideDown.headroom--not-top {
-		top: 0;
-		background: $blue;
-		position: fixed;
+		top: 0; 
+		background: #161d23; 
+		position: fixed; 
 
 		#logo {
 			margin-top: .4em;
@@ -149,7 +149,7 @@ body {
 	}
 
 	&.slideUp {
-		top: -300px;
+		top: -300px; 
 	}
 
 	a {
@@ -326,12 +326,12 @@ footer {
 			margin-top: 1em;
 			-webkit-transition: .2s all ease-in-out;
 			-moz-transition: .2s all ease-in-out;
-			-ms-transition: .2s all ease-in-out;
+			-ms-transition: .2s all ease-in-out; 
 			-o-transition: .2s all ease-in-out;
 			transition: .2s all ease-in-out;
 
 			a {
-				text-decoration: none;
+				text-decoration: none; 
 				font-size: 1.5em;
 				color: $blue;
 
@@ -348,14 +348,14 @@ footer {
 /* HOMEPAGE ------------------------------------------------
 ------------------------------------------------------------*/
 html {
-	height: 100%;
+	height: 100%; 
 	width :100%;
 
 	.home {
-		height: 100%;
+		height: 100%; 
 		width: 100%;
-		background: url('../img/bg-river-dark-small.jpg')  no-repeat scroll 0 0 ;
-		background-position: fixed;
+		background: url('../img/bg-head-small.jpg')  no-repeat scroll 0 0;  
+		background-position: center center;
 		background-size: cover;
 
 		#craftsman { 
