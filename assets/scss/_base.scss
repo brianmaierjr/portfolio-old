@@ -527,18 +527,18 @@ html {
 					color: white;
 					animation-delay: 1s;
 					-moz-animation-delay: 1s;
-					-o-animation-delay: 1s;
+					-o-animation-delay: 1s; 
 					-webkit-animation-delay: 1s;
 				}
 
 				h2 {
 					font-family: $serif;
 					text-transform: none;
-					font-style: italic;
+					font-style: italic; 
 					color: darken(white, 20%);
 					font-weight: 300;
+					font-size: 1em;
 					position: relative;
-					font-size: .8em;
 					animation-delay: 1.2s;
 					-moz-animation-delay: 1.2s;
 					-webkit-animation-delay: 1.2s;
