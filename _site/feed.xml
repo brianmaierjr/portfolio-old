@@ -3,8 +3,8 @@
 	<channel>
 		<title>Brian Maier Jr. | Designer &amp; Developer</title>
 		<description>Online home of midwest designer &amp; developer Brian Maier Jr.</description>
-		<link>http://brianmaierjr.com</link>
-		<atom:link href="http://brianmaierjr.com/feed.xml" rel="self" type="application/rss+xml" />
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Complete Failure</title>
@@ -25,8 +25,8 @@
 &lt;/ul&gt;
 </description>
 				<pubDate>Thu, 18 Sep 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//complete-failure</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//complete-failure</guid>
+				<link>//complete-failure</link>
+				<guid isPermaLink="true">//complete-failure</guid>
 			</item>
 		
 			<item>
@@ -46,8 +46,8 @@
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 11 Sep 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//never-forget</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//never-forget</guid>
+				<link>//never-forget</link>
+				<guid isPermaLink="true">//never-forget</guid>
 			</item>
 		
 			<item>
@@ -71,8 +71,8 @@
 &lt;p&gt;If you are not happy with your current job take the time to analyze why and fix it. I was stuck for too long and growing more anxious and stressed by the day. Now I come in to work excited and ready to keep learning.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 10 Sep 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//bye-bye-agency-life</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//bye-bye-agency-life</guid>
+				<link>//bye-bye-agency-life</link>
+				<guid isPermaLink="true">//bye-bye-agency-life</guid>
 			</item>
 		
 			<item>
@@ -105,8 +105,8 @@
 &lt;/ul&gt;
 </description>
 				<pubDate>Mon, 08 Sep 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//the-rest-of-2014</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//the-rest-of-2014</guid>
+				<link>//the-rest-of-2014</link>
+				<guid isPermaLink="true">//the-rest-of-2014</guid>
 			</item>
 		
 			<item>
@@ -120,8 +120,8 @@
 &lt;blockquote&gt;I don’t want a new app to help me do work; I want different ways to think about work so I can get more done.&lt;/blockquote&gt;
 </description>
 				<pubDate>Fri, 05 Sep 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//the-state-of-tools</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//the-state-of-tools</guid>
+				<link>//the-state-of-tools</link>
+				<guid isPermaLink="true">//the-state-of-tools</guid>
 			</item>
 		
 			<item>
@@ -139,8 +139,8 @@
 &lt;p&gt;Until tomorrow.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 04 Sep 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//30-days</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//30-days</guid>
+				<link>//30-days</link>
+				<guid isPermaLink="true">//30-days</guid>
 			</item>
 		
 			<item>
@@ -160,8 +160,8 @@
 &lt;p&gt;I&amp;#39;ll still use my LittleIpsum app but I must question how this content is being generated and hope it doesn&amp;#39;t reflect poorly on me.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 03 Sep 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//hidden-ipsum</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//hidden-ipsum</guid>
+				<link>//hidden-ipsum</link>
+				<guid isPermaLink="true">//hidden-ipsum</guid>
 			</item>
 		
 			<item>
@@ -245,8 +245,8 @@
 &lt;/ol&gt;
 </description>
 				<pubDate>Sat, 15 Mar 2014 00:00:00 -0400</pubDate>
-				<link>http://brianmaierjr.com//style-guide</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//style-guide</guid>
+				<link>//style-guide</link>
+				<guid isPermaLink="true">//style-guide</guid>
 			</item>
 		
 			<item>
@@ -272,8 +272,8 @@
 &lt;p&gt;If you notice anything else that is off or wonky please feel free to comment and as always, thanks for reading.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
-				<link>http://brianmaierjr.com//new-year-new-site</link>
-				<guid isPermaLink="true">http://brianmaierjr.com//new-year-new-site</guid>
+				<link>//new-year-new-site</link>
+				<guid isPermaLink="true">//new-year-new-site</guid>
 			</item>
 		
 	</channel>

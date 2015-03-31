@@ -8,18 +8,27 @@
 
  <section id="craftsman" class="about">
  	<p class="intro">
- 		Hello, I'm Brian! I'm a designer/front-end developer that adheres to simplicity and usability. I'm a sucker for hand-lettering, typography and long walks on the beach.
+ 		Hello! I'm Brian, a designer/front-end developer from the midwest that adheres to simplicity and usability.
  	</p>
 	<div class="aboutText">
 		<p>
-			I am able to craft amazing creations digitally using the many tricks and tools that I have discovered throughout the past 5+ years designing. If you would like to see some more work you can <a href="mailto:brimaidesigns@gmail.com">email me</a> or check out some work in progress below.
-		</p> 
-		<p>
-			I currently am a Front-end Developer at <a href="http://learninghouse.com" target="_blank">The Learning House</a> where we focus on eLearning for small to mid range colleges. I'm not currently accepting work but please feel free to connect with me through various social networks. Enjoy!
+			I am currently a Front-end Developer at <a href="http://learninghouse.com" target="_blank">The Learning House</a> where we focus on eLearning for small to mid range colleges. I'm not currently accepting work but please feel free to connect with me through various social networks. Enjoy!
 		</p>
 	</div>
-
 </section>
+
+<!-- <section class="content">
+	<h2 class="pageTitle">Recent Articles</h2>
+	<ul class="postListing">
+	  {% for post in site.posts limit: 3 %}
+	    <li>
+	    	<p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
+			<h2 class="h4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ post.content | strip_html | truncate: 200 }}{% endif %}</p>
+	    </li>
+	  {% endfor %}
+	</ul>
+</section> -->
 
 <section id="dribbble" data-0="opacity:0;" data-50p-top="opacity:1;">
 	<h2>What I'm Working On...</h2>

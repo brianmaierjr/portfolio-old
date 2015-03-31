@@ -352,13 +352,13 @@ html {
 	width :100%;
 
 	.home {
-		height: 100%; 
-		width: 100%;
-		background: url('../img/bg-head-small.jpg')  no-repeat scroll 0 0;  
-		background-position: center center;
-		background-size: cover;
 
-		#craftsman { 
+		.intro.table {
+			background: cadetblue;  
+			height: 20em;
+		}
+
+		#craftsman {  
 			padding: 4em 1em;
 			@include outer-container;
 
@@ -403,7 +403,8 @@ html {
 		}
 
 		#dribbble {
-
+			clear: both;
+ 
 			h2 {
 				font-family: $heading;
 				font-weight: 200;
@@ -913,78 +914,3 @@ html {
 		h4 { font-style: italic; }
 	}
 }
-
-
-
-/* PORTFOLIO INDEX ------------------------------------------------
-
-
-.portfolio {
-	.project {
-		@include outer-container();
-		max-width: 100%;
-		padding: 2em 1em;
-		height: 20em;
-		overflow: hidden;
-		border-bottom: 3px solid darken(white, 10%);
-		background-size: cover;
-		background-repeat: no-repeat;
-
-		&.inebriated {
-			background-image: url('../img/portfolio/inebriated/inebriated-bg.png');
-			.projectTitle a, p { color: white; }
-			.projectLeft .button { @include button-outline(#303030); }
-		}
-
-		&.bombshell {
-			@include linear-gradient(#ece4d9, #e3e1d4, #e3dfd5);
-			.projectTitle a, p { color: #41404A; }
-			.projectLeft .button { @include button-outline(#41404A); }
-
-		}
-
-		&.rajiv {
-			@include linear-gradient(#4575B9, #3F6EB4, #325DA7, #1E4592);
-			.projectTitle a, p { color: white; }
-			.projectLeft .button { @include button-outline(#3F6EB4); }
-		}
-
-		&.colors {
-			background-image: url('../img/portfolio/147colors/147colors-bg.png');
-			.projectTitle a, p { color: white; }
-		}
-
-
-		.projectLeft {
-			@include span-columns(7);
-			position: relative;
-			  top: 50%;
-			  @include transform(translateY(-50%));
-
-			.projectTitle {
-				font-style: italic;
-				font-weight: bold;
-				font-size: 1.8em;
-				margin-bottom: .5em;
-				line-height: 1.375;
-			}
-
-			p {
-				display: none;
-			}
-		}
-
-		.projectRight {
-			@include span-columns(5);
-
-			&.already-visible {
-				animation: none;
-			}
-
-
-
-		}
-	}
-}
-
-------------------------------------------------------------*/
