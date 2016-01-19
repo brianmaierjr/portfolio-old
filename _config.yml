@@ -4,8 +4,7 @@ description:      Online home of midwest designer & developer Brian Maier Jr.
 markdown:         redcarpet
 pygments:         true
 permalink: 		  /:categories/:title
-include:          [.htaccess]
-url:              http://brianmaierjr.github.com/portfolio-old
+url:              /portfolio-old
 categories: 
 
 # Links to include in top navigation 
