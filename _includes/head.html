@@ -11,7 +11,7 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:image" content="{% if page.image %}{{ page.image}}{% else %}http://brianmaierjr.com/assets/img/blog-portfolio-small.jpg{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image}}{% else %} http://brianmaierjr.github.com/frameset/assets/img/blog-portfolio-small.jpg{% endif %}">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
   
