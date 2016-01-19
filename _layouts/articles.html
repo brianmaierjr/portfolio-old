@@ -7,7 +7,7 @@
 		  {% for post in site.posts %}
 		    <li>
 		    	<p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
-				<h2 class="h4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<h2 class="h4"><a href="/portfolio-old/{{ post.url }}">{{ post.title }}</a></h2>
 				<p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ post.content | strip_html | truncate: 200 }}{% endif %}</p>
 		    </li>
 		  {% endfor %}
