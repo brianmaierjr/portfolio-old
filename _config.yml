@@ -3,7 +3,7 @@ title:            Brian Maier Jr. | Designer & Developer
 description:      Online home of midwest designer & developer Brian Maier Jr.
 markdown:         redcarpet
 pygments:         true
-permalink: 		  /:categories/:title
+permalink: 		   /portfolio-old/:categories/:title
 include:          [.htaccess]
 url:               http://brianmaierjr.github.com/portfolio-old
 categories: 
