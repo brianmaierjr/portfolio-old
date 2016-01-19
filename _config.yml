@@ -5,7 +5,7 @@ markdown:         redcarpet
 pygments:         true
 permalink: 		  /:categories/:title
 include:          [.htaccess]
-url:              http://brianmaierjr.github.com/frameset/ 
+url:              http://brianmaierjr.github.com/frameset
 categories: 
 
 # Links to include in top navigation 
