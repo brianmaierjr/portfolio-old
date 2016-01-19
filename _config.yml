@@ -3,16 +3,16 @@ title:            Brian Maier Jr. | Designer & Developer
 description:      Online home of midwest designer & developer Brian Maier Jr.
 markdown:         redcarpet
 pygments:         true
-permalink: 		  /:categories/:title
+permalink: 		    /portfolio-old//:categories/:title
 url:              /portfolio-old
 categories: 
 
 # Links to include in top navigation 
 links:
   - title: 02. About 
-    url: /about
+    url: /portfolio-old/about
   - title: 03. Articles
-    url: /articles
+    url: /portfolio-old/articles
   - title: 04. Contact Me 
     url: mailto:brimaidesigns@gmail.com
 
